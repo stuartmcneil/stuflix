@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:31:06.211Z",
+ "updatedAt": "2026-09-02T15:40:31.255Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -7121,7 +7121,7 @@
     "id": "s:ozark-2017",
     "title": "Ozark",
     "year": 2017,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.315Z",
     "tmdb": 69740,
     "type": "tv",
@@ -7154,7 +7154,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 4 Primetime Emmys. 24 wins & 176 nominations total",
-    "scoresAt": "2026-09-02T15:29:31.878Z"
+    "scoresAt": "2026-09-02T15:29:31.878Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 6,
+     "story": 7,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:40:30.815Z"
    },
    "s:house-of-cards-2013": {
     "id": "s:house-of-cards-2013",
@@ -7894,6 +7903,43 @@
     "rated": "TV-14",
     "awards": "Nominated for 2 BAFTA 2 wins & 6 nominations total",
     "scoresAt": "2026-09-02T15:31:06.209Z"
+   },
+   "s:the-young-ones-1982": {
+    "id": "s:the-young-ones-1982",
+    "title": "The Young Ones",
+    "year": 1982,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:40:30.817Z",
+    "tmdb": 4483,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/9BQCGkKkVUxw6zF1P2BF1gHSMXB.jpg",
+    "overview": "The misadventures of four lunatic students who live in a shared student house. There's Rick, the overblown political one addicted to Cliff Richard, Vyvyan the experimental scientific one/part-time anarchist, Neil the worried hippy, and Mike the ladies' man (at least he is in his mind).",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 29,
+    "imdb": "tt0083505",
+    "cast": [
+     "Adrian Edmondson",
+     "Rik Mayall",
+     "Nigel Planer",
+     "Christopher Ryan",
+     "Alexei Sayle"
+    ],
+    "director": "Ben Elton, Alexei Sayle, Rik Mayall, Lise Mayer",
+    "tagline": "",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:40:31.064Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "17,364"
+    },
+    "rated": "TV-14",
+    "awards": "Won 1 BAFTA Award1 win & 1 nomination total",
+    "scoresAt": "2026-09-02T15:40:31.253Z"
    }
   },
   "tmdbPage": 1
