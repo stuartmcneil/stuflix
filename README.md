@@ -3,6 +3,7 @@
 Stu's personal film & TV grader. One HTML file, no build step, hosted on GitHub Pages, usable from PC, iPad and phone. Your grades and lists live in `data.json` in this repo and sync through the GitHub API.
 
 Live site (once Pages is on): **https://stuartmcneil.github.io/stuflix/**
+Part of [Stuart McNeil](https://stuartmcneil.github.io/window/)'s site.
 
 ## What it does
 
