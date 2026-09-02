@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:53:47.598Z",
+ "updatedAt": "2026-09-02T16:54:00.289Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -5980,7 +5980,7 @@
     "id": "s:severance-2022",
     "title": "Severance",
     "year": 2022,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 95396,
     "type": "tv",
@@ -6014,7 +6014,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 10 Primetime Emmys. 51 wins & 201 nominations total",
-    "scoresAt": "2026-09-02T15:30:47.421Z"
+    "scoresAt": "2026-09-02T15:30:47.421Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 9,
+     "story": 9,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:54:00.289Z"
    },
    "s:ted-lasso-2020": {
     "id": "s:ted-lasso-2020",
@@ -8394,6 +8403,14 @@
     "year": 1991,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:53:47.601Z",
+    "seed": true
+   },
+   "s:house-2004": {
+    "id": "s:house-2004",
+    "title": "House",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:54:00.291Z",
     "seed": true
    }
   },
