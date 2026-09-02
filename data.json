@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:47:31.490Z",
+ "updatedAt": "2026-09-02T15:47:50.052Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -423,7 +423,7 @@
     "id": "s:fight-club-1999",
     "title": "Fight Club",
     "year": 1999,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 550,
     "type": "movie",
@@ -456,7 +456,16 @@
     },
     "rated": "R",
     "awards": "Nominated for 1 Oscar. 12 wins & 38 nominations total",
-    "scoresAt": "2026-09-02T15:29:50.576Z"
+    "scoresAt": "2026-09-02T15:29:50.576Z",
+    "grade": {
+     "acting": 6,
+     "cinematography": 6,
+     "story": 9,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:47:50.052Z"
    },
    "s:forrest-gump-1994": {
     "id": "s:forrest-gump-1994",
@@ -4208,6 +4217,14 @@
     "year": 2007,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:31.493Z",
+    "seed": true
+   },
+   "s:the-social-network-2010": {
+    "id": "s:the-social-network-2010",
+    "title": "The Social Network",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:47:50.054Z",
     "seed": true
    }
   },
