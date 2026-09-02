@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:41:33.090Z",
+ "updatedAt": "2026-09-02T15:41:46.040Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4226,7 +4226,7 @@
     "id": "s:chernobyl-2019",
     "title": "Chernobyl",
     "year": 2019,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 87108,
     "type": "tv",
@@ -4258,7 +4258,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 10 Primetime Emmys. 87 wins & 60 nominations total",
-    "scoresAt": "2026-09-02T15:30:25.629Z"
+    "scoresAt": "2026-09-02T15:30:25.629Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 10,
+     "story": 9,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:41:46.040Z"
    },
    "s:band-of-brothers-2001": {
     "id": "s:band-of-brothers-2001",
@@ -7956,6 +7965,14 @@
     "year": 1988,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:41:33.093Z",
+    "seed": true
+   },
+   "s:father-ted-1995": {
+    "id": "s:father-ted-1995",
+    "title": "Father Ted",
+    "year": 1995,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:41:46.043Z",
     "seed": true
    }
   },
