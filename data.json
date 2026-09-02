@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:58:49.216Z",
+ "updatedAt": "2026-09-02T16:59:02.008Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -5096,7 +5096,7 @@
     "id": "s:black-mirror-2011",
     "title": "Black Mirror",
     "year": 2011,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 42009,
     "type": "tv",
@@ -5127,7 +5127,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 6 Primetime Emmys. 48 wins & 186 nominations total",
-    "scoresAt": "2026-09-02T15:30:31.053Z"
+    "scoresAt": "2026-09-02T15:30:31.053Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 7,
+     "story": 10,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:59:02.008Z"
    },
    "s:twin-peaks-1990": {
     "id": "s:twin-peaks-1990",
@@ -8496,6 +8505,14 @@
     "year": 1972,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:49.219Z",
+    "seed": true
+   },
+   "s:columbo-1971": {
+    "id": "s:columbo-1971",
+    "title": "Columbo",
+    "year": 1971,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:59:02.010Z",
     "seed": true
    }
   },
