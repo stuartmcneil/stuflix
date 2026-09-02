@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:20:35.449Z",
+ "updatedAt": "2026-09-02T15:21:06.498Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -808,8 +808,25 @@
     "id": "s:paddington-2-2017",
     "title": "Paddington 2",
     "year": 2017,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:35.449Z",
+    "seed": true,
+    "grade": {
+     "acting": 8,
+     "cinematography": 6,
+     "story": 9,
+     "overall": 9,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:21:06.498Z"
+   },
+   "s:anatomy-of-a-fall-2023": {
+    "id": "s:anatomy-of-a-fall-2023",
+    "title": "Anatomy of a Fall",
+    "year": 2023,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:21:06.500Z",
     "seed": true
    }
   },
