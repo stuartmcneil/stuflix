@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:58:37.403Z",
+ "updatedAt": "2026-09-02T16:58:49.216Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4855,7 +4855,7 @@
     "id": "s:succession-2018",
     "title": "Succession",
     "year": 2018,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 76331,
     "type": "tv",
@@ -4888,7 +4888,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 19 Primetime Emmys. 141 wins & 265 nominations total",
-    "scoresAt": "2026-09-02T15:30:28.879Z"
+    "scoresAt": "2026-09-02T15:30:28.879Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 8,
+     "story": 9,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:58:49.216Z"
    },
    "s:mad-men-2007": {
     "id": "s:mad-men-2007",
@@ -8479,6 +8488,14 @@
     "year": 1982,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:37.405Z",
+    "seed": true
+   },
+   "s:m-a-s-h-1972": {
+    "id": "s:m-a-s-h-1972",
+    "title": "M*A*S*H",
+    "year": 1972,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:58:49.219Z",
     "seed": true
    }
   },
