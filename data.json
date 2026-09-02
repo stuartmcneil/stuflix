@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:42:00.513Z",
+ "updatedAt": "2026-09-02T15:42:15.935Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4148,7 +4148,7 @@
     "id": "s:the-wire-2002",
     "title": "The Wire",
     "year": 2002,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 1438,
     "type": "tv",
@@ -4181,7 +4181,16 @@
     },
     "rated": "TV-MA",
     "awards": "Nominated for 2 Primetime Emmys. 18 wins & 59 nominations total",
-    "scoresAt": "2026-09-02T15:30:24.920Z"
+    "scoresAt": "2026-09-02T15:30:24.920Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 7,
+     "story": 9,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:42:15.935Z"
    },
    "s:the-sopranos-1999": {
     "id": "s:the-sopranos-1999",
@@ -7990,6 +7999,14 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:42:00.516Z",
+    "seed": true
+   },
+   "s:the-inbetweeners-2008": {
+    "id": "s:the-inbetweeners-2008",
+    "title": "The Inbetweeners",
+    "year": 2008,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:42:15.937Z",
     "seed": true
    }
   },
