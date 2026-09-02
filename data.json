@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:54:12.345Z",
+ "updatedAt": "2026-09-02T16:58:07.581Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -6077,7 +6077,7 @@
     "id": "s:the-last-of-us-2023",
     "title": "The Last of Us",
     "year": 2023,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 100088,
     "type": "tv",
@@ -6107,7 +6107,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 9 Primetime Emmys. 109 wins & 208 nominations total",
-    "scoresAt": "2026-09-02T15:30:48.994Z"
+    "scoresAt": "2026-09-02T15:30:48.994Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 7,
+     "story": 7,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:58:07.581Z"
    },
    "s:sh-gun-2024": {
     "id": "s:sh-gun-2024",
@@ -8428,6 +8437,14 @@
     "year": 1994,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:54:12.348Z",
+    "seed": true
+   },
+   "s:the-west-wing-1999": {
+    "id": "s:the-west-wing-1999",
+    "title": "The West Wing",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:58:07.584Z",
     "seed": true
    }
   },
