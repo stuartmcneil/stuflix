@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:47:20.593Z",
+ "updatedAt": "2026-09-02T15:47:31.490Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -103,7 +103,7 @@
     "id": "s:the-godfather-part-ii-1974",
     "title": "The Godfather Part II",
     "year": 1974,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 240,
     "type": "movie",
@@ -136,7 +136,16 @@
     },
     "rated": "R",
     "awards": "Won 6 Oscars. 17 wins & 21 nominations total",
-    "scoresAt": "2026-09-02T15:29:48.109Z"
+    "scoresAt": "2026-09-02T15:29:48.109Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 8,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:47:31.490Z"
    },
    "s:the-dark-knight-2008": {
     "id": "s:the-dark-knight-2008",
@@ -4191,6 +4200,14 @@
     "year": 2006,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:20.596Z",
+    "seed": true
+   },
+   "s:there-will-be-blood-2007": {
+    "id": "s:there-will-be-blood-2007",
+    "title": "There Will Be Blood",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:47:31.493Z",
     "seed": true
    }
   },
