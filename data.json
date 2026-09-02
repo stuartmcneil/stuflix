@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:40:31.255Z",
+ "updatedAt": "2026-09-02T15:41:33.090Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4100,7 +4100,7 @@
     "id": "s:breaking-bad-2008",
     "title": "Breaking Bad",
     "year": 2008,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 1396,
     "type": "tv",
@@ -4133,7 +4133,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 16 Primetime Emmys. 172 wins & 269 nominations total",
-    "scoresAt": "2026-09-02T15:30:24.564Z"
+    "scoresAt": "2026-09-02T15:30:24.564Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 8,
+     "story": 10,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:41:33.090Z"
    },
    "s:the-wire-2002": {
     "id": "s:the-wire-2002",
@@ -7940,6 +7949,14 @@
     "rated": "TV-14",
     "awards": "Won 1 BAFTA Award1 win & 1 nomination total",
     "scoresAt": "2026-09-02T15:40:31.253Z"
+   },
+   "s:red-dwarf-1988": {
+    "id": "s:red-dwarf-1988",
+    "title": "Red Dwarf",
+    "year": 1988,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:41:33.093Z",
+    "seed": true
    }
   },
   "tmdbPage": 1
