@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:59:19.101Z",
+ "updatedAt": "2026-09-02T16:59:46.399Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -6551,7 +6551,7 @@
     "id": "s:battlestar-galactica-2004",
     "title": "Battlestar Galactica",
     "year": 2004,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 1972,
     "type": "tv",
@@ -6585,7 +6585,16 @@
     },
     "rated": "TV-14",
     "awards": "Won 3 Primetime Emmys. 43 wins & 114 nominations total",
-    "scoresAt": "2026-09-02T15:30:54.636Z"
+    "scoresAt": "2026-09-02T15:30:54.636Z",
+    "grade": {
+     "acting": 5,
+     "cinematography": 5,
+     "story": 9,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:59:46.399Z"
    },
    "s:firefly-2002": {
     "id": "s:firefly-2002",
@@ -8530,6 +8539,14 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:19.104Z",
+    "seed": true
+   },
+   "s:wolf-hall-2015": {
+    "id": "s:wolf-hall-2015",
+    "title": "Wolf Hall",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:59:46.402Z",
     "seed": true
    }
   },
