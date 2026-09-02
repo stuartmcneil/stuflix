@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T12:00:00.000Z",
+ "updatedAt": "2026-09-02T15:20:35.449Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -711,9 +711,10 @@
     "id": "s:the-third-man-1949",
     "title": "The Third Man",
     "year": 1949,
-    "status": "catalogue",
+    "status": "want",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "seed": true,
+    "movedAt": "2026-09-02T15:20:35.447Z"
    },
    "s:oppenheimer-2023": {
     "id": "s:oppenheimer-2023",
@@ -801,6 +802,14 @@
     "year": 1983,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:paddington-2-2017": {
+    "id": "s:paddington-2-2017",
+    "title": "Paddington 2",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:35.449Z",
     "seed": true
    }
   },
