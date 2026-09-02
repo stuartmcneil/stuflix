@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:58:07.581Z",
+ "updatedAt": "2026-09-02T16:58:23.986Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -6201,7 +6201,7 @@
     "id": "s:the-mandalorian-2019",
     "title": "The Mandalorian",
     "year": 2019,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 82856,
     "type": "tv",
@@ -6230,7 +6230,16 @@
     },
     "rated": "TV-14",
     "awards": "Won 15 Primetime Emmys. 62 wins & 157 nominations total",
-    "scoresAt": "2026-09-02T15:30:50.694Z"
+    "scoresAt": "2026-09-02T15:30:50.694Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 8,
+     "story": 7,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:58:23.986Z"
    },
    "s:stranger-things-2016": {
     "id": "s:stranger-things-2016",
@@ -8445,6 +8454,14 @@
     "year": 1999,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:07.584Z",
+    "seed": true
+   },
+   "s:frasier-1993": {
+    "id": "s:frasier-1993",
+    "title": "Frasier",
+    "year": 1993,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:58:23.990Z",
     "seed": true
    }
   },
