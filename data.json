@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:48:55.323Z",
+ "updatedAt": "2026-09-02T15:49:11.060Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -706,7 +706,7 @@
     "id": "s:goodfellas-1990",
     "title": "Goodfellas",
     "year": 1990,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 769,
     "type": "movie",
@@ -739,7 +739,16 @@
     },
     "rated": "R",
     "awards": "Won 1 Oscar. 44 wins & 38 nominations total",
-    "scoresAt": "2026-09-02T15:29:52.692Z"
+    "scoresAt": "2026-09-02T15:29:52.692Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 5,
+     "story": 8,
+     "overall": 6,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:49:11.060Z"
    },
    "s:one-flew-over-the-cuckoo-s-nest-1975": {
     "id": "s:one-flew-over-the-cuckoo-s-nest-1975",
@@ -4293,6 +4302,14 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:55.326Z",
+    "seed": true
+   },
+   "s:the-grand-budapest-hotel-2014": {
+    "id": "s:the-grand-budapest-hotel-2014",
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:49:11.063Z",
     "seed": true
    }
   },
