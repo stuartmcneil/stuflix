@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:59:02.008Z",
+ "updatedAt": "2026-09-02T16:59:19.101Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -6351,7 +6351,7 @@
     "id": "s:fargo-2014",
     "title": "Fargo",
     "year": 2014,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 60622,
     "type": "tv",
@@ -6384,7 +6384,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 7 Primetime Emmys. 73 wins & 322 nominations total",
-    "scoresAt": "2026-09-02T15:30:52.283Z"
+    "scoresAt": "2026-09-02T15:30:52.283Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 8,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:59:19.101Z"
    },
    "s:mr-robot-2015": {
     "id": "s:mr-robot-2015",
@@ -8513,6 +8522,14 @@
     "year": 1971,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:02.010Z",
+    "seed": true
+   },
+   "s:downton-abbey-2010": {
+    "id": "s:downton-abbey-2010",
+    "title": "Downton Abbey",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:59:19.104Z",
     "seed": true
    }
   },
