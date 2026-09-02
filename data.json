@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:46:36.372Z",
+ "updatedAt": "2026-09-02T15:46:49.105Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -142,7 +142,7 @@
     "id": "s:the-dark-knight-2008",
     "title": "The Dark Knight",
     "year": 2008,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 155,
     "type": "movie",
@@ -176,7 +176,16 @@
     },
     "rated": "PG-13",
     "awards": "Won 2 Oscars. 163 wins & 165 nominations total",
-    "scoresAt": "2026-09-02T15:29:48.461Z"
+    "scoresAt": "2026-09-02T15:29:48.461Z",
+    "grade": {
+     "acting": 6,
+     "cinematography": 8,
+     "story": 6,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:46:49.105Z"
    },
    "s:12-angry-men-1957": {
     "id": "s:12-angry-men-1957",
@@ -4140,6 +4149,14 @@
     "year": 1954,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:46:36.374Z",
+    "seed": true
+   },
+   "s:the-apartment-1960": {
+    "id": "s:the-apartment-1960",
+    "title": "The Apartment",
+    "year": 1960,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:46:49.107Z",
     "seed": true
    }
   },
