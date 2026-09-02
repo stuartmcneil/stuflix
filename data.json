@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:59:46.399Z",
+ "updatedAt": "2026-09-02T16:59:59.454Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -6312,7 +6312,7 @@
     "id": "s:true-detective-2014",
     "title": "True Detective",
     "year": 2014,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 46648,
     "type": "tv",
@@ -6345,7 +6345,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 6 Primetime Emmys. 46 wins & 168 nominations total",
-    "scoresAt": "2026-09-02T15:30:51.763Z"
+    "scoresAt": "2026-09-02T15:30:51.763Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 8,
+     "story": 9,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:59:59.454Z"
    },
    "s:fargo-2014": {
     "id": "s:fargo-2014",
@@ -8547,6 +8556,14 @@
     "year": 2015,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:46.402Z",
+    "seed": true
+   },
+   "s:bodyguard-2018": {
+    "id": "s:bodyguard-2018",
+    "title": "Bodyguard",
+    "year": 2018,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:59:59.457Z",
     "seed": true
    }
   },
