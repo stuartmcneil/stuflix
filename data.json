@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:48:04.538Z",
+ "updatedAt": "2026-09-02T15:48:20.932Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -520,7 +520,7 @@
     "id": "s:inception-2010",
     "title": "Inception",
     "year": 2010,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 27205,
     "type": "movie",
@@ -554,7 +554,16 @@
     },
     "rated": "PG-13",
     "awards": "Won 4 Oscars. 160 wins & 220 nominations total",
-    "scoresAt": "2026-09-02T15:29:51.296Z"
+    "scoresAt": "2026-09-02T15:29:51.296Z",
+    "grade": {
+     "acting": 4,
+     "cinematography": 9,
+     "story": 4,
+     "overall": 4,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:48:20.932Z"
    },
    "s:the-lord-of-the-rings-the-fellowship-of-the-ring-2001": {
     "id": "s:the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
@@ -4242,6 +4251,14 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:04.541Z",
+    "seed": true
+   },
+   "s:her-2013": {
+    "id": "s:her-2013",
+    "title": "Her",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:48:20.935Z",
     "seed": true
    }
   },
