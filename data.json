@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:30:39.227Z",
+ "updatedAt": "2026-09-02T15:31:06.211Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -5621,7 +5621,7 @@
      "Drama",
      "Mystery"
     ],
-    "runtime": null,
+    "runtime": 31,
     "imdb": "tt5875444",
     "cast": [
      "Gary Oldman",
@@ -5634,7 +5634,16 @@
     "director": "",
     "tagline": "They finally made the hit list.",
     "seasons": 6,
-    "detailAt": "2026-09-02T15:30:39.227Z"
+    "detailAt": "2026-09-02T15:30:39.227Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "146,007"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 2 Primetime Emmys. 17 wins & 112 nominations total",
+    "scoresAt": "2026-09-02T15:30:46.084Z"
    },
    "s:the-bear-2022": {
     "id": "s:the-bear-2022",
@@ -5642,7 +5651,38 @@
     "year": 2022,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 136315,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/eKfVzzEazSIjJMrw9ADa2x8ksLz.jpg",
+    "overview": "Carmy, a young fine-dining chef, comes home to Chicago to run his family sandwich shop. As he fights to transform the shop and himself, he works alongside a rough-around-the-edges crew that ultimately reveal themselves as his chosen family.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Drama",
+     "Comedy"
+    ],
+    "runtime": null,
+    "imdb": "tt14452776",
+    "cast": [
+     "Jeremy Allen White",
+     "Ebon Moss-Bachrach",
+     "Ayo Edebiri",
+     "Lionel Boyce",
+     "Abby Elliott",
+     "Matty Matheson"
+    ],
+    "director": "Christopher Storer",
+    "tagline": "Back for seconds.",
+    "seasons": 5,
+    "detailAt": "2026-09-02T15:30:46.304Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "315,074"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 21 Primetime Emmys. 116 wins & 212 nominations total",
+    "scoresAt": "2026-09-02T15:30:46.735Z"
    },
    "s:severance-2022": {
     "id": "s:severance-2022",
@@ -5650,7 +5690,39 @@
     "year": 2022,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 95396,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+    "overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Drama",
+     "Mystery",
+     "Sci-Fi & Fantasy"
+    ],
+    "runtime": null,
+    "imdb": "tt11280740",
+    "cast": [
+     "Adam Scott",
+     "Britt Lower",
+     "Tramell Tillman",
+     "Zach Cherry",
+     "Jen Tullock",
+     "Dichen Lachman"
+    ],
+    "director": "Dan Erickson",
+    "tagline": "There's more to work than life.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:30:46.958Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "385,489"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 10 Primetime Emmys. 51 wins & 201 nominations total",
+    "scoresAt": "2026-09-02T15:30:47.421Z"
    },
    "s:ted-lasso-2020": {
     "id": "s:ted-lasso-2020",
@@ -5658,7 +5730,38 @@
     "year": 2020,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 97546,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+    "overview": "Ted Lasso, an American football coach, moves to England when he's hired to manage a soccer team—despite having no experience. With cynical players and a doubtful town, will he get them to see the Ted Lasso Way?",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Drama",
+     "Comedy"
+    ],
+    "runtime": 30,
+    "imdb": "tt10986410",
+    "cast": [
+     "Jason Sudeikis",
+     "Hannah Waddingham",
+     "Jeremy Swift",
+     "Brett Goldstein",
+     "Brendan Hunt",
+     "Juno Temple"
+    ],
+    "director": "Bill Lawrence, Jason Sudeikis, Joe Kelly, Brendan Hunt",
+    "tagline": "Ted's back.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:47.639Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "448,773"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 13 Primetime Emmys. 73 wins & 213 nominations total",
+    "scoresAt": "2026-09-02T15:30:48.280Z"
    },
    "s:the-last-of-us-2023": {
     "id": "s:the-last-of-us-2023",
@@ -5666,7 +5769,35 @@
     "year": 2023,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 100088,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/dmo6TYuuJgaYinXBPjrgG9mB5od.jpg",
+    "overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 18,
+    "imdb": "tt3581920",
+    "cast": [
+     "Bella Ramsey",
+     "Gabriel Luna",
+     "Isabela Merced",
+     "Young Mazino"
+    ],
+    "director": "Neil Druckmann, Craig Mazin",
+    "tagline": "Every path has a price.",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:30:48.498Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "746,078"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 9 Primetime Emmys. 109 wins & 208 nominations total",
+    "scoresAt": "2026-09-02T15:30:48.994Z"
    },
    "s:sh-gun-2024": {
     "id": "s:sh-gun-2024",
@@ -5674,7 +5805,38 @@
     "year": 2024,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 126308,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+    "overview": "In Japan in the year 1600, at the dawn of a century-defining civil war, Lord Yoshii Toranaga is fighting for his life as his enemies on the Council of Regents unite against him, when a mysterious European ship is found marooned in a nearby fishing village.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Drama",
+     "War & Politics"
+    ],
+    "runtime": null,
+    "imdb": "tt2788316",
+    "cast": [
+     "Hiroyuki Sanada",
+     "Cosmo Jarvis",
+     "Anna Sawai",
+     "Tadanobu Asano",
+     "Takehiro Hira",
+     "Tommy Bastow"
+    ],
+    "director": "Rachel Kondo, Justin Marks",
+    "tagline": "An epic saga of war, passion, and power set in Feudal Japan.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:30:49.212Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "240,464"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 18 Primetime Emmys. 92 wins & 76 nominations total",
+    "scoresAt": "2026-09-02T15:30:49.652Z"
    },
    "s:andor-2022": {
     "id": "s:andor-2022",
@@ -5682,7 +5844,39 @@
     "year": 2022,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 83867,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/khZqmwHQicTYoS7Flreb9EddFZC.jpg",
+    "overview": "In an era filled with danger, deception and intrigue, Cassian Andor will discover the difference he can make in the struggle against the tyrannical Galactic Empire. He embarks on a path that is destined to turn him into a rebel hero.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Sci-Fi & Fantasy",
+     "Action & Adventure",
+     "Drama"
+    ],
+    "runtime": null,
+    "imdb": "tt9253284",
+    "cast": [
+     "Diego Luna",
+     "Anton Lesser",
+     "Muhannad Bhaier",
+     "Stellan Skarsgård",
+     "Denise Gough",
+     "Kyle Soller"
+    ],
+    "director": "Tony Gilroy",
+    "tagline": "The Rebellion begins.",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:30:49.868Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "270,212"
+    },
+    "rated": "TV-14",
+    "awards": "Won 5 Primetime Emmys. 35 wins & 132 nominations total",
+    "scoresAt": "2026-09-02T15:30:50.224Z"
    },
    "s:the-mandalorian-2019": {
     "id": "s:the-mandalorian-2019",
@@ -5690,7 +5884,34 @@
     "year": 2019,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 82856,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+    "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Sci-Fi & Fantasy",
+     "Action & Adventure"
+    ],
+    "runtime": 40,
+    "imdb": "tt8111088",
+    "cast": [
+     "Pedro Pascal",
+     "Katee Sackhoff"
+    ],
+    "director": "Jon Favreau",
+    "tagline": "Bounty hunting is a complicated profession.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:30:50.436Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "647,555"
+    },
+    "rated": "TV-14",
+    "awards": "Won 15 Primetime Emmys. 62 wins & 157 nominations total",
+    "scoresAt": "2026-09-02T15:30:50.694Z"
    },
    "s:stranger-things-2016": {
     "id": "s:stranger-things-2016",
@@ -5698,7 +5919,39 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 66732,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+    "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+    "tmdbRating": 8.6,
+    "genres": [
+     "Action & Adventure",
+     "Mystery",
+     "Sci-Fi & Fantasy"
+    ],
+    "runtime": 51,
+    "imdb": "tt4574334",
+    "cast": [
+     "Winona Ryder",
+     "David Harbour",
+     "Millie Bobby Brown",
+     "Finn Wolfhard",
+     "Gaten Matarazzo",
+     "Caleb McLaughlin"
+    ],
+    "director": "Ross Duffer, Matt Duffer",
+    "tagline": "It only gets stranger...",
+    "seasons": 5,
+    "detailAt": "2026-09-02T15:30:50.927Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "1,691,532"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 12 Primetime Emmys. 122 wins & 335 nominations total",
+    "scoresAt": "2026-09-02T15:30:51.270Z"
    },
    "s:true-detective-2014": {
     "id": "s:true-detective-2014",
@@ -5706,7 +5959,38 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 46648,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/dC7jkj2g1aU8sxKqM6D4g44xA6w.jpg",
+    "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 55,
+    "imdb": "tt2356777",
+    "cast": [
+     "Jodie Foster",
+     "Kali Reis",
+     "Fiona Shaw",
+     "Finn Bennett",
+     "Isabella Star LaBlanc",
+     "John Hawkes"
+    ],
+    "director": "Nic Pizzolatto, Issa López",
+    "tagline": "The truth lies in the dark.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:51.494Z",
+    "scores": {
+     "imdb": "8.8",
+     "rt": null,
+     "metacritic": null,
+     "votes": "745,221"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 6 Primetime Emmys. 46 wins & 168 nominations total",
+    "scoresAt": "2026-09-02T15:30:51.763Z"
    },
    "s:fargo-2014": {
     "id": "s:fargo-2014",
@@ -5714,7 +5998,38 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 60622,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/a3VW6khsyUVKrG0GBCWFG3NzWPX.jpg",
+    "overview": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 53,
+    "imdb": "tt2802850",
+    "cast": [
+     "Juno Temple",
+     "Jennifer Jason Leigh",
+     "David Rysdahl",
+     "Joe Keery",
+     "Lamorne Morris",
+     "Richa Shukla Moorjani"
+    ],
+    "director": "Noah Hawley",
+    "tagline": "Consequence comes knocking.",
+    "seasons": 5,
+    "detailAt": "2026-09-02T15:30:51.986Z",
+    "scores": {
+     "imdb": "8.8",
+     "rt": null,
+     "metacritic": null,
+     "votes": "457,314"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 7 Primetime Emmys. 73 wins & 322 nominations total",
+    "scoresAt": "2026-09-02T15:30:52.283Z"
    },
    "s:mr-robot-2015": {
     "id": "s:mr-robot-2015",
@@ -5722,7 +6037,35 @@
     "year": 2015,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 62560,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/kv1nRqgebSsREnd7vdC2pSGjpLo.jpg",
+    "overview": "A young programmer, Elliot, suffers from a debilitating anti-social disorder and decides that he can only connect to people by hacking them. He wields his skills as a weapon to protect the people that he cares about. Elliot finds himself in the intersection between a cybersecurity firm he works for and the underworld organizations that are recruiting him to bring down corporate America.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 49,
+    "imdb": "tt4158110",
+    "cast": [
+     "Rami Malek",
+     "Christian Slater",
+     "Carly Chaikin"
+    ],
+    "director": "Sam Esmail",
+    "tagline": "Control is an illusion.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:52.498Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "462,430"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 3 Primetime Emmys. 23 wins & 86 nominations total",
+    "scoresAt": "2026-09-02T15:30:52.817Z"
    },
    "s:westworld-2016": {
     "id": "s:westworld-2016",
@@ -5730,7 +6073,38 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 63247,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/ALlSU9du9iRiKIIoY1sREGNqQ5.jpg",
+    "overview": "A dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+    "tmdbRating": 8,
+    "genres": [
+     "Sci-Fi & Fantasy",
+     "Western"
+    ],
+    "runtime": 62,
+    "imdb": "tt0475784",
+    "cast": [
+     "Evan Rachel Wood",
+     "Thandiwe Newton",
+     "Jeffrey Wright",
+     "Tessa Thompson",
+     "Aaron Paul",
+     "James Marsden"
+    ],
+    "director": "Jonathan Nolan, Lisa Joy",
+    "tagline": "These violent delights have violent ends.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:53.042Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "556,181"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 7 Primetime Emmys. 57 wins & 214 nominations total",
+    "scoresAt": "2026-09-02T15:30:53.349Z"
    },
    "s:lost-2004": {
     "id": "s:lost-2004",
@@ -5738,7 +6112,39 @@
     "year": 2004,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 4607,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/og6S0aTZU6YUJAbqxeKjCa3kY1E.jpg",
+    "overview": "Stripped of everything, the survivors of a horrific plane crash must work together to stay alive. But the island holds many secrets.",
+    "tmdbRating": 8,
+    "genres": [
+     "Mystery",
+     "Action & Adventure",
+     "Drama"
+    ],
+    "runtime": 44,
+    "imdb": "tt0411008",
+    "cast": [
+     "Matthew Fox",
+     "Evangeline Lilly",
+     "Terry O'Quinn",
+     "Josh Holloway",
+     "Michael Emerson",
+     "Jorge Garcia"
+    ],
+    "director": "J.J. Abrams, Damon Lindelof, Jeffrey Lieber",
+    "tagline": "Everything happens for a reason.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:30:53.581Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": "80%",
+     "metacritic": null,
+     "votes": "657,937"
+    },
+    "rated": "TV-14",
+    "awards": "Won 10 Primetime Emmys. 118 wins & 418 nominations total",
+    "scoresAt": "2026-09-02T15:30:53.780Z"
    },
    "s:the-x-files-1993": {
     "id": "s:the-x-files-1993",
@@ -5746,7 +6152,36 @@
     "year": 1993,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 4087,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/rcBx0p8h51LHceyhquYMxbspJQu.jpg",
+    "overview": "The exploits of FBI Special Agents Fox Mulder and Dana Scully who investigate X-Files: marginalized, unsolved cases involving paranormal phenomena. Mulder believes in the existence of aliens and the paranormal while Scully, a skeptic, is assigned to make scientific analyses of Mulder's discoveries that debunk Mulder's work and thus return him to mainstream cases.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Mystery",
+     "Sci-Fi & Fantasy",
+     "Crime"
+    ],
+    "runtime": 45,
+    "imdb": "tt0106179",
+    "cast": [
+     "David Duchovny",
+     "Gillian Anderson",
+     "Mitch Pileggi"
+    ],
+    "director": "Chris Carter",
+    "tagline": "The truth is out there.",
+    "seasons": 11,
+    "detailAt": "2026-09-02T15:30:54.018Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "273,336"
+    },
+    "rated": "TV-14",
+    "awards": "Won 16 Primetime Emmys. 105 wins & 218 nominations total",
+    "scoresAt": "2026-09-02T15:30:54.224Z"
    },
    "s:battlestar-galactica-2004": {
     "id": "s:battlestar-galactica-2004",
@@ -5754,7 +6189,39 @@
     "year": 2004,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1972,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/99PJSbcO2LeM10uOGWeFihNp77j.jpg",
+    "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Sci-Fi & Fantasy",
+     "Action & Adventure",
+     "Drama"
+    ],
+    "runtime": 44,
+    "imdb": "tt0407362",
+    "cast": [
+     "Edward James Olmos",
+     "Mary McDonnell",
+     "Jamie Bamber",
+     "Katee Sackhoff",
+     "James Callis",
+     "Tricia Helfer"
+    ],
+    "director": "Glen A. Larson, Ronald D. Moore",
+    "tagline": "So say we all!",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:54.483Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "185,924"
+    },
+    "rated": "TV-14",
+    "awards": "Won 3 Primetime Emmys. 43 wins & 114 nominations total",
+    "scoresAt": "2026-09-02T15:30:54.636Z"
    },
    "s:firefly-2002": {
     "id": "s:firefly-2002",
@@ -5762,7 +6229,39 @@
     "year": 2002,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1437,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/vZcKsy4sGAvWMVqLluwYuoi11Kj.jpg",
+    "overview": "In the year 2517, the universe is a vast frontier where lawlessness reigns and adventure awaits! Join Captain Malcolm Reynolds and his ragtag crew aboard the spaceship Serenity as they navigate the fringes of society, battling the oppressive Alliance and facing off against ruthless bounty hunters.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Drama",
+     "Action & Adventure",
+     "Sci-Fi & Fantasy"
+    ],
+    "runtime": 44,
+    "imdb": "tt0303461",
+    "cast": [
+     "Nathan Fillion",
+     "Gina Torres",
+     "Alan Tudyk",
+     "Morena Baccarin",
+     "Adam Baldwin",
+     "Jewel Staite"
+    ],
+    "director": "Joss Whedon",
+    "tagline": "You can't take the sky from me.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:30:54.877Z",
+    "scores": {
+     "imdb": "8.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "302,093"
+    },
+    "rated": "TV-14",
+    "awards": "Won 1 Primetime Emmy. 5 wins & 8 nominations total",
+    "scoresAt": "2026-09-02T15:30:55.017Z"
    },
    "s:star-trek-the-next-generation-1987": {
     "id": "s:star-trek-the-next-generation-1987",
@@ -5770,7 +6269,40 @@
     "year": 1987,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 655,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/vkLzXddgUKH5VcpnYiRzpJFrZhz.jpg",
+    "overview": "Follow the intergalactic adventures of Capt. Jean-Luc Picard and his loyal crew aboard the all-new USS Enterprise NCC-1701D, as they explore new worlds.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Sci-Fi & Fantasy",
+     "Action & Adventure",
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 45,
+    "imdb": "tt0092455",
+    "cast": [
+     "Patrick Stewart",
+     "Jonathan Frakes",
+     "Brent Spiner",
+     "LeVar Burton",
+     "Michael Dorn",
+     "Marina Sirtis"
+    ],
+    "director": "Gene Roddenberry",
+    "tagline": "New stars. New stories. New worlds to explore.",
+    "seasons": 7,
+    "detailAt": "2026-09-02T15:30:55.251Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "148,534"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 18 Primetime Emmys. 40 wins & 61 nominations total",
+    "scoresAt": "2026-09-02T15:30:55.386Z"
    },
    "s:deadwood-2004": {
     "id": "s:deadwood-2004",
@@ -5778,7 +6310,39 @@
     "year": 2004,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1406,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/fWwxYAuqY4Na7fKI3Qq2nFWCwG8.jpg",
+    "overview": "The story of the early days of Deadwood, South Dakota; woven around actual historic events with most of the main characters based on real people. Deadwood starts as a gold mining camp and gradually turns from a lawless wild-west community into an organized wild-west civilized town. The story focuses on the real-life characters Seth Bullock and Al Swearengen.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Western",
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 31,
+    "imdb": "tt0348914",
+    "cast": [
+     "Timothy Olyphant",
+     "Ian McShane",
+     "Molly Parker",
+     "Jim Beaver",
+     "W. Earl Brown",
+     "Dayton Callie"
+    ],
+    "director": "David Milch",
+    "tagline": "A hell of a place to make your fortune",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:30:55.625Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "127,598"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 8 Primetime Emmys. 28 wins & 85 nominations total",
+    "scoresAt": "2026-09-02T15:30:55.766Z"
    },
    "s:boardwalk-empire-2010": {
     "id": "s:boardwalk-empire-2010",
@@ -5786,7 +6350,38 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1621,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
+    "overview": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
+    "tmdbRating": 8,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 55,
+    "imdb": "tt0979432",
+    "cast": [
+     "Steve Buscemi",
+     "Kelly Macdonald",
+     "Michael Shannon",
+     "Shea Whigham",
+     "Stephen Graham",
+     "Vincent Piazza"
+    ],
+    "director": "Terence Winter",
+    "tagline": "No one goes quietly.",
+    "seasons": 5,
+    "detailAt": "2026-09-02T15:30:55.998Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "215,105"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 20 Primetime Emmys. 64 wins & 186 nominations total",
+    "scoresAt": "2026-09-02T15:30:56.141Z"
    },
    "s:the-shield-2002": {
     "id": "s:the-shield-2002",
@@ -5794,7 +6389,39 @@
     "year": 2002,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1414,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/AfdZXqqlFsPUEfi6kWWWthxw7Nz.jpg",
+    "overview": "The story of an inner-city Los Angeles police precinct where some of the cops aren't above breaking the rules or working against their associates to both keep the streets safe and their self-interests intact.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Action & Adventure"
+    ],
+    "runtime": 45,
+    "imdb": "tt0286486",
+    "cast": [
+     "Michael Chiklis",
+     "Catherine Dent",
+     "Paula Garcés",
+     "Walton Goggins",
+     "Michael Jace",
+     "Jay Karnes"
+    ],
+    "director": "Shawn Ryan",
+    "tagline": "The law is just a suggestion.",
+    "seasons": 7,
+    "detailAt": "2026-09-02T15:30:56.367Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "95,059"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 1 Primetime Emmy. 15 wins & 62 nominations total",
+    "scoresAt": "2026-09-02T15:30:56.506Z"
    },
    "s:six-feet-under-2001": {
     "id": "s:six-feet-under-2001",
@@ -5802,7 +6429,37 @@
     "year": 2001,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 1274,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/sCgzLaVlFy8KxtxRPvt1V5MNTDb.jpg",
+    "overview": "When death is your business, what is your life? For the Fisher family, the world outside of their family-owned funeral home continues to be at least as challenging as—and far less predictable than—the one inside.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 55,
+    "imdb": "tt0248654",
+    "cast": [
+     "Peter Krause",
+     "Michael C. Hall",
+     "Frances Conroy",
+     "Lauren Ambrose",
+     "Freddy Rodríguez",
+     "Mathew St. Patrick"
+    ],
+    "director": "Alan Ball",
+    "tagline": "Life is pain, get use to it.",
+    "seasons": 5,
+    "detailAt": "2026-09-02T15:30:56.737Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "163,999"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 9 Primetime Emmys. 62 wins & 165 nominations total",
+    "scoresAt": "2026-09-02T15:30:56.877Z"
    },
    "s:freaks-and-geeks-1999": {
     "id": "s:freaks-and-geeks-1999",
@@ -5810,7 +6467,38 @@
     "year": 1999,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 2382,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/tPqV63zcW6ZV0Hd48DMGb5UzQIG.jpg",
+    "overview": "High school mathlete Lindsay Weir rebels and begins hanging out with a crowd of burnouts (the \"freaks\"), while her brother Sam Weir navigates a different part of the social universe with his nerdy friends (the \"geeks\").",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Drama",
+     "Comedy"
+    ],
+    "runtime": 44,
+    "imdb": "tt0193676",
+    "cast": [
+     "John Francis Daley",
+     "Linda Cardellini",
+     "James Franco",
+     "Samm Levine",
+     "Martin Starr",
+     "Jason Segel"
+    ],
+    "director": "Paul Feig",
+    "tagline": "What high school was like for the rest of us.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:30:57.106Z",
+    "scores": {
+     "imdb": "8.8",
+     "rt": null,
+     "metacritic": null,
+     "votes": "163,602"
+    },
+    "rated": "TV-14",
+    "awards": "Won 1 Primetime Emmy. 4 wins & 16 nominations total",
+    "scoresAt": "2026-09-02T15:30:57.245Z"
    },
    "s:parks-and-recreation-2009": {
     "id": "s:parks-and-recreation-2009",
@@ -5818,7 +6506,37 @@
     "year": 2009,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 8592,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/5IOj62y2Eb2ngyYmEn1IJ7bFhzH.jpg",
+    "overview": "In an attempt to beautify her town — and advance her career — Leslie Knope, a mid-level bureaucrat in the Parks and Recreation Department of Pawnee, Indiana, takes on bureaucrats, cranky neighbors, and single-issue fanatics whose weapons are lawsuits, the jumble of city codes, and the democratic process she loves so much.",
+    "tmdbRating": 8,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 22,
+    "imdb": "tt1266020",
+    "cast": [
+     "Amy Poehler",
+     "Aziz Ansari",
+     "Nick Offerman",
+     "Aubrey Plaza",
+     "Chris Pratt",
+     "Adam Scott"
+    ],
+    "director": "Michael Schur, Greg Daniels",
+    "tagline": "Because parks don't grow on trees.",
+    "seasons": 7,
+    "detailAt": "2026-09-02T15:30:57.463Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "312,382"
+    },
+    "rated": "TV-14",
+    "awards": "Nominated for 14 Primetime Emmys. 36 wins & 182 nominations total",
+    "scoresAt": "2026-09-02T15:30:57.610Z"
    },
    "s:30-rock-2006": {
     "id": "s:30-rock-2006",
@@ -5826,7 +6544,37 @@
     "year": 2006,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 4608,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/eYYQWACx7ttUzRwTNYuo6zveqpE.jpg",
+    "overview": "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream.",
+    "tmdbRating": 7.5,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 22,
+    "imdb": "tt0496424",
+    "cast": [
+     "Tina Fey",
+     "Alec Baldwin",
+     "Tracy Morgan",
+     "Jane Krakowski",
+     "Jack McBrayer",
+     "Scott Adsit"
+    ],
+    "director": "Tina Fey",
+    "tagline": "Work can be such a production.",
+    "seasons": 7,
+    "detailAt": "2026-09-02T15:30:57.826Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "137,477"
+    },
+    "rated": "TV-14",
+    "awards": "Won 16 Primetime Emmys. 101 wins & 368 nominations total",
+    "scoresAt": "2026-09-02T15:30:57.962Z"
    },
    "s:community-2009": {
     "id": "s:community-2009",
@@ -5834,7 +6582,37 @@
     "year": 2009,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 18347,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
+    "overview": "Follow the lives of a group of students at what is possibly the world’s worst community college in the fictional locale of Greendale, Colorado.",
+    "tmdbRating": 8,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 22,
+    "imdb": "tt1439629",
+    "cast": [
+     "Joel McHale",
+     "Gillian Jacobs",
+     "Alison Brie",
+     "Jim Rash",
+     "Danny Pudi",
+     "Ken Jeong"
+    ],
+    "director": "Dan Harmon",
+    "tagline": "Mastering the B.S. degree at community college.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:30:58.188Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "309,624"
+    },
+    "rated": "TV-14",
+    "awards": "Won 1 Primetime Emmy. 25 wins & 90 nominations total",
+    "scoresAt": "2026-09-02T15:30:58.324Z"
    },
    "s:it-s-always-sunny-in-philadelphia-2005": {
     "id": "s:it-s-always-sunny-in-philadelphia-2005",
@@ -5842,7 +6620,36 @@
     "year": 2005,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 2710,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/o0tMMK33JqmtpcWw0H41cEr9xQB.jpg",
+    "overview": "Four egocentric friends run a neighborhood Irish pub in Philadelphia and try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 22,
+    "imdb": "tt0472954",
+    "cast": [
+     "Charlie Day",
+     "Glenn Howerton",
+     "Rob Mac",
+     "Kaitlin Olson",
+     "Danny DeVito"
+    ],
+    "director": "Rob Mac",
+    "tagline": "More Gang for your buck.",
+    "seasons": 18,
+    "detailAt": "2026-09-02T15:30:58.548Z",
+    "scores": {
+     "imdb": "8.8",
+     "rt": null,
+     "metacritic": null,
+     "votes": "279,960"
+    },
+    "rated": "TV-MA",
+    "awards": "Nominated for 3 Primetime Emmys. 4 wins & 17 nominations total",
+    "scoresAt": "2026-09-02T15:30:58.694Z"
    },
    "s:veep-2012": {
     "id": "s:veep-2012",
@@ -5850,7 +6657,38 @@
     "year": 2012,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 2947,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/cdd78fGdaA3EbK2ToZRWcaaB1fx.jpg",
+    "overview": "A look into American politics, revolving around former Senator Selina Meyer who finds being Vice President of the United States is nothing like she expected and everything everyone ever warned her about.",
+    "tmdbRating": 7.5,
+    "genres": [
+     "Comedy",
+     "War & Politics"
+    ],
+    "runtime": 28,
+    "imdb": "tt1759761",
+    "cast": [
+     "Julia Louis-Dreyfus",
+     "Anna Chlumsky",
+     "Tony Hale",
+     "Reid Scott",
+     "Timothy Simons",
+     "Matt Walsh"
+    ],
+    "director": "Armando Iannucci",
+    "tagline": "The buck stops somewhere near here.",
+    "seasons": 7,
+    "detailAt": "2026-09-02T15:30:58.939Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "70,884"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 17 Primetime Emmys. 82 wins & 256 nominations total",
+    "scoresAt": "2026-09-02T15:30:59.088Z"
    },
    "s:silicon-valley-2014": {
     "id": "s:silicon-valley-2014",
@@ -5858,7 +6696,37 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 60573,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/4ptpmWBVD9HY9hMh8Cbs6SMiy7p.jpg",
+    "overview": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. Partially inspired by Mike Judge’s own experiences as a Silicon Valley engineer in the late ‘80s, Silicon Valley is an American sitcom that centers around six programmers who are living together and trying to make it big in the Silicon Valley.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 28,
+    "imdb": "tt2575988",
+    "cast": [
+     "Thomas Middleditch",
+     "Zach Woods",
+     "Kumail Nanjiani",
+     "Martin Starr",
+     "Amanda Crew",
+     "Matt Ross"
+    ],
+    "director": "Dave Krinsky, Mike Judge, John Altschuler",
+    "tagline": "How big is too big?",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:30:59.307Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "180,368"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 2 Primetime Emmys. 16 wins & 101 nominations total",
+    "scoresAt": "2026-09-02T15:30:59.456Z"
    },
    "s:atlanta-2016": {
     "id": "s:atlanta-2016",
@@ -5866,7 +6734,36 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 65495,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/8HZyGMnPLVVb00rmrh6A2SbK9NX.jpg",
+    "overview": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+    "tmdbRating": 8,
+    "genres": [
+     "Comedy",
+     "Drama"
+    ],
+    "runtime": 1,
+    "imdb": "tt4288182",
+    "cast": [
+     "Donald Glover",
+     "Brian Tyree Henry",
+     "LaKeith Stanfield",
+     "Zazie Beetz"
+    ],
+    "director": "Donald Glover",
+    "tagline": "A side of the city you've never seen.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:30:59.676Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "97,708"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 7 Primetime Emmys. 64 wins & 147 nominations total",
+    "scoresAt": "2026-09-02T15:30:59.809Z"
    },
    "s:barry-2018": {
     "id": "s:barry-2018",
@@ -5874,7 +6771,39 @@
     "year": 2018,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 73107,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+    "overview": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy",
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 2,
+    "imdb": "tt5348176",
+    "cast": [
+     "Bill Hader",
+     "Sarah Goldberg",
+     "Anthony Carrigan",
+     "Henry Winkler",
+     "Stephen Root",
+     "Robert Wisdom"
+    ],
+    "director": "Alec Berg, Bill Hader",
+    "tagline": "A hitman searching for some direction.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:31:00.022Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "140,865"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 10 Primetime Emmys. 47 wins & 205 nominations total",
+    "scoresAt": "2026-09-02T15:31:00.157Z"
    },
    "s:bojack-horseman-2014": {
     "id": "s:bojack-horseman-2014",
@@ -5882,7 +6811,38 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 61222,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg",
+    "overview": "Meet the most beloved sitcom horse of the '90s , 20 years later. He's a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+    "tmdbRating": 8.5,
+    "genres": [
+     "Animation",
+     "Comedy",
+     "Drama"
+    ],
+    "runtime": 25,
+    "imdb": "tt3398228",
+    "cast": [
+     "Will Arnett",
+     "Aaron Paul",
+     "Alison Brie",
+     "Amy Sedaris",
+     "Paul F. Tompkins"
+    ],
+    "director": "Raphael Bob-Waksberg",
+    "tagline": "Don't look back. You're not going that way.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:31:00.364Z",
+    "scores": {
+     "imdb": "8.8",
+     "rt": null,
+     "metacritic": null,
+     "votes": "227,110"
+    },
+    "rated": "TV-MA",
+    "awards": "Nominated for 3 Primetime Emmys. 35 wins & 43 nominations total",
+    "scoresAt": "2026-09-02T15:31:00.503Z"
    },
    "s:rick-and-morty-2013": {
     "id": "s:rick-and-morty-2013",
@@ -5890,7 +6850,39 @@
     "year": 2013,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 60625,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+    "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
+    "tmdbRating": 8.7,
+    "genres": [
+     "Animation",
+     "Comedy",
+     "Sci-Fi & Fantasy",
+     "Action & Adventure"
+    ],
+    "runtime": 23,
+    "imdb": "tt2861424",
+    "cast": [
+     "Chris Parnell",
+     "Spencer Grammer",
+     "Sarah Chalke",
+     "Ian Cardoni",
+     "Harry Belden"
+    ],
+    "director": "Dan Harmon, Justin Roiland",
+    "tagline": "Science makes sense, family doesn't.",
+    "seasons": 9,
+    "detailAt": "2026-09-02T15:31:00.725Z",
+    "scores": {
+     "imdb": "9.0",
+     "rt": null,
+     "metacritic": null,
+     "votes": "700,885"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 2 Primetime Emmys. 18 wins & 41 nominations total",
+    "scoresAt": "2026-09-02T15:31:00.860Z"
    },
    "s:avatar-the-last-airbender-2005": {
     "id": "s:avatar-the-last-airbender-2005",
@@ -5898,7 +6890,39 @@
     "year": 2005,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "tmdb": 246,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/yaGt4GIutpbXHsv48tWceWg6s56.jpg",
+    "overview": "In a war-torn world of elemental magic, a young boy reawakens to undertake a dangerous mystic quest to fulfill his destiny as the Avatar, and bring peace to the world.",
+    "tmdbRating": 8.8,
+    "genres": [
+     "Animation",
+     "Action & Adventure",
+     "Sci-Fi & Fantasy"
+    ],
+    "runtime": 24,
+    "imdb": "tt0417299",
+    "cast": [
+     "Zach Tyler Eisen",
+     "Mae Whitman",
+     "Jack De Sena",
+     "Dante Basco",
+     "Michaela Jill Murphy",
+     "Dee Bradley Baker"
+    ],
+    "director": "Michael Dante DiMartino, Bryan Konietzko",
+    "tagline": "Water. Earth. Fire. Air.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:31:01.083Z",
+    "scores": {
+     "imdb": "9.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "432,739"
+    },
+    "rated": "TV-Y7-FV",
+    "awards": "Won 1 Primetime Emmy. 9 wins & 7 nominations total",
+    "scoresAt": "2026-09-02T15:31:01.220Z"
    },
    "s:cowboy-bebop-1998": {
     "id": "s:cowboy-bebop-1998",
@@ -6371,7 +7395,37 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 66292,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/zxGkno93ExrTMsJVllH6mzQ652z.jpg",
+    "overview": "The tale of three mothers of first graders whose apparently perfect lives unravel to the point of murder.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 30,
+    "imdb": "tt3920596",
+    "cast": [
+     "Nicole Kidman",
+     "Reese Witherspoon",
+     "Shailene Woodley",
+     "Laura Dern",
+     "Alexander Skarsgård",
+     "Adam Scott"
+    ],
+    "director": "David E. Kelley",
+    "tagline": "A perfect life is a perfect lie.",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:31:01.435Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "243,243"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 8 Primetime Emmys. 56 wins & 101 nominations total",
+    "scoresAt": "2026-09-02T15:31:01.566Z"
    },
    "s:mare-of-easttown-2021": {
     "id": "s:mare-of-easttown-2021",
@@ -6379,7 +7433,39 @@
     "year": 2021,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 115004,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+    "overview": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Drama",
+     "Crime",
+     "Mystery"
+    ],
+    "runtime": 403,
+    "imdb": "tt10155688",
+    "cast": [
+     "Kate Winslet",
+     "Jean Smart",
+     "Julianne Nicholson",
+     "Angourie Rice",
+     "Evan Peters",
+     "Sosie Bacon"
+    ],
+    "director": "Brad Ingelsby",
+    "tagline": "All truths come to light.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:01.784Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "218,467"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 4 Primetime Emmys. 27 wins & 67 nominations total",
+    "scoresAt": "2026-09-02T15:31:01.916Z"
    },
    "s:the-queen-s-gambit-2020": {
     "id": "s:the-queen-s-gambit-2020",
@@ -6387,7 +7473,33 @@
     "year": 2020,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 87739,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/zU0htwkhNvBQdVSIKB9s6hgVeFK.jpg",
+    "overview": "In a 1950s orphanage, a young girl reveals an astonishing talent for chess and begins an unlikely journey to stardom while grappling with addiction.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 395,
+    "imdb": "tt10048342",
+    "cast": [
+     "Anya Taylor-Joy",
+     "Chloe Pirrie"
+    ],
+    "director": "Scott Frank, Allan Scott",
+    "tagline": "Beth Harmon makes her move.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:02.137Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "660,375"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 11 Primetime Emmys. 55 wins & 44 nominations total",
+    "scoresAt": "2026-09-02T15:31:02.273Z"
    },
    "s:the-night-of-2016": {
     "id": "s:the-night-of-2016",
@@ -6395,7 +7507,39 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 66276,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/q13XJHdnsmxQL9rXRcnNDrZGHjO.jpg",
+    "overview": "After a night of partying with a female stranger, a man wakes up to find her stabbed to death and is charged with her murder.",
+    "tmdbRating": 8,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 60,
+    "imdb": "tt2401256",
+    "cast": [
+     "Riz Ahmed",
+     "John Turturro",
+     "Bill Camp",
+     "Payman Maadi",
+     "Jeannie Berlin",
+     "Poorna Jagannathan"
+    ],
+    "director": "Richard Price, Steven Zaillian",
+    "tagline": "What happened",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:02.488Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "190,287"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 5 Primetime Emmys. 14 wins & 44 nominations total",
+    "scoresAt": "2026-09-02T15:31:02.620Z"
    },
    "s:top-boy-2011": {
     "id": "s:top-boy-2011",
@@ -6403,7 +7547,34 @@
     "year": 2011,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 41889,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/iBqgEMnbleoeLqdadlvBGDxVvKb.jpg",
+    "overview": "A thrilling and raw crime drama following a gang of drug dealers in Hackney, London - an honest and gripping rendition of inner-city drug and gang culture.",
+    "tmdbRating": 7.5,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 52,
+    "imdb": "tt1830379",
+    "cast": [
+     "Ashley Walters",
+     "Sharon Duncan-Brewster",
+     "Kane Robinson"
+    ],
+    "director": "Ronan Bennett",
+    "tagline": "",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:31:02.838Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "46,706"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 4 BAFTA 9 wins & 30 nominations total",
+    "scoresAt": "2026-09-02T15:31:02.977Z"
    },
    "s:baby-reindeer-2024": {
     "id": "s:baby-reindeer-2024",
@@ -6411,7 +7582,34 @@
     "year": 2024,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 241259,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/tN9OcbkAOPwHSr1sgMornZtQZBx.jpg",
+    "overview": "When a struggling comedian shows one act of kindness to a vulnerable woman, it sparks a suffocating obsession which threatens to wreck both their lives.",
+    "tmdbRating": 7.6,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": null,
+    "imdb": "tt13649112",
+    "cast": [
+     "Richard Gadd",
+     "Jessica Gunning",
+     "Nava Mau"
+    ],
+    "director": "Richard Gadd",
+    "tagline": "A captivating true story.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:03.188Z",
+    "scores": {
+     "imdb": "7.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "190,385"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 6 Primetime Emmys. 40 wins & 66 nominations total",
+    "scoresAt": "2026-09-02T15:31:03.320Z"
    },
    "s:adolescence-2025": {
     "id": "s:adolescence-2025",
@@ -6419,7 +7617,35 @@
     "year": 2025,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 249042,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/20i4nShZZg1g1VFHSB8xpaYM4r7.jpg",
+    "overview": "When a 13-year-old is accused of the murder of a classmate, his family, therapist and the detective in charge are all left asking: what really happened?",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Drama",
+     "Crime"
+    ],
+    "runtime": null,
+    "imdb": "tt31806037",
+    "cast": [
+     "Stephen Graham",
+     "Owen Cooper",
+     "Ashley Walters"
+    ],
+    "director": "Stephen Graham, Jack Thorne",
+    "tagline": "A child accused. Everyone left to answer.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:03.536Z",
+    "scores": {
+     "imdb": "8.1",
+     "rt": null,
+     "metacritic": null,
+     "votes": "301,626"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 8 Primetime Emmys. 60 wins & 73 nominations total",
+    "scoresAt": "2026-09-02T15:31:03.672Z"
    },
    "s:blue-planet-ii-2017": {
     "id": "s:blue-planet-ii-2017",
@@ -6427,7 +7653,33 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 74313,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/j1NsoYYDYHnPkRr7Enqr8tlexgO.jpg",
+    "overview": "There is nowhere more powerful and unforgiving yet more beautiful and compelling than the ocean. Join us and explore the greatest yet least known parts of our planet.",
+    "tmdbRating": 8.6,
+    "genres": [
+     "Documentary",
+     "Family"
+    ],
+    "runtime": 60,
+    "imdb": "tt6769208",
+    "cast": [
+     "David Attenborough"
+    ],
+    "director": "Alastair Fothergill",
+    "tagline": "Take a deep breath.",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:31:03.889Z",
+    "scores": {
+     "imdb": "9.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "57,039"
+    },
+    "rated": "TV-G",
+    "awards": "Won 1 Primetime Emmy. 11 wins & 13 nominations total",
+    "scoresAt": "2026-09-02T15:31:04.025Z"
    },
    "s:our-planet-2019": {
     "id": "s:our-planet-2019",
@@ -6435,7 +7687,33 @@
     "year": 2019,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 83880,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/wRSnArnQBmeUYb5GWDU595bGsBr.jpg",
+    "overview": "Experience our planet's natural beauty and examine how climate change impacts all living creatures in this ambitious documentary of spectacular scope.",
+    "tmdbRating": 8.5,
+    "genres": [
+     "Documentary",
+     "Family"
+    ],
+    "runtime": 403,
+    "imdb": "tt9253866",
+    "cast": [
+     "David Attenborough"
+    ],
+    "director": "",
+    "tagline": "Experience life's extraordinary journeys.",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:31:04.239Z",
+    "scores": {
+     "imdb": "9.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "62,246"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 2 Primetime Emmys. 7 wins & 25 nominations total",
+    "scoresAt": "2026-09-02T15:31:04.373Z"
    },
    "s:taskmaster-2015": {
     "id": "s:taskmaster-2015",
@@ -6443,7 +7721,37 @@
     "year": 2015,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 63404,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/oHLZyN7G7EpXCHxYdpMcuUNCUgS.jpg",
+    "overview": "Greg Davies is the Taskmaster, and with the help of his ever-loyal assistant Alex Horne, they will set out to test the wiles, wit, wisdom and skills of five hyper-competitive comedians. Who will be crowned the Taskmaster champion?",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 60,
+    "imdb": "tt4934214",
+    "cast": [
+     "Greg Davies",
+     "Alex Horne",
+     "Chloe Petts",
+     "Isy Suttie",
+     "Matt Lucas",
+     "Nina Conti"
+    ],
+    "director": "Alex Horne",
+    "tagline": "",
+    "seasons": 22,
+    "detailAt": "2026-09-02T15:31:04.599Z",
+    "scores": {
+     "imdb": "9.0",
+     "rt": null,
+     "metacritic": null,
+     "votes": "30,264"
+    },
+    "rated": "TV-14",
+    "awards": "Won 2 BAFTA 4 wins & 17 nominations total",
+    "scoresAt": "2026-09-02T15:31:04.732Z"
    },
    "s:would-i-lie-to-you-2007": {
     "id": "s:would-i-lie-to-you-2007",
@@ -6451,7 +7759,34 @@
     "year": 2007,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 4775,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/cFaW1pAjZpQ90I42Nj4f27tAdS7.jpg",
+    "overview": "A comedic panel show featuring team captains Lee Mack and David Mitchell plus two guests per side, hosted by Rob Brydon (formerly Angus Deayton). Each person must reveal embarrassing facts and outrageous lies during a series of different rounds including \"Home Truths\", \"This Is My...\" and \"Quickfire Lies\". It is up to the opposing team to tell tall tales from fantastic facts.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 30,
+    "imdb": "tt1055238",
+    "cast": [
+     "David Mitchell",
+     "Rob Brydon",
+     "Lee Mack"
+    ],
+    "director": "Peter Holmes",
+    "tagline": "",
+    "seasons": 19,
+    "detailAt": "2026-09-02T15:31:04.999Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "10,770"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 2 BAFTA 3 wins & 11 nominations total",
+    "scoresAt": "2026-09-02T15:31:05.138Z"
    },
    "s:have-i-got-news-for-you-1990": {
     "id": "s:have-i-got-news-for-you-1990",
@@ -6459,7 +7794,34 @@
     "year": 1990,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 797,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/gYrG6F8OXBa8C0Lfx10XaZsHKaw.jpg",
+    "overview": "Hilarious, totally-irreverent, near-slanderous political quiz show, based mainly on news stories from the last week or so, that leaves no party, personality or action unscathed in pursuit of laughs.",
+    "tmdbRating": 7.2,
+    "genres": [
+     "Comedy",
+     "News"
+    ],
+    "runtime": 30,
+    "imdb": "tt0098820",
+    "cast": [
+     "Paul Merton",
+     "Ian Hislop"
+    ],
+    "director": "Martin Lord",
+    "tagline": "",
+    "seasons": 71,
+    "detailAt": "2026-09-02T15:31:05.358Z",
+    "scores": {
+     "imdb": "7.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "5,968"
+    },
+    "rated": "N/A",
+    "awards": "Won 2 BAFTA Awards. 12 wins & 41 nominations total",
+    "scoresAt": "2026-09-02T15:31:05.493Z"
    },
    "s:qi-2003": {
     "id": "s:qi-2003",
@@ -6467,7 +7829,34 @@
     "year": 2003,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 1554,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/9zWVsauqP7GM9E1N9WDYVf9CWe3.jpg",
+    "overview": "Comedy quiz show full of quirky facts, in which contestants are rewarded more if their answers are 'quite interesting'.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy",
+     "Talk"
+    ],
+    "runtime": 21,
+    "imdb": "tt0380136",
+    "cast": [
+     "Sandi Toksvig",
+     "Alan Davies"
+    ],
+    "director": "John Lloyd",
+    "tagline": "",
+    "seasons": 23,
+    "detailAt": "2026-09-02T15:31:05.706Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "35,485"
+    },
+    "rated": "TV-PG",
+    "awards": "Nominated for 8 BAFTA 3 wins & 12 nominations total",
+    "scoresAt": "2026-09-02T15:31:05.853Z"
    },
    "s:spaced-1999": {
     "id": "s:spaced-1999",
@@ -6475,7 +7864,36 @@
     "year": 1999,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 745,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/igZWEYUohDxlLodq8RkeJa7jBna.jpg",
+    "overview": "Spaced: the anti-Friends, in that it examines the lives of common 20 somethings, but in a way that is more down to earth and realistic. Here we have Daisy and Tim; two 'young' adults with big dreams just trying to get by in this crazy world. They are thrown together in a common pursuit of tenancy, which they find by posing as a couple. The house has a landlady and an oddball artist living there. The series explores the ins and outs of London living.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 27,
+    "imdb": "tt0187664",
+    "cast": [
+     "Simon Pegg",
+     "Jessica Hynes",
+     "Nick Frost",
+     "Mark Heap",
+     "Julia Deakin"
+    ],
+    "director": "Simon Pegg, Jessica Hynes, Edgar Wright",
+    "tagline": "",
+    "seasons": 2,
+    "detailAt": "2026-09-02T15:31:06.070Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "59,506"
+    },
+    "rated": "TV-14",
+    "awards": "Nominated for 2 BAFTA 2 wins & 6 nominations total",
+    "scoresAt": "2026-09-02T15:31:06.209Z"
    }
   },
   "tmdbPage": 1
