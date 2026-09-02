@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:21:27.385Z",
+ "updatedAt": "2026-09-02T15:29:33.889Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -1449,7 +1449,38 @@
     "year": 1998,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 30991,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/xDiXDfZwC6XYC6fxHI1jl3A3Ill.jpg",
+    "overview": "In 2071, roughly fifty years after an accident with a hyperspace gateway made the Earth almost uninhabitable, humanity has colonized most of the rocky planets and moons of the Solar System. Amid a rising crime rate, the Inter Solar System Police (ISSP) set up a legalized contract system, in which registered bounty hunters, also referred to as \"Cowboys\", chase criminals and bring them in alive in return for a reward.",
+    "tmdbRating": 8.5,
+    "genres": [
+     "Animation",
+     "Action & Adventure",
+     "Sci-Fi & Fantasy",
+     "Western"
+    ],
+    "runtime": 25,
+    "imdb": "tt0213338",
+    "cast": [
+     "Koichi Yamadera",
+     "Unsho Ishizuka",
+     "Megumi Hayashibara",
+     "Aoi Tada"
+    ],
+    "director": "",
+    "tagline": "See you space cowboy...",
+    "seasons": 1,
+    "detailAt": "2026-09-02T15:29:30.925Z",
+    "scores": {
+     "imdb": "8.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "166,096"
+    },
+    "rated": "TV-14",
+    "awards": "",
+    "scoresAt": "2026-09-02T15:29:31.057Z"
    },
    "s:dark-2017": {
     "id": "s:dark-2017",
@@ -1457,7 +1488,35 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 70523,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
+    "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Sci-Fi & Fantasy",
+     "Mystery"
+    ],
+    "runtime": 60,
+    "imdb": "tt5753856",
+    "cast": [
+     "Louis Hofmann"
+    ],
+    "director": "Baran bo Odar, Jantje Friese",
+    "tagline": "Everything is connected.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:29:31.063Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "542,010"
+    },
+    "rated": "TV-MA",
+    "awards": "8 wins & 23 nominations total",
+    "scoresAt": "2026-09-02T15:29:31.208Z"
    },
    "s:money-heist-2017": {
     "id": "s:money-heist-2017",
@@ -1465,7 +1524,38 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 71446,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/reEMJA1uzscCbkpeRJeTT2bjqUp.jpg",
+    "overview": "To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 70,
+    "imdb": "tt6468322",
+    "cast": [
+     "Úrsula Corberó",
+     "Itziar Ituño",
+     "Álvaro Morte",
+     "Pedro Alonso",
+     "Miguel Herrán",
+     "Jaime Lorente"
+    ],
+    "director": "Álex Pina",
+    "tagline": "The perfect robbery.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:29:31.316Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "604,616"
+    },
+    "rated": "TV-MA",
+    "awards": "37 wins & 47 nominations total",
+    "scoresAt": "2026-09-02T15:29:31.450Z"
    },
    "s:squid-game-2021": {
     "id": "s:squid-game-2021",
@@ -1473,7 +1563,39 @@
     "year": 2021,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 93405,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+    "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Action & Adventure",
+     "Mystery",
+     "Drama"
+    ],
+    "runtime": null,
+    "imdb": "tt10919420",
+    "cast": [
+     "Lee Jung-jae",
+     "Yim Si-wan",
+     "Wi Ha-jun",
+     "Jo Yu-ri",
+     "Lee Byung-hun",
+     "Park Gyu-young"
+    ],
+    "director": "Hwang Dong-hyuk",
+    "tagline": "The final games begin.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:29:31.456Z",
+    "scores": {
+     "imdb": "7.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "756,973"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 6 Primetime Emmys. 55 wins & 90 nominations total",
+    "scoresAt": "2026-09-02T15:29:31.593Z"
    },
    "s:narcos-2015": {
     "id": "s:narcos-2015",
@@ -1481,7 +1603,38 @@
     "year": 2015,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 63351,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+    "overview": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 49,
+    "imdb": "tt2707408",
+    "cast": [
+     "Pedro Pascal",
+     "Matias Varela",
+     "Damián Alcázar",
+     "Francisco Denis",
+     "Alberto Ammann",
+     "Pêpê Rapazote"
+    ],
+    "director": "Chris Brancato, Doug Miro, Carlo Bernard",
+    "tagline": "There's no business like blow business.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T15:29:31.598Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "522,089"
+    },
+    "rated": "TV-MA",
+    "awards": "Nominated for 3 Primetime Emmys. 8 wins & 22 nominations total",
+    "scoresAt": "2026-09-02T15:29:31.738Z"
    },
    "s:ozark-2017": {
     "id": "s:ozark-2017",
@@ -1489,7 +1642,38 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 69740,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+    "overview": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 60,
+    "imdb": "tt5071412",
+    "cast": [
+     "Jason Bateman",
+     "Laura Linney",
+     "Sofia Hublitz",
+     "Skylar Gaertner",
+     "Julia Garner",
+     "Charlie Tahan"
+    ],
+    "director": "Bill Dubuque, Mark Williams",
+    "tagline": "No one gets out clean.",
+    "seasons": 4,
+    "detailAt": "2026-09-02T15:29:31.743Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "387,946"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 4 Primetime Emmys. 24 wins & 176 nominations total",
+    "scoresAt": "2026-09-02T15:29:31.878Z"
    },
    "s:house-of-cards-2013": {
     "id": "s:house-of-cards-2013",
@@ -1497,7 +1681,37 @@
     "year": 2013,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 1425,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/hKWxWjFwnMvkWQawbhvC0Y7ygQ8.jpg",
+    "overview": "Betrayed by the White House, Congressman Frank Underwood embarks on a ruthless rise to power. Blackmail, seduction and ambition are his weapons.",
+    "tmdbRating": 8,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 51,
+    "imdb": "tt1856010",
+    "cast": [
+     "Robin Wright",
+     "Michael Kelly",
+     "Constance Zimmer",
+     "Patricia Clarkson",
+     "Derek Cecil",
+     "Boris McGiver"
+    ],
+    "director": "Beau Willimon",
+    "tagline": "There are two kinds of pain.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:29:32.008Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "556,939"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 7 Primetime Emmys. 35 wins & 220 nominations total",
+    "scoresAt": "2026-09-02T15:29:32.145Z"
    },
    "s:homeland-2011": {
     "id": "s:homeland-2011",
@@ -1505,7 +1719,39 @@
     "year": 2011,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 1407,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/6GAvS2e6VIRsms9FpVt33PsCoEW.jpg",
+    "overview": "CIA officer Carrie Mathison is tops in her field despite being bipolar, which makes her volatile and unpredictable. With the help of her long-time mentor Saul Berenson, Carrie fearlessly risks everything, including her personal well-being and even sanity, at every turn.",
+    "tmdbRating": 7.6,
+    "genres": [
+     "Drama",
+     "War & Politics",
+     "Crime"
+    ],
+    "runtime": 55,
+    "imdb": "tt1796960",
+    "cast": [
+     "Claire Danes",
+     "Mandy Patinkin",
+     "Maury Sterling",
+     "Numan Acar",
+     "Nimrat Kaur",
+     "Linus Roache"
+    ],
+    "director": "Alex Gansa, Howard Gordon",
+    "tagline": "The nation sees a hero. She sees a threat.",
+    "seasons": 8,
+    "detailAt": "2026-09-02T15:29:32.358Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "376,471"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 8 Primetime Emmys. 64 wins & 185 nominations total",
+    "scoresAt": "2026-09-02T15:29:32.500Z"
    },
    "s:the-americans-2013": {
     "id": "s:the-americans-2013",
@@ -1513,7 +1759,38 @@
     "year": 2013,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 46533,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/w1UBlxEXhbKe8sp0fxFZh7MqTce.jpg",
+    "overview": "Set during the Cold War period in the 1980s, The Americans is the story of Elizabeth and Philip Jennings, two Soviet KGB officers posing as an American married couple in the suburbs of Washington D.C. and their neighbor, Stan Beeman, an FBI Counterintelligence agent.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 44,
+    "imdb": "tt2149175",
+    "cast": [
+     "Keri Russell",
+     "Matthew Rhys",
+     "Holly Taylor",
+     "Keidrich Sellati",
+     "Noah Emmerich",
+     "Costa Ronin"
+    ],
+    "director": "Joe Weisberg",
+    "tagline": "All's fair in love and cold war.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:29:32.720Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "121,271"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 4 Primetime Emmys. 48 wins & 173 nominations total",
+    "scoresAt": "2026-09-02T15:29:32.855Z"
    },
    "s:justified-2010": {
     "id": "s:justified-2010",
@@ -1521,7 +1798,38 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 1436,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/ie1quhMk09lDtvtAyQAHTu09R9Z.jpg",
+    "overview": "A character drama based on the 2001 Elmore Leonard short story \"Fire in the Hole.\" Leonard's tale centers around U.S. Marshal Raylan Givens of Kentucky, a quiet but strong-willed official of the law. The tale covers his high-stakes job, as well as his strained relationships with his ex-wife and father.",
+    "tmdbRating": 8,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 21,
+    "imdb": "tt1489428",
+    "cast": [
+     "Timothy Olyphant",
+     "Walton Goggins",
+     "Nick Searcy",
+     "Jere Burns",
+     "Joelle Carter",
+     "Jacob Pitts"
+    ],
+    "director": "Graham Yost",
+    "tagline": "He's law and order.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:29:33.067Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "129,664"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 2 Primetime Emmys. 14 wins & 86 nominations total",
+    "scoresAt": "2026-09-02T15:29:33.200Z"
    },
    "s:dexter-2006": {
     "id": "s:dexter-2006",
@@ -1529,7 +1837,39 @@
     "year": 2006,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 1405,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/q8dWfc4JwQuv3HayIZeO84jAXED.jpg",
+    "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 60,
+    "imdb": "tt0773262",
+    "cast": [
+     "Michael C. Hall",
+     "Jennifer Carpenter",
+     "Geoff Pierson",
+     "David Zayas",
+     "James Remar",
+     "Aimee Garcia"
+    ],
+    "director": "James Manos Jr.",
+    "tagline": "A serial killer with a heart..... just pray it's not yours.",
+    "seasons": 8,
+    "detailAt": "2026-09-02T15:29:33.412Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "914,526"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 4 Primetime Emmys. 56 wins & 202 nominations total",
+    "scoresAt": "2026-09-02T15:29:33.545Z"
    },
    "s:the-handmaid-s-tale-2017": {
     "id": "s:the-handmaid-s-tale-2017",
@@ -1537,7 +1877,36 @@
     "year": 2017,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:20:06.315Z",
-    "seed": true
+    "tmdb": 69478,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/eGUT7j3n3rn5yGihlCgwUnD70HV.jpg",
+    "overview": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Drama",
+     "Sci-Fi & Fantasy",
+     "Action & Adventure"
+    ],
+    "runtime": 60,
+    "imdb": "tt5834204",
+    "cast": [
+     "Elisabeth Moss",
+     "Yvonne Strahovski",
+     "Samira Wiley"
+    ],
+    "director": "Bruce Miller",
+    "tagline": "The revolution is here.",
+    "seasons": 6,
+    "detailAt": "2026-09-02T15:29:33.756Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "294,353"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 15 Primetime Emmys. 96 wins & 298 nominations total",
+    "scoresAt": "2026-09-02T15:29:33.888Z"
    },
    "s:big-little-lies-2017": {
     "id": "s:big-little-lies-2017",
