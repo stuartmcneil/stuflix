@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:53:23.942Z",
+ "updatedAt": "2026-09-02T16:53:47.598Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4765,7 +4765,7 @@
     "id": "s:sherlock-2010",
     "title": "Sherlock",
     "year": 2010,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 19885,
     "type": "tv",
@@ -4795,7 +4795,16 @@
     },
     "rated": "TV-14",
     "awards": "Won 9 Primetime Emmys. 95 wins & 185 nominations total",
-    "scoresAt": "2026-09-02T15:30:28.173Z"
+    "scoresAt": "2026-09-02T15:30:28.173Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 6,
+     "story": 8,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:53:47.598Z"
    },
    "s:fleabag-2016": {
     "id": "s:fleabag-2016",
@@ -8377,6 +8386,14 @@
     "year": 1993,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:53:23.945Z",
+    "seed": true
+   },
+   "s:prime-suspect-1991": {
+    "id": "s:prime-suspect-1991",
+    "title": "Prime Suspect",
+    "year": 1991,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:53:47.601Z",
     "seed": true
    }
   },
