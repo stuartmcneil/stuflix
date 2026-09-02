@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0e0d0b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Stu Country for Old Men</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230e0d0b'/%3E%3Ctext x='32' y='44' font-size='36' text-anchor='middle'%3E%F0%9F%8E%AC%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0e0d0b; --panel:#181613; --panel2:#201d19; --line:#2c2823;
+  --ink:#f1ebdd; --muted:#a79e8c; --gold:#e5b94a; --gold2:#c99a2e;
+  --red:#c74b3f; --green:#5fa66b; --blue:#5b8fd6;
+  --radius:14px; --shadow:0 10px 30px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--gold)}
+button{font:inherit;color:inherit;cursor:pointer}
+input,select,textarea{font:inherit}
+.hide{display:none!important}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:linear-gradient(180deg,rgba(14,13,11,.98),rgba(14,13,11,.92));backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:env(safe-area-inset-top) 0 0}
+.brand{display:flex;align-items:center;gap:12px;padding:12px 16px 6px;max-width:1200px;margin:0 auto}
+.brand h1{margin:0;font-size:clamp(19px,4.2vw,28px);letter-spacing:.3px;font-family:Georgia,"Times New Roman",serif;font-weight:700}
+.brand h1 span{color:var(--gold)}
+.brand .sub{color:var(--muted);font-size:12px;margin-top:-2px}
+.brand .grow{flex:1}
+.modeswitch{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+.modeswitch button{border:0;background:transparent;border-radius:999px;padding:7px 14px;color:var(--muted);font-weight:600}
+.modeswitch button.on{background:var(--gold);color:#1a1509}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;padding:4px 12px 8px;max-width:1200px;margin:0 auto;scrollbar-width:none}
+nav.tabs::-webkit-scrollbar{display:none}
+nav.tabs button{white-space:nowrap;border:1px solid transparent;background:transparent;color:var(--muted);padding:8px 12px;border-radius:10px;font-weight:600;font-size:14px}
+nav.tabs button.on{color:var(--ink);background:var(--panel);border-color:var(--line)}
+nav.tabs button .n{display:inline-block;margin-left:6px;background:var(--line);color:var(--muted);font-size:11px;padding:1px 6px;border-radius:999px}
+.sync{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
+.sync .dot{width:8px;height:8px;border-radius:50%;background:#666}
+@media (max-width:640px){
+  .brand{flex-wrap:wrap;gap:8px 10px}
+  .brand>div:first-child{flex:1 1 100%}
+  .brand .grow{display:none}
+  .brand .sub{display:none}
+  .brand h1{font-size:22px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .sync{flex:1;font-size:11px}
+  .modeswitch button{padding:6px 11px;font-size:13px}
+}
+.sync.ok .dot{background:var(--green)} .sync.busy .dot{background:var(--gold)} .sync.err .dot{background:var(--red)} .sync.local .dot{background:var(--blue)}
+
+main{max-width:1200px;margin:0 auto;padding:14px 16px 90px}
+h2{font-family:Georgia,serif;font-weight:700;font-size:22px;margin:6px 0 4px}
+.lede{color:var(--muted);margin:0 0 14px;font-size:14px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 14px}
+.toolbar input[type=search],.toolbar input[type=text],.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:9px 12px;border-radius:10px;min-width:0}
+.toolbar input[type=search]{flex:1;min-width:160px}
+.btn{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:9px 13px;font-weight:600;color:var(--ink)}
+.btn:hover{border-color:#4a4338}
+.btn.gold{background:var(--gold);color:#1a1509;border-color:var(--gold2)}
+.btn.red{background:transparent;border-color:var(--red);color:#e88a80}
+.btn.sm{padding:6px 10px;font-size:13px;border-radius:8px}
+.btn:disabled{opacity:.5;cursor:default}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.3px;background:var(--line);color:var(--muted)}
+.pill.gold{background:rgba(229,185,74,.18);color:var(--gold)}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;color:var(--muted);font-size:14px;margin:10px 0}
+.note b{color:var(--ink)}
+
+/* grid of cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+@media (max-width:420px){.grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;position:relative;transition:transform .12s,border-color .12s}
+.card:hover{border-color:#4a4338;transform:translateY(-2px)}
+.poster{aspect-ratio:2/3;width:100%;object-fit:cover;background:#111;display:block;cursor:pointer}
+.poster.ph{display:flex;align-items:center;justify-content:center;text-align:center;padding:14px;font-family:Georgia,serif;font-size:15px;line-height:1.25;color:#e9dcb7;background:linear-gradient(160deg,#2b2620,#15130f)}
+.card .body{padding:9px 10px 10px;display:flex;flex-direction:column;gap:5px;flex:1}
+.card .t{font-weight:700;font-size:14px;line-height:1.2;cursor:pointer}
+.card .m{color:var(--muted);font-size:12px}
+.card .scores{display:flex;gap:6px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+.card .scores span{background:var(--line);padding:1px 6px;border-radius:6px}
+.card .rank{position:absolute;top:8px;left:8px;background:var(--gold);color:#1a1509;font-weight:800;border-radius:8px;padding:2px 8px;font-size:13px;box-shadow:var(--shadow)}
+.card .stars{color:var(--gold);font-size:12px;letter-spacing:-.5px}
+.checks{display:flex;flex-direction:column;gap:4px;margin-top:auto;padding-top:4px;border-top:1px dashed var(--line)}
+.checks label{display:flex;gap:7px;align-items:center;font-size:12.5px;color:var(--muted);cursor:pointer}
+.checks input{width:16px;height:16px;accent-color:var(--gold);margin:0}
+.checks label.danger input{accent-color:var(--red)}
+
+/* top ten */
+.topten{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+@media (max-width:520px){.topten{grid-template-columns:repeat(2,1fr)}}
+.empty{border:1px dashed var(--line);border-radius:var(--radius);padding:30px 16px;text-align:center;color:var(--muted)}
+
+/* modal */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:50;display:flex;align-items:flex-end;justify-content:center;padding:0}
+@media (min-width:700px){.modal-bg{align-items:center;padding:20px}}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:18px 18px 0 0;width:100%;max-width:860px;max-height:94vh;overflow:auto;box-shadow:var(--shadow)}
+@media (min-width:700px){.modal{border-radius:18px}}
+.modal .top{display:flex;gap:16px;padding:16px}
+.modal .top img,.modal .top .ph{width:140px;min-width:140px;border-radius:10px;aspect-ratio:2/3;object-fit:cover}
+.modal .top .ph{display:flex;align-items:center;justify-content:center;text-align:center;padding:10px;font-family:Georgia,serif;color:#e9dcb7;background:linear-gradient(160deg,#2b2620,#15130f)}
+@media (max-width:480px){.modal .top img,.modal .top .ph{width:100px;min-width:100px}}
+.modal h3{margin:0 0 4px;font-family:Georgia,serif;font-size:22px;line-height:1.15}
+.modal .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+.modal .over{font-size:14px;color:#d9d0bd;margin:8px 0}
+.modal .close{position:sticky;top:0;float:right;margin:8px 8px 0 0;background:var(--panel2);border:1px solid var(--line);border-radius:50%;width:34px;height:34px;font-size:18px;line-height:1}
+.section{padding:12px 16px;border-top:1px solid var(--line)}
+.section h4{margin:0 0 8px;font-size:13px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+.scorerow{display:flex;flex-wrap:wrap;gap:8px}
+.scorerow .sc{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:92px}
+.scorerow .sc b{display:block;font-size:17px}
+.scorerow .sc small{color:var(--muted);font-size:11px}
+.links{display:flex;flex-wrap:wrap;gap:6px}
+.links a{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px;text-decoration:none;color:var(--ink)}
+.links a:hover{border-color:var(--gold)}
+.gradeline{display:grid;grid-template-columns:130px 1fr 40px;gap:10px;align-items:center;margin:6px 0}
+@media (max-width:480px){.gradeline{grid-template-columns:1fr;gap:2px}}
+.gradeline .lbl{font-weight:600}
+.gradeline .lbl small{display:block;color:var(--muted);font-weight:400;font-size:11px}
+.starsel{display:flex;gap:2px;flex-wrap:nowrap}
+.starsel button{background:none;border:0;padding:2px;font-size:24px;line-height:1;color:#4a4338;transition:transform .08s}
+.starsel button.on{color:var(--gold)}
+.starsel button:hover{transform:scale(1.15)}
+.gradeline .val{font-weight:800;color:var(--gold);text-align:right}
+textarea{width:100%;background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:10px;min-height:70px;resize:vertical}
+.actions{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px 20px;border-top:1px solid var(--line);position:sticky;bottom:0;background:var(--panel)}
+.overall{font-family:Georgia,serif;font-size:30px;color:var(--gold);font-weight:700}
+
+/* settings */
+.form{display:grid;gap:12px;max-width:640px}
+.form label{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+.form input{background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:10px 12px;border-radius:10px}
+.form .row{display:flex;gap:8px;flex-wrap:wrap}
+fieldset{border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin:0 0 14px}
+legend{padding:0 6px;color:var(--gold);font-weight:700}
+
+/* toast */
+#toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#f1ebdd;color:#1a1509;padding:10px 16px;border-radius:999px;font-weight:600;z-index:99;box-shadow:var(--shadow);opacity:0;transition:opacity .2s;pointer-events:none}
+#toast.show{opacity:1}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--gold);border-radius:50%;animation:sp .8s linear infinite;vertical-align:middle}
+@keyframes sp{to{transform:rotate(360deg)}}
+footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div>
+      <h1>🎬 Stu Country <span>for Old Men</span></h1>
+      <div class="sub" id="subtitle">Stu's films &amp; telly — graded, hoarded, and occasionally thrown out</div>
+    </div>
+    <div class="grow"></div>
+    <div class="sync local" id="sync"><span class="dot"></span><span id="synctext">Local only</span></div>
+    <div class="modeswitch">
+      <button id="mode-films" class="on">🎞 Films</button>
+      <button id="mode-tv">📺 TV</button>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs"></nav>
+</header>
+
+<main id="main"></main>
+<footer>Scores via TMDB &amp; OMDb (IMDb · Rotten Tomatoes · Metacritic). Reviews link out to Letterboxd, The Guardian, The New York Times, Empire and Sight &amp; Sound.</footer>
+<div id="toast"></div>
+<div id="modal-root"></div>
+
+<script>
+/* ============================================================
+   Stu Country for Old Men — personal film & TV grader
+   Single-file app. Data is stored in data.json in the GitHub
+   repo (synced via the GitHub Contents API) with a localStorage
+   cache so it works offline / before a token is set.
+   ============================================================ */
+
+const CATALOGUE_SIZE = 100;
+const CRITERIA = [
+  ['acting','Acting','Performances, casting, chemistry'],
+  ['cinematography','Cinematography','Look, camera, light, editing'],
+  ['story','Story','Script, structure, payoff']
+];
+const TABS = [
+  ['home','Top Ten'],['catalogue','Catalogue'],['watchlist','Want to Watch'],
+  ['latest','Latest'],['watched','Watched'],['removed','Removed'],['settings','Settings']
+];
+
+/* ---------- seed catalogues (used until TMDB tops things up) ---------- */
+const SEED = {
+films:[["The Shawshank Redemption",1994],["The Godfather",1972],["The Godfather Part II",1974],["The Dark Knight",2008],["12 Angry Men",1957],["Schindler's List",1993],["Pulp Fiction",1994],["The Lord of the Rings: The Return of the King",2003],["The Good, the Bad and the Ugly",1966],["Fight Club",1999],["Forrest Gump",1994],["Inception",2010],["The Lord of the Rings: The Fellowship of the Ring",2001],["The Empire Strikes Back",1980],["The Matrix",1999],["Goodfellas",1990],["One Flew Over the Cuckoo's Nest",1975],["Seven Samurai",1954],["Se7en",1995],["The Silence of the Lambs",1991],["City of God",2002],["It's a Wonderful Life",1946],["Life Is Beautiful",1997],["Saving Private Ryan",1998],["Interstellar",2014],["Spirited Away",2001],["The Green Mile",1999],["Parasite",2019],["Léon: The Professional",1994],["The Usual Suspects",1995],["The Pianist",2002],["Back to the Future",1985],["Terminator 2: Judgment Day",1991],["Modern Times",1936],["Psycho",1960],["The Lion King",1994],["Gladiator",2000],["American History X",1998],["The Departed",2006],["Whiplash",2014],["The Prestige",2006],["Grave of the Fireflies",1988],["Casablanca",1942],["Apocalypse Now",1979],["Alien",1979],["Memento",2000],["Raiders of the Lost Ark",1981],["The Great Dictator",1940],["Django Unchained",2012],["Cinema Paradiso",1988],["The Lives of Others",2006],["WALL·E",2008],["Paths of Glory",1957],["The Shining",1980],["Sunset Boulevard",1950],["Spider-Man: Into the Spider-Verse",2018],["Oldboy",2003],["Dr. Strangelove",1964],["Aliens",1986],["Coco",2017],["Once Upon a Time in America",1984],["Das Boot",1981],["Toy Story",1995],["Amadeus",1984],["Inglourious Basterds",2009],["Princess Mononoke",1997],["Good Will Hunting",1997],["Reservoir Dogs",1992],["Star Wars",1977],["2001: A Space Odyssey",1968],["Vertigo",1958],["Singin' in the Rain",1952],["Eternal Sunshine of the Spotless Mind",2004],["Citizen Kane",1941],["Lawrence of Arabia",1962],["Full Metal Jacket",1987],["A Clockwork Orange",1971],["Heat",1995],["The Truman Show",1998],["Up",2009],["Taxi Driver",1976],["Die Hard",1988],["Jurassic Park",1993],["No Country for Old Men",2007],["The Big Lebowski",1998],["Blade Runner",1982],["Trainspotting",1996],["Withnail & I",1987],["The Third Man",1949],["Oppenheimer",2023],["Dune: Part Two",2024],["Everything Everywhere All at Once",2022],["Get Out",2017],["Mad Max: Fury Road",2015],["Fargo",1996],["Hot Fuzz",2007],["Shaun of the Dead",2004],["Kind Hearts and Coronets",1949],["Brief Encounter",1945],["Local Hero",1983],["Paddington 2",2017],["Anatomy of a Fall",2023],["The Zone of Interest",2023],["Past Lives",2023],["Chinatown",1974],["Rear Window",1954],["The Apartment",1960],["Amélie",2001],["Pan's Labyrinth",2006],["There Will Be Blood",2007],["The Social Network",2010],["Arrival",2016],["Her",2013],["Moonlight",2016],["La La Land",2016],["The Grand Budapest Hotel",2014],["Skyfall",2012],["The Wicker Man",1973],["Don't Look Now",1973],["Get Carter",1971]],
+tv:[["Breaking Bad",2008],["The Wire",2002],["The Sopranos",1999],["Chernobyl",2019],["Band of Brothers",2001],["Planet Earth II",2016],["Game of Thrones",2011],["Better Call Saul",2015],["The Office",2001],["Fawlty Towers",1975],["Sherlock",2010],["Fleabag",2016],["Succession",2018],["Mad Men",2007],["The Crown",2016],["Peaky Blinders",2013],["Line of Duty",2012],["Happy Valley",2014],["Black Mirror",2011],["Twin Peaks",1990],["The Twilight Zone",1959],["Seinfeld",1989],["Friends",1994],["The Simpsons",1989],["Arrested Development",2003],["Curb Your Enthusiasm",2000],["Blackadder",1983],["Only Fools and Horses",1981],["The Thick of It",2005],["Yes Minister",1980],["I'm Alan Partridge",1997],["Peep Show",2003],["The IT Crowd",2006],["Gavin & Stacey",2007],["Detectorists",2014],["This Is England '86",2010],["Life on Mars",2006],["Doctor Who",2005],["Broadchurch",2013],["Luther",2010],["Slow Horses",2022],["The Bear",2022],["Severance",2022],["Ted Lasso",2020],["The Last of Us",2023],["Shōgun",2024],["Andor",2022],["The Mandalorian",2019],["Stranger Things",2016],["True Detective",2014],["Fargo",2014],["Mr. Robot",2015],["Westworld",2016],["Lost",2004],["The X-Files",1993],["Battlestar Galactica",2004],["Firefly",2002],["Star Trek: The Next Generation",1987],["Deadwood",2004],["Boardwalk Empire",2010],["The Shield",2002],["Six Feet Under",2001],["Freaks and Geeks",1999],["Parks and Recreation",2009],["30 Rock",2006],["Community",2009],["It's Always Sunny in Philadelphia",2005],["Veep",2012],["Silicon Valley",2014],["Atlanta",2016],["Barry",2018],["BoJack Horseman",2014],["Rick and Morty",2013],["Avatar: The Last Airbender",2005],["Cowboy Bebop",1998],["Dark",2017],["Money Heist",2017],["Squid Game",2021],["Narcos",2015],["Ozark",2017],["House of Cards",2013],["Homeland",2011],["The Americans",2013],["Justified",2010],["Dexter",2006],["The Handmaid's Tale",2017],["Big Little Lies",2017],["Mare of Easttown",2021],["The Queen's Gambit",2020],["The Night Of",2016],["Top Boy",2011],["Baby Reindeer",2024],["Adolescence",2025],["Blue Planet II",2017],["Our Planet",2019],["Taskmaster",2015],["Would I Lie to You?",2007],["Have I Got News for You",1990],["QI",2003],["Spaced",1999],["The Young Ones",1982],["Red Dwarf",1988],["Father Ted",1995],["Inside No. 9",2014],["The Inbetweeners",2008],["Cracker",1993],["Prime Suspect",1991],["House",2004],["ER",1994],["The West Wing",1999],["Frasier",1993],["Cheers",1982],["M*A*S*H",1972],["Columbo",1971],["Downton Abbey",2010],["Wolf Hall",2015],["Bodyguard",2018],["Killing Eve",2018],["Gangs of London",2020],["The Day of the Jackal",2024],["Rivals",2024],["Say Nothing",2024]]
+};
+
+/* ---------- state ---------- */
+const LS_DATA='stuflix.data', LS_CFG='stuflix.cfg';
+let cfg = Object.assign({owner:'stuartmcneil',repo:'stuflix',branch:'main',token:'',tmdb:'',omdb:'',region:'GB'}, JSON.parse(localStorage.getItem(LS_CFG)||'{}'));
+let data = loadLocal();
+let mode = localStorage.getItem('stuflix.mode')||'films';
+let tab = 'home';
+let ui = {q:'', sort:'added', latestCache:{}, sha:null, dirty:false, saving:false, remoteLoaded:false};
+
+function blank(){ return {version:1, updatedAt:new Date().toISOString(), films:{items:{},tmdbPage:1}, tv:{items:{},tmdbPage:1}}; }
+function loadLocal(){ try{ const d=JSON.parse(localStorage.getItem(LS_DATA)); if(d&&d.films&&d.tv) return d; }catch(e){} return blank(); }
+function S(){ return data[mode]; }
+function items(status, m){ const src=(m?data[m]:S()).items; return Object.values(src).filter(i=>i.status===status); }
+function saveCfg(){ localStorage.setItem(LS_CFG, JSON.stringify(cfg)); }
+
+/* ---------- helpers ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const slug=(t,y)=>'s:'+String(t).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'-'+(y||'');
+function toast(msg){ const t=$('#toast'); t.textContent=msg; t.classList.add('show'); clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),2200); }
+function stars(n){ n=Math.round(n||0); return '★'.repeat(n)+'☆'.repeat(10-n); }
+function overall(g){ if(!g) return 0; if(g.overall) return g.overall; const v=CRITERIA.map(c=>g[c[0]]||0).filter(Boolean); return v.length? Math.round((v.reduce((a,b)=>a+b,0)/v.length)*10)/10 : 0; }
+function fmtDate(s){ if(!s) return ''; try{ return new Date(s).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }catch(e){ return s; } }
+function posterHTML(it, cls='poster'){
+  if(it.poster) return `<img class="${cls}" src="${esc(it.poster)}" alt="" loading="lazy">`;
+  return `<div class="${cls} ph">${esc(it.title)}<br><small style="color:#a79e8c">${esc(it.year||'')}</small></div>`;
+}
+function typeLabel(){ return mode==='films'?'film':'series'; }
+
+/* ---------- catalogue management ---------- */
+function ensureSeeded(){
+  ['films','tv'].forEach(m=>{ if(Object.keys(data[m].items).length===0){ topUp(m); } });
+}
+function topUp(m){
+  m=m||mode;
+  const sec=data[m]; const inCat=()=>items('catalogue',m).length;
+  const present=new Set(Object.values(sec.items).map(i=>slug(i.title,i.year)));
+  for(const [t,y] of SEED[m]){
+    if(inCat()>=CATALOGUE_SIZE) break;
+    const id=slug(t,y); if(present.has(id)) continue;
+    sec.items[id]={id,title:t,year:y,status:'catalogue',addedAt:new Date().toISOString(),seed:true};
+    present.add(id);
+  }
+  if(inCat()<CATALOGUE_SIZE && cfg.tmdb) topUpFromTMDB(m);
+}
+async function topUpFromTMDB(m){
+  const sec=data[m]; let guard=0;
+  const type=m==='films'?'movie':'tv';
+  while(items('catalogue',m).length<CATALOGUE_SIZE && guard++<6){
+    const page=sec.tmdbPage||1;
+    let r; try{ r=await tmdb(`/${type}/top_rated`,{page,region:cfg.region}); }catch(e){ break; }
+    if(!r||!r.results||!r.results.length) break;
+    for(const x of r.results){
+      if(items('catalogue',m).length>=CATALOGUE_SIZE) break;
+      const it=fromTMDB(x,type);
+      if(sec.items[it.id] || Object.values(sec.items).some(i=>slug(i.title,i.year)===slug(it.title,it.year))) continue;
+      it.status='catalogue'; it.addedAt=new Date().toISOString(); sec.items[it.id]=it;
+    }
+    sec.tmdbPage=page+1;
+  }
+  markDirty(); render();
+}
+function setStatus(id, status){
+  const it=S().items[id]; if(!it) return;
+  it.status=status; it.movedAt=new Date().toISOString();
+  if(status==='catalogue') it.addedAt=it.movedAt;
+  topUp();
+  markDirty(); render();
+}
+
+/* ---------- TMDB / OMDb ---------- */
+const IMG='https://image.tmdb.org/t/p/w342';
+async function tmdb(path, params={}){
+  if(!cfg.tmdb) throw new Error('No TMDB key');
+  const u=new URL('https://api.themoviedb.org/3'+path);
+  u.searchParams.set('api_key',cfg.tmdb); u.searchParams.set('language','en-GB');
+  Object.entries(params).forEach(([k,v])=>v!=null&&u.searchParams.set(k,v));
+  const r=await fetch(u); if(!r.ok) throw new Error('TMDB '+r.status); return r.json();
+}
+function fromTMDB(x,type){
+  const isTV=type==='tv';
+  return {
+    id:(isTV?'t:':'m:')+x.id, tmdb:x.id, type,
+    title:isTV?(x.name||x.original_name):(x.title||x.original_title),
+    year:((isTV?x.first_air_date:x.release_date)||'').slice(0,4),
+    poster:x.poster_path?IMG+x.poster_path:'',
+    overview:x.overview||'', tmdbRating:x.vote_average?Math.round(x.vote_average*10)/10:null,
+    genres:(x.genre_ids||[]).map(g=>GENRES[g]).filter(Boolean)
+  };
+}
+const GENRES={28:'Action',12:'Adventure',16:'Animation',35:'Comedy',80:'Crime',99:'Documentary',18:'Drama',10751:'Family',14:'Fantasy',36:'History',27:'Horror',10402:'Music',9648:'Mystery',10749:'Romance',878:'Sci-Fi',10770:'TV Movie',53:'Thriller',10752:'War',37:'Western',10759:'Action & Adventure',10762:'Kids',10763:'News',10764:'Reality',10765:'Sci-Fi & Fantasy',10766:'Soap',10767:'Talk',10768:'War & Politics'};
+
+async function resolveSeed(it){ // upgrade a seed entry to a TMDB one, keeping id stable inside the items map
+  if(!cfg.tmdb || it.tmdb) return it;
+  const type=mode==='films'?'movie':'tv';
+  try{
+    const r=await tmdb(`/search/${type}`,{query:it.title, [type==='movie'?'year':'first_air_date_year']:it.year});
+    const x=(r.results||[])[0]; if(!x) return it;
+    const fresh=fromTMDB(x,type);
+    Object.assign(it,{tmdb:fresh.tmdb,type,poster:it.poster||fresh.poster,overview:it.overview||fresh.overview,tmdbRating:fresh.tmdbRating,genres:fresh.genres});
+    delete it.seed; markDirty();
+  }catch(e){}
+  return it;
+}
+async function enrich(it){ // full details + external ids + OMDb scores
+  if(cfg.tmdb && !it.tmdb) await resolveSeed(it);
+  if(cfg.tmdb && it.tmdb && !it.detailAt){
+    const type=it.type||(mode==='films'?'movie':'tv');
+    try{
+      const d=await tmdb(`/${type}/${it.tmdb}`,{append_to_response:'credits,external_ids'});
+      it.overview=d.overview||it.overview; it.poster=d.poster_path?IMG+d.poster_path:it.poster;
+      it.runtime=d.runtime||(d.episode_run_time||[])[0]||null; it.genres=(d.genres||[]).map(g=>g.name);
+      it.imdb=(d.external_ids&&d.external_ids.imdb_id)||d.imdb_id||it.imdb;
+      it.cast=((d.credits&&d.credits.cast)||[]).slice(0,6).map(c=>c.name);
+      const dir=((d.credits&&d.credits.crew)||[]).filter(c=>c.job==='Director').map(c=>c.name);
+      it.director=dir.length?dir.join(', '):(d.created_by||[]).map(c=>c.name).join(', ');
+      it.tagline=d.tagline||''; it.seasons=d.number_of_seasons||null; it.tmdbRating=d.vote_average?Math.round(d.vote_average*10)/10:it.tmdbRating;
+      it.detailAt=new Date().toISOString(); markDirty();
+    }catch(e){}
+  }
+  if(cfg.omdb && !it.scoresAt){
+    try{
+      const u=new URL('https://www.omdbapi.com/'); u.searchParams.set('apikey',cfg.omdb);
+      if(it.imdb) u.searchParams.set('i',it.imdb); else { u.searchParams.set('t',it.title); if(it.year) u.searchParams.set('y',it.year); u.searchParams.set('type',mode==='films'?'movie':'series'); }
+      const r=await (await fetch(u)).json();
+      if(r && r.Response!=='False'){
+        const rt=(r.Ratings||[]).find(x=>x.Source==='Rotten Tomatoes');
+        it.scores={imdb:r.imdbRating&&r.imdbRating!=='N/A'?r.imdbRating:null, rt:rt?rt.Value:null, metacritic:r.Metascore&&r.Metascore!=='N/A'?r.Metascore:null, votes:r.imdbVotes};
+        it.imdb=it.imdb||r.imdbID; it.rated=r.Rated; it.awards=r.Awards&&r.Awards!=='N/A'?r.Awards:''; it.runtime=it.runtime||parseInt(r.Runtime)||null;
+        it.director=it.director||(r.Director!=='N/A'?r.Director:''); it.cast=it.cast&&it.cast.length?it.cast:(r.Actors!=='N/A'?r.Actors.split(', '):[]);
+        it.overview=it.overview||(r.Plot!=='N/A'?r.Plot:''); it.poster=it.poster||(r.Poster!=='N/A'?r.Poster:'');
+        it.scoresAt=new Date().toISOString(); markDirty();
+      }
+    }catch(e){}
+  }
+  return it;
+}
+async function enrichVisible(list){ // gently fill posters for cards on screen
+  if(!cfg.tmdb && !cfg.omdb) return;
+  let n=0;
+  for(const it of list){ if(it.poster) continue; if(n++>=12) break; await enrich(it); }
+  if(n) { markDirty(); render(); }
+}
+
+/* ---------- GitHub sync ---------- */
+function setSync(cls,txt){ const s=$('#sync'); s.className='sync '+cls; $('#synctext').textContent=txt; }
+function ghUrl(){ return `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/data.json?ref=${encodeURIComponent(cfg.branch)}`; }
+function ghHeaders(){ const h={'Accept':'application/vnd.github+json'}; if(cfg.token) h['Authorization']='Bearer '+cfg.token; return h; }
+const b64e=s=>btoa(unescape(encodeURIComponent(s))), b64d=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,''))));
+async function pullRemote(silent){
+  if(!cfg.owner||!cfg.repo) return;
+  try{
+    setSync('busy','Loading…');
+    const r=await fetch(ghUrl(),{headers:ghHeaders(),cache:'no-store'});
+    if(r.status===404){ setSync(cfg.token?'ok':'local', cfg.token?'No data.json yet — will create on first save':'Local only'); return; }
+    if(!r.ok) throw new Error('GitHub '+r.status);
+    const j=await r.json(); ui.sha=j.sha;
+    const remote=JSON.parse(b64d(j.content));
+    if(remote && remote.films && remote.tv){
+      const localNewer = ui.dirty && data.updatedAt && remote.updatedAt && data.updatedAt>remote.updatedAt;
+      if(!localNewer){ data=remote; localStorage.setItem(LS_DATA,JSON.stringify(data)); }
+      ui.remoteLoaded=true;
+    }
+    setSync(cfg.token?'ok':'local', cfg.token?'Synced with GitHub':'Read-only (no token)');
+    ensureSeeded(); render();
+  }catch(e){ setSync('err','GitHub unreachable'); if(!silent) toast('Could not load from GitHub: '+e.message); }
+}
+let saveTimer=null;
+function markDirty(){
+  data.updatedAt=new Date().toISOString(); ui.dirty=true;
+  localStorage.setItem(LS_DATA,JSON.stringify(data));
+  if(cfg.token){ setSync('busy','Unsaved changes…'); clearTimeout(saveTimer); saveTimer=setTimeout(pushRemote,2500); }
+  else setSync('local','Saved on this device only');
+}
+async function pushRemote(retry){
+  if(!cfg.token||ui.saving){ if(ui.saving){ clearTimeout(saveTimer); saveTimer=setTimeout(pushRemote,2000);} return; }
+  ui.saving=true; setSync('busy','Saving to GitHub…');
+  try{
+    const body={message:`Update ${mode} — ${new Date().toLocaleString('en-GB')}`, content:b64e(JSON.stringify(data,null,1)), branch:cfg.branch};
+    if(ui.sha) body.sha=ui.sha;
+    const r=await fetch(ghUrl().split('?')[0],{method:'PUT',headers:Object.assign({'Content-Type':'application/json'},ghHeaders()),body:JSON.stringify(body)});
+    if((r.status===409||r.status===422)&&!retry){ // sha stale: refetch and retry once
+      const g=await fetch(ghUrl(),{headers:ghHeaders(),cache:'no-store'}); if(g.ok){ ui.sha=(await g.json()).sha; }
+      ui.saving=false; return pushRemote(true);
+    }
+    if(!r.ok) throw new Error('GitHub '+r.status);
+    const j=await r.json(); ui.sha=j.content.sha; ui.dirty=false;
+    setSync('ok','Saved to GitHub '+new Date().toLocaleTimeString('en-GB',{hour:'2-digit',minute:'2-digit'}));
+  }catch(e){ setSync('err','Save failed — '+e.message); }
+  ui.saving=false;
+}
+
+/* ---------- rendering ---------- */
+function render(){
+  document.title=(mode==='films'?'Films':'TV')+' · Stu Country for Old Men';
+  $('#mode-films').classList.toggle('on',mode==='films'); $('#mode-tv').classList.toggle('on',mode==='tv');
+  $('#subtitle').textContent = mode==='films' ? "Stu's films — graded, hoarded, and occasionally thrown out" : "Stu's telly — binged, judged, and occasionally binned";
+  const counts={catalogue:items('catalogue').length,watchlist:items('want').length,watched:items('watched').length,removed:items('removed').length};
+  $('#tabs').innerHTML=TABS.map(([k,l])=>`<button data-tab="${k}" class="${tab===k?'on':''}">${l}${counts[k]!=null?`<span class="n">${counts[k]}</span>`:''}</button>`).join('');
+  const m=$('#main');
+  ({home:renderHome,catalogue:renderCatalogue,watchlist:renderWatchlist,latest:renderLatest,watched:renderWatched,removed:renderRemoved,settings:renderSettings})[tab](m);
+}
+function sortList(list){
+  const q=ui.q.trim().toLowerCase();
+  if(q) list=list.filter(i=>(i.title+' '+(i.year||'')+' '+(i.genres||[]).join(' ')).toLowerCase().includes(q));
+  const s=ui.sort;
+  return list.sort((a,b)=> s==='title'?a.title.localeCompare(b.title) : s==='year'?(b.year||0)-(a.year||0) : s==='rating'?(b.tmdbRating||0)-(a.tmdbRating||0) : s==='grade'?overall(b.grade)-overall(a.grade) : (b.addedAt||'').localeCompare(a.addedAt||''));
+}
+function toolbar(opts={}){
+  return `<div class="toolbar">
+    <input type="search" id="q" placeholder="Search ${opts.what||'titles'}…" value="${esc(ui.q)}">
+    <select id="sort"><option value="added"${ui.sort==='added'?' selected':''}>Newest added</option><option value="title"${ui.sort==='title'?' selected':''}>Title A–Z</option><option value="year"${ui.sort==='year'?' selected':''}>Year</option><option value="rating"${ui.sort==='rating'?' selected':''}>TMDB rating</option>${opts.grade?`<option value="grade"${ui.sort==='grade'?' selected':''}>My grade</option>`:''}</select>
+    ${opts.add?`<button class="btn" id="addbtn">＋ Add a ${typeLabel()}</button>`:''}
+  </div>`;
+}
+function card(it, opts={}){
+  const g=it.grade, ov=overall(g);
+  const sc=[]; if(it.scores&&it.scores.imdb) sc.push(`<span>IMDb ${it.scores.imdb}</span>`); if(it.scores&&it.scores.rt) sc.push(`<span>🍅 ${it.scores.rt}</span>`); if(it.scores&&it.scores.metacritic) sc.push(`<span>MC ${it.scores.metacritic}</span>`); if(!sc.length&&it.tmdbRating) sc.push(`<span>TMDB ${it.tmdbRating}</span>`);
+  return `<div class="card" data-id="${esc(it.id)}">
+    ${opts.rank?`<div class="rank">#${opts.rank}</div>`:''}
+    ${posterHTML(it)}
+    <div class="body">
+      <div class="t">${esc(it.title)}</div>
+      <div class="m">${esc(it.year||'')}${it.genres&&it.genres.length?' · '+esc(it.genres.slice(0,2).join(', ')):''}${it.seasons?' · '+it.seasons+' season'+(it.seasons>1?'s':''):''}</div>
+      ${sc.length?`<div class="scores">${sc.join('')}</div>`:''}
+      ${ov?`<div class="stars" title="My grade ${ov}/10">${stars(ov)} <b>${ov}</b></div>`:''}
+      ${opts.checks?`<div class="checks">${opts.checks}</div>`:''}
+    </div></div>`;
+}
+const CK={
+  want:`<label><input type="checkbox" data-act="want"> Want to watch</label>`,
+  remove:`<label class="danger"><input type="checkbox" data-act="removed"> Remove from catalogue</label>`,
+  watched:`<label><input type="checkbox" data-act="grade"> Watched it — grade it</label>`,
+  restore:`<label><input type="checkbox" data-act="catalogue"> Put back in catalogue</label>`,
+  unwatch:`<label class="danger"><input type="checkbox" data-act="want"> Back to Want-to-watch</label>`
+};
+
+function renderHome(m){
+  const graded=items('watched').filter(i=>overall(i.grade)>0).sort((a,b)=>overall(b.grade)-overall(a.grade)||(CRITERIA.reduce((s,c)=>s+(b.grade[c[0]]||0),0)-CRITERIA.reduce((s,c)=>s+(a.grade[c[0]]||0),0))||(b.grade.watchedOn||'').localeCompare(a.grade.watchedOn||'')).slice(0,10);
+  const w=items('want').length, c=items('catalogue').length;
+  m.innerHTML=`<h2>Stu's Top Ten ${mode==='films'?'Films':'TV Shows'}</h2>
+  <p class="lede">Ranked by your own grade out of ten. ${graded.length<10?`Grade ${10-graded.length} more to fill the podium.`:''} You have <b>${w}</b> on the want-to-watch pile and <b>${c}</b> in the catalogue.</p>
+  ${graded.length?`<div class="topten">${graded.map((it,i)=>card(it,{rank:i+1})).join('')}</div>`:`<div class="empty">Nothing graded yet. Tick <b>Want to watch</b> on something in the Catalogue, then when you've seen it tick <b>Watched it</b> and hand out the stars.</div>`}`;
+}
+function renderCatalogue(m){
+  const list=sortList(items('catalogue'));
+  m.innerHTML=`<h2>Viewing Catalogue <span class="pill gold">${items('catalogue').length} / ${CATALOGUE_SIZE}</span></h2>
+  <p class="lede">A hundred ${mode==='films'?'films':'shows'} awaiting judgement. Tick one to move it to the want-to-watch pile, or throw it out — the catalogue tops itself back up${cfg.tmdb?' from TMDB':' from the built-in list (add a TMDB key in Settings for endless supply)'}.</p>
+  ${toolbar({add:true})}
+  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:CK.want+CK.remove})).join('')}</div>`:'<div class="empty">Nothing matches.</div>'}`;
+  enrichVisible(list.slice(0,24));
+}
+function renderWatchlist(m){
+  const list=sortList(items('want'));
+  m.innerHTML=`<h2>Want to Watch <span class="pill">${items('want').length}</span></h2>
+  <p class="lede">The pile. When you've seen one, tick it and grade it; changed your mind, bin it.</p>
+  ${toolbar({add:true})}
+  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:CK.watched+CK.remove})).join('')}</div>`:'<div class="empty">Empty pile. Go and pick something from the Catalogue.</div>'}`;
+  enrichVisible(list.slice(0,24));
+}
+function renderWatched(m){
+  const list=sortList(items('watched'));
+  m.innerHTML=`<h2>Watched <span class="pill">${items('watched').length}</span></h2>
+  <p class="lede">Everything you've sat through and graded. Click a title to edit its stars.</p>
+  ${toolbar({grade:true})}
+  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:`<label><input type="checkbox" data-act="grade"> Edit grade</label>`+CK.unwatch})).join('')}</div>`:'<div class="empty">Nothing watched yet.</div>'}`;
+}
+function renderRemoved(m){
+  const list=sortList(items('removed'));
+  m.innerHTML=`<h2>Removed from Catalogue <span class="pill">${items('removed').length}</span></h2>
+  <p class="lede">The cutting-room floor. Restore anything you regret.</p>
+  ${toolbar()}
+  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:CK.restore})).join('')}</div>`:'<div class="empty">Nothing binned yet. Ruthless as ever.</div>'}`;
+}
+async function renderLatest(m){
+  const isTV=mode==='tv';
+  m.innerHTML=`<h2>Latest ${isTV?'on TV':'Releases'}</h2><p class="lede">${isTV?'Series currently airing, from TMDB.':'Now showing in UK cinemas, plus what\'s coming, from TMDB.'}</p>`;
+  if(!cfg.tmdb){ m.innerHTML+=`<div class="note">Add a free <b>TMDB API key</b> in Settings to see the latest releases here.</div>`; return; }
+  const key=mode+':'+(ui.latestKind||'now');
+  const kinds = isTV ? [['now','On the air'],['top','Trending this week']] : [['now','Now showing'],['upcoming','Coming soon'],['top','Trending this week']];
+  const cur = ui.latestKind||'now';
+  m.innerHTML+=`<div class="toolbar">${kinds.map(([k,l])=>`<button class="btn ${cur===k?'gold':''}" data-kind="${k}">${l}</button>`).join('')}</div><div id="latest"><span class="spinner"></span> Loading…</div>`;
+  let list=ui.latestCache[key];
+  if(!list){
+    try{
+      const kind=ui.latestKind||'now';
+      const path=isTV?(kind==='top'?'/trending/tv/week':'/tv/on_the_air'):(kind==='top'?'/trending/movie/week':kind==='upcoming'?'/movie/upcoming':'/movie/now_playing');
+      const r=await tmdb(path,{region:cfg.region,page:1}); const r2=await tmdb(path,{region:cfg.region,page:2}).catch(()=>({results:[]}));
+      list=[...r.results,...r2.results].map(x=>fromTMDB(x,isTV?'tv':'movie'));
+      const seen=new Set(); list=list.filter(x=>!seen.has(x.id)&&seen.add(x.id));
+      ui.latestCache[key]=list;
+    }catch(e){ $('#latest').innerHTML=`<div class="note">Could not reach TMDB: ${esc(e.message)}</div>`; return; }
+  }
+  const el=$('#latest'); if(!el) return;
+  el.innerHTML=`<div class="grid">${list.map(x=>{ const ex=S().items[x.id]; const it=ex||x;
+    const checks = ex ? `<div class="m">Already in: ${esc({catalogue:'Catalogue',want:'Want to watch',watched:'Watched',removed:'Removed'}[ex.status])}</div>` : `<label><input type="checkbox" data-act="latest-want"> Want to watch</label><label><input type="checkbox" data-act="latest-cat"> Add to catalogue</label>`;
+    return card(it,{checks}); }).join('')}</div>`;
+  el.querySelectorAll('.card').forEach(c=>{ c._latest=list.find(x=>x.id===c.dataset.id); });
+}
+function renderSettings(m){
+  m.innerHTML=`<h2>Settings</h2><p class="lede">Keys are stored in this browser only (never in the repo). Set them once on each device.</p>
+  <fieldset><legend>GitHub sync</legend>
+   <div class="form">
+    <div class="row"><label style="flex:1">Owner<input id="c-owner" value="${esc(cfg.owner)}"></label><label style="flex:1">Repo<input id="c-repo" value="${esc(cfg.repo)}"></label><label style="width:110px">Branch<input id="c-branch" value="${esc(cfg.branch)}"></label></div>
+    <label>Personal access token (fine-grained, Contents: read &amp; write on this repo only)<input id="c-token" type="password" value="${esc(cfg.token)}" placeholder="github_pat_…" autocomplete="off"></label>
+    <div class="row"><button class="btn gold" id="c-save">Save settings</button><button class="btn" id="c-pull">Reload from GitHub</button><button class="btn" id="c-push" ${cfg.token?'':'disabled'}>Push now</button></div>
+   </div></fieldset>
+  <fieldset><legend>Data sources</legend>
+   <div class="form">
+    <label>TMDB API key (v3) — posters, cast, latest releases, catalogue top-ups. Free at themoviedb.org → Settings → API<input id="c-tmdb" value="${esc(cfg.tmdb)}" autocomplete="off"></label>
+    <label>OMDb API key — IMDb, Rotten Tomatoes &amp; Metacritic scores. Free at omdbapi.com/apikey.aspx<input id="c-omdb" value="${esc(cfg.omdb)}" autocomplete="off"></label>
+    <label>Region for cinema listings<input id="c-region" value="${esc(cfg.region)}" style="width:80px"></label>
+    <div class="row"><button class="btn gold" id="c-save2">Save keys</button><button class="btn" id="c-enrich" ${cfg.tmdb||cfg.omdb?'':'disabled'}>Fetch posters &amp; scores for everything</button><button class="btn" id="c-topup" ${cfg.tmdb?'':'disabled'}>Top up catalogue from TMDB</button></div>
+    <div id="enrich-status" class="m"></div>
+   </div></fieldset>
+  <fieldset><legend>Backup</legend>
+   <div class="row"><button class="btn" id="c-export">Export data.json</button><label class="btn" style="display:inline-block">Import data.json <input type="file" id="c-import" accept="application/json" style="display:none"></label><button class="btn red" id="c-reset">Reset everything on this device</button></div>
+  </fieldset>
+  <div class="note">Data: <b>${Object.keys(data.films.items).length}</b> films · <b>${Object.keys(data.tv.items).length}</b> TV titles · last updated ${esc(fmtDate(data.updatedAt))}. Site: <a href="https://${esc(cfg.owner)}.github.io/${esc(cfg.repo)}/">${esc(cfg.owner)}.github.io/${esc(cfg.repo)}</a></div>`;
+}
+
+/* ---------- details / grading modal ---------- */
+let modalItem=null, draft=null;
+function starRow(key,label,hint){
+  const v=draft[key]||0;
+  return `<div class="gradeline"><div class="lbl">${label}<small>${hint}</small></div><div class="starsel" data-key="${key}">${[1,2,3,4,5,6,7,8,9,10].map(n=>`<button class="${n<=v?'on':''}" data-n="${n}" aria-label="${n} stars">★</button>`).join('')}</div><div class="val">${v||'–'}</div></div>`;
+}
+async function openDetails(id, grading){
+  let it=S().items[id]; if(!it) return;
+  modalItem=it; draft=Object.assign({acting:0,cinematography:0,story:0,overall:0,notes:'',watchedOn:new Date().toISOString().slice(0,10)}, it.grade||{});
+  ui.grading=!!grading || it.status==='watched';
+  drawModal(); enrich(it).then(()=>{ if(modalItem===it) drawModal(); });
+}
+function drawModal(){
+  const it=modalItem; const sc=it.scores||{}; const isTV=mode==='tv';
+  const q=encodeURIComponent(it.title+(it.year?' '+it.year:''));
+  const links=[
+    ['IMDb', it.imdb?`https://www.imdb.com/title/${it.imdb}/`:`https://www.imdb.com/find/?q=${q}`],
+    ['Rotten Tomatoes', `https://www.rottentomatoes.com/search?search=${encodeURIComponent(it.title)}`],
+    ['Metacritic', `https://www.metacritic.com/search/${encodeURIComponent(it.title)}/`],
+    ['Letterboxd', isTV?`https://letterboxd.com/search/${encodeURIComponent(it.title)}/`:`https://letterboxd.com/search/films/${encodeURIComponent(it.title)}/`],
+    ['The Guardian', `https://www.theguardian.com/${isTV?'tv-and-radio':'film'}?q=${encodeURIComponent(it.title)}`],
+    ['NY Times', `https://www.nytimes.com/search?query=${encodeURIComponent(it.title+' review')}`],
+    ['Empire', `https://www.empireonline.com/search/?q=${encodeURIComponent(it.title)}`],
+    ['Sight & Sound', `https://www.bfi.org.uk/search?q=${encodeURIComponent(it.title)}`],
+    ['TMDB', it.tmdb?`https://www.themoviedb.org/${it.type||(isTV?'tv':'movie')}/${it.tmdb}`:`https://www.themoviedb.org/search?query=${q}`],
+    ['Trailer', `https://www.youtube.com/results?search_query=${encodeURIComponent(it.title+' '+(it.year||'')+' trailer')}`]
+  ];
+  const scoreBoxes=[
+    sc.imdb?`<div class="sc"><b>${esc(sc.imdb)}<small>/10</small></b><small>IMDb${sc.votes?' · '+esc(sc.votes)+' votes':''}</small></div>`:'',
+    sc.rt?`<div class="sc"><b>${esc(sc.rt)}</b><small>Rotten Tomatoes</small></div>`:'',
+    sc.metacritic?`<div class="sc"><b>${esc(sc.metacritic)}<small>/100</small></b><small>Metacritic</small></div>`:'',
+    it.tmdbRating?`<div class="sc"><b>${it.tmdbRating}<small>/10</small></b><small>TMDB users</small></div>`:''
+  ].join('');
+  const ov=overall(draft);
+  const statusPill={catalogue:'In catalogue',want:'Want to watch',watched:'Watched',removed:'Removed'}[it.status];
+  $('#modal-root').innerHTML=`<div class="modal-bg" id="mbg"><div class="modal">
+    <button class="close" id="mclose" aria-label="Close">×</button>
+    <div class="top">${posterHTML(it,'')}<div style="flex:1;min-width:0">
+      <span class="pill gold">${statusPill}</span>
+      <h3 style="margin-top:6px">${esc(it.title)} <span style="color:var(--muted);font-weight:400">${esc(it.year||'')}</span></h3>
+      <div class="meta">${[it.director?(isTV?'Created by ':'Dir. ')+esc(it.director):'', it.runtime?it.runtime+' min':'', it.seasons?it.seasons+' season'+(it.seasons>1?'s':''):'', (it.genres||[]).join(', '), it.rated?'Rated '+esc(it.rated):''].filter(Boolean).join(' · ')}</div>
+      ${it.tagline?`<div class="meta"><i>${esc(it.tagline)}</i></div>`:''}
+      <div class="over">${esc(it.overview||'')}</div>
+      ${it.cast&&it.cast.length?`<div class="meta">Starring ${esc(it.cast.join(', '))}</div>`:''}
+      ${it.awards?`<div class="meta">🏆 ${esc(it.awards)}</div>`:''}
+      ${!cfg.tmdb&&!cfg.omdb?`<div class="meta" style="margin-top:8px">Add TMDB / OMDb keys in Settings for posters, cast and critic scores.</div>`:''}
+    </div></div>
+    <div class="section"><h4>Critic &amp; audience scores</h4>${scoreBoxes?`<div class="scorerow">${scoreBoxes}</div>`:'<div style="color:var(--muted);font-size:14px">No scores fetched yet'+(cfg.omdb?' — loading…':' (add an OMDb key in Settings)')+'.</div>'}</div>
+    <div class="section"><h4>Reviews &amp; more</h4><div class="links">${links.map(([n,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener">${n} ↗</a>`).join('')}</div></div>
+    <div class="section" id="gradesec">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:10px"><h4 style="margin:0">Stu's verdict</h4><div class="overall">${ov?ov+'<small style="font-size:14px;color:var(--muted)">/10</small>':''}</div></div>
+      ${starRow('overall','Overall','Your headline score out of ten')}
+      ${CRITERIA.map(c=>starRow(c[0],c[1],c[2])).join('')}
+      <div class="gradeline"><div class="lbl">Watched on</div><input type="date" id="g-date" value="${esc(draft.watchedOn||'')}" style="background:var(--panel2);border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 8px;max-width:180px"></div>
+      <textarea id="g-notes" placeholder="Notes — what worked, what didn't, who you'd tell to watch it…">${esc(draft.notes||'')}</textarea>
+    </div>
+    <div class="actions">
+      <button class="btn gold" id="g-save">${it.status==='watched'?'Save grade':'Mark as watched & save grade'}</button>
+      ${it.status!=='want'?`<button class="btn" data-move="want">Want to watch</button>`:''}
+      ${it.status!=='catalogue'?`<button class="btn" data-move="catalogue">Back to catalogue</button>`:''}
+      ${it.status!=='removed'?`<button class="btn red" data-move="removed">Remove</button>`:''}
+    </div>
+  </div></div>`;
+  if(ui.grading){ setTimeout(()=>{ const g=$('#gradesec'); g&&g.scrollIntoView({behavior:'smooth',block:'start'}); },150); }
+}
+function closeModal(){ $('#modal-root').innerHTML=''; modalItem=null; }
+
+/* ---------- add title ---------- */
+function openAdd(){
+  const isTV=mode==='tv';
+  $('#modal-root').innerHTML=`<div class="modal-bg" id="mbg"><div class="modal" style="max-width:560px">
+    <button class="close" id="mclose">×</button>
+    <div class="section" style="border:0"><h3 style="font-family:Georgia,serif">Add a ${isTV?'series':'film'}</h3>
+    <p class="lede">${cfg.tmdb?'Search TMDB and pick a result.':'No TMDB key set — enter the title and year by hand (add a key in Settings to search).'}</p>
+    <div class="toolbar"><input type="search" id="add-q" placeholder="Title…" autofocus><input type="text" id="add-y" placeholder="Year" style="width:90px"><button class="btn gold" id="add-go">${cfg.tmdb?'Search':'Add'}</button></div>
+    <div class="form"><label>Add to <select id="add-to" style="background:var(--panel);border:1px solid var(--line);color:var(--ink);padding:9px 12px;border-radius:10px"><option value="want">Want to watch</option><option value="catalogue">Catalogue</option><option value="watched">Watched (grade next)</option></select></label></div>
+    <div id="add-res" style="margin-top:12px"></div></div></div></div>`;
+  const go=async()=>{
+    const q=$('#add-q').value.trim(), y=$('#add-y').value.trim(), to=$('#add-to').value; if(!q) return;
+    if(!cfg.tmdb){ const id=slug(q,y); S().items[id]={id,title:q,year:y,status:to,addedAt:new Date().toISOString(),seed:true}; markDirty(); closeModal(); if(to==='watched'){ openDetails(id,true); } else { render(); toast('Added '+q); topUp(); } return; }
+    $('#add-res').innerHTML='<span class="spinner"></span>';
+    try{
+      const type=isTV?'tv':'movie'; const r=await tmdb(`/search/${type}`,{query:q,[isTV?'first_air_date_year':'year']:y||null});
+      const res=(r.results||[]).slice(0,8).map(x=>fromTMDB(x,type));
+      $('#add-res').innerHTML=res.length?res.map(x=>`<div class="card" style="flex-direction:row;margin-bottom:8px;align-items:center;gap:10px;padding:6px" data-add="${x.id}"><div style="width:44px;min-width:44px">${x.poster?`<img src="${esc(x.poster)}" style="width:44px;border-radius:6px" alt="">`:''}</div><div style="flex:1"><b>${esc(x.title)}</b> <span class="m">${esc(x.year)}</span><div class="m">${esc((x.overview||'').slice(0,110))}${x.overview&&x.overview.length>110?'…':''}</div></div><button class="btn sm gold">Add</button></div>`).join(''):'<div class="m">No results.</div>';
+      $('#add-res').querySelectorAll('[data-add]').forEach(el=>el.onclick=()=>{ const x=res.find(r=>r.id===el.dataset.add); const ex=S().items[x.id]; if(ex){ ex.status=to; } else { S().items[x.id]=Object.assign(x,{status:to,addedAt:new Date().toISOString()}); } markDirty(); closeModal(); if(to==='watched') openDetails(x.id,true); else { render(); toast('Added '+x.title); } });
+    }catch(e){ $('#add-res').innerHTML=`<div class="note">Search failed: ${esc(e.message)}</div>`; }
+  };
+  $('#add-go').onclick=go; $('#add-q').onkeydown=e=>{ if(e.key==='Enter') go(); };
+}
+
+/* ---------- events ---------- */
+document.addEventListener('click', e=>{
+  const t=e.target;
+  if(t.closest('#mode-films')){ mode='films'; localStorage.setItem('stuflix.mode',mode); ui.q=''; render(); return; }
+  if(t.closest('#mode-tv')){ mode='tv'; localStorage.setItem('stuflix.mode',mode); ui.q=''; render(); return; }
+  const tb=t.closest('[data-tab]'); if(tb){ tab=tb.dataset.tab; ui.q=''; render(); window.scrollTo({top:0}); return; }
+  if(t.closest('#mclose') || t.id==='mbg'){ closeModal(); return; }
+  if(t.closest('#addbtn')){ openAdd(); return; }
+  const kind=t.closest('[data-kind]'); if(kind){ ui.latestKind=kind.dataset.kind; render(); return; }
+  // stars
+  const sb=t.closest('.starsel button'); if(sb && draft){ const k=sb.parentElement.dataset.key; const n=+sb.dataset.n; draft[k]=draft[k]===n?0:n; draft.notes=$('#g-notes').value; draft.watchedOn=$('#g-date').value; ui.grading=false; drawModal(); return; }
+  if(t.closest('#g-save') && modalItem){
+    draft.notes=$('#g-notes').value; draft.watchedOn=$('#g-date').value;
+    if(!overall(draft)){ toast('Give it at least one star first'); return; }
+    const score=overall(draft); modalItem.grade=draft; modalItem.status='watched'; modalItem.movedAt=new Date().toISOString(); markDirty(); topUp(); closeModal(); render(); toast(`Graded ${score}/10`); return;
+  }
+  const mv=t.closest('[data-move]'); if(mv && modalItem){ const id=modalItem.id; closeModal(); setStatus(id,mv.dataset.move); toast({want:'Added to want-to-watch',catalogue:'Back in the catalogue',removed:'Removed'}[mv.dataset.move]); return; }
+  // settings
+  if(t.closest('#c-save')||t.closest('#c-save2')){ cfg.owner=$('#c-owner').value.trim(); cfg.repo=$('#c-repo').value.trim(); cfg.branch=$('#c-branch').value.trim()||'main'; cfg.token=$('#c-token').value.trim(); cfg.tmdb=$('#c-tmdb').value.trim(); cfg.omdb=$('#c-omdb').value.trim(); cfg.region=($('#c-region').value.trim()||'GB').toUpperCase(); saveCfg(); ui.latestCache={}; toast('Settings saved'); render(); if(cfg.token) pullRemote(true); if(cfg.tmdb) ['films','tv'].forEach(m=>{ if(items('catalogue',m).length<CATALOGUE_SIZE) topUpFromTMDB(m); }); return; }
+  if(t.closest('#c-pull')){ pullRemote(); return; }
+  if(t.closest('#c-push')){ clearTimeout(saveTimer); pushRemote(); return; }
+  if(t.closest('#c-topup')){ ['films','tv'].forEach(m=>topUpFromTMDB(m)); toast('Topping up…'); return; }
+  if(t.closest('#c-enrich')){ enrichAll(); return; }
+  if(t.closest('#c-export')){ const a=document.createElement('a'); a.href='data:application/json;charset=utf-8,'+encodeURIComponent(JSON.stringify(data,null,1)); a.download='data.json'; a.click(); return; }
+  if(t.closest('#c-reset')){ if(confirm('Wipe all lists and grades stored on this device? (GitHub copy is untouched until you save again.)')){ data=blank(); localStorage.removeItem(LS_DATA); ensureSeeded(); markDirty(); render(); } return; }
+  // card clicks → details (but not on checkboxes)
+  const card=t.closest('.card[data-id]');
+  if(card && !t.closest('label') && !t.closest('input') && (t.closest('.poster')||t.closest('.t')||t.closest('.rank'))){ if(S().items[card.dataset.id]) openDetails(card.dataset.id); else if(card._latest) addLatest(card._latest,'preview'); }
+});
+document.addEventListener('change', e=>{
+  const t=e.target;
+  if(t.matches('input[type=checkbox][data-act]')){
+    const card=t.closest('.card'); const id=card.dataset.id; const act=t.dataset.act;
+    if(act==='latest-want'||act==='latest-cat'){ addLatest(card._latest, act==='latest-want'?'want':'catalogue'); return; }
+    if(act==='grade'){ t.checked=false; openDetails(id,true); return; }
+    const it=S().items[id]; if(!it) return;
+    const msg={want:'Added to want-to-watch',removed:'Removed from catalogue',catalogue:'Back in the catalogue'}[act];
+    setTimeout(()=>{ setStatus(id,act); toast(`${it.title} — ${msg}`); },120);
+    return;
+  }
+  if(t.id==='sort'){ ui.sort=t.value; render(); }
+  if(t.id==='c-import'){ const f=t.files[0]; if(!f) return; f.text().then(txt=>{ try{ const d=JSON.parse(txt); if(!d.films||!d.tv) throw 0; data=d; markDirty(); render(); toast('Imported'); }catch(e){ toast('Not a valid data.json'); } }); }
+});
+document.addEventListener('input', e=>{ if(e.target.id==='q'){ ui.q=e.target.value; const pos=e.target.selectionStart; render(); const q=$('#q'); if(q){ q.focus(); q.setSelectionRange(pos,pos); } } });
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
+function addLatest(x, to){
+  if(!x) return;
+  if(to==='preview'){ S().items[x.id]=Object.assign({},x,{status:'catalogue',addedAt:new Date().toISOString(),fromLatest:true}); markDirty(); openDetails(x.id); return; }
+  S().items[x.id]=Object.assign({},x,{status:to,addedAt:new Date().toISOString()}); markDirty(); render(); toast(`${x.title} — added to ${to==='want'?'want-to-watch':'catalogue'}`);
+}
+async function enrichAll(){
+  const st=$('#enrich-status'); const total=Object.keys(data.films.items).length+Object.keys(data.tv.items).length; let n=0;
+  const savedMode=mode;
+  for(const m of ['films','tv']){ mode=m; for(const it of Object.values(data[m].items)){ if(st) st.innerHTML=`<span class="spinner"></span> ${++n} / ${total} — ${esc(it.title)}`; await enrich(it); } }
+  mode=savedMode; if(st) st.textContent='Done.'; markDirty(); render();
+}
+
+/* ---------- boot ---------- */
+ensureSeeded(); render();
+pullRemote(true);
+if('serviceWorker' in navigator){ /* no SW: keep it simple & always fresh */ }
+</script>
+</body>
+</html>
