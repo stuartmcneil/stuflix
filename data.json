@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:52:54.326Z",
+ "updatedAt": "2026-09-02T16:53:23.942Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4520,7 +4520,7 @@
     "id": "s:band-of-brothers-2001",
     "title": "Band of Brothers",
     "year": 2001,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 4613,
     "type": "tv",
@@ -4553,7 +4553,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 6 Primetime Emmys. 34 wins & 26 nominations total",
-    "scoresAt": "2026-09-02T15:30:26.020Z"
+    "scoresAt": "2026-09-02T15:30:26.020Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 9,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:53:23.942Z"
    },
    "s:planet-earth-ii-2016": {
     "id": "s:planet-earth-ii-2016",
@@ -8361,6 +8370,14 @@
     "rated": "TV-14",
     "awards": "Won 1 BAFTA Award13 wins & 14 nominations total",
     "scoresAt": "2026-09-02T16:52:53.215Z"
+   },
+   "s:cracker-1993": {
+    "id": "s:cracker-1993",
+    "title": "Cracker",
+    "year": 1993,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:53:23.945Z",
+    "seed": true
    }
   },
   "tmdbPage": 1
