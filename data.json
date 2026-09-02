@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:41:46.040Z",
+ "updatedAt": "2026-09-02T15:42:00.513Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4386,7 +4386,7 @@
     "id": "s:better-call-saul-2015",
     "title": "Better Call Saul",
     "year": 2015,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 60059,
     "type": "tv",
@@ -4418,7 +4418,16 @@
     },
     "rated": "TV-MA",
     "awards": "Nominated for 53 Primetime Emmys. 66 wins & 317 nominations total",
-    "scoresAt": "2026-09-02T15:30:27.108Z"
+    "scoresAt": "2026-09-02T15:30:27.108Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 8,
+     "story": 9,
+     "overall": 10,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:42:00.513Z"
    },
    "s:the-office-2001": {
     "id": "s:the-office-2001",
@@ -7973,6 +7982,14 @@
     "year": 1995,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:41:46.043Z",
+    "seed": true
+   },
+   "s:inside-no-9-2014": {
+    "id": "s:inside-no-9-2014",
+    "title": "Inside No. 9",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:42:00.516Z",
     "seed": true
    }
   },
