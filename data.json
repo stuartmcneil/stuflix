@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:42:15.935Z",
+ "updatedAt": "2026-09-02T15:45:39.197Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -164,7 +164,7 @@
     "id": "s:12-angry-men-1957",
     "title": "12 Angry Men",
     "year": 1957,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 389,
     "type": "movie",
@@ -196,7 +196,16 @@
     },
     "rated": "Approved",
     "awards": "Nominated for 3 Oscars. 16 wins & 12 nominations total",
-    "scoresAt": "2026-09-02T15:29:48.814Z"
+    "scoresAt": "2026-09-02T15:29:48.814Z",
+    "grade": {
+     "acting": 10,
+     "cinematography": 8,
+     "story": 7,
+     "overall": 9,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:45:39.197Z"
    },
    "s:schindler-s-list-1993": {
     "id": "s:schindler-s-list-1993",
@@ -4090,6 +4099,14 @@
     "rated": "PG-13",
     "awards": "Won 2 Oscars. 71 wins & 186 nominations total",
     "scoresAt": "2026-09-02T15:30:24.194Z"
+   },
+   "s:past-lives-2023": {
+    "id": "s:past-lives-2023",
+    "title": "Past Lives",
+    "year": 2023,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:45:39.200Z",
+    "seed": true
    }
   },
   "tmdbPage": 1
