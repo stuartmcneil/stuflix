@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:58:23.986Z",
+ "updatedAt": "2026-09-02T16:58:37.403Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4810,7 +4810,7 @@
     "id": "s:fleabag-2016",
     "title": "Fleabag",
     "year": 2016,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 67070,
     "type": "tv",
@@ -4840,7 +4840,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 6 Primetime Emmys. 70 wins & 71 nominations total",
-    "scoresAt": "2026-09-02T15:30:28.536Z"
+    "scoresAt": "2026-09-02T15:30:28.536Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 5,
+     "story": 8,
+     "overall": 9,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T16:58:37.403Z"
    },
    "s:succession-2018": {
     "id": "s:succession-2018",
@@ -8462,6 +8471,14 @@
     "year": 1993,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:23.990Z",
+    "seed": true
+   },
+   "s:cheers-1982": {
+    "id": "s:cheers-1982",
+    "title": "Cheers",
+    "year": 1982,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T16:58:37.405Z",
     "seed": true
    }
   },
