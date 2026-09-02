@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:47:05.899Z",
+ "updatedAt": "2026-09-02T15:47:20.593Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -287,7 +287,7 @@
     "id": "s:pulp-fiction-1994",
     "title": "Pulp Fiction",
     "year": 1994,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 680,
     "type": "movie",
@@ -321,7 +321,16 @@
     },
     "rated": "R",
     "awards": "Won 1 Oscar. 69 wins & 72 nominations total",
-    "scoresAt": "2026-09-02T15:29:49.515Z"
+    "scoresAt": "2026-09-02T15:29:49.515Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 7,
+     "story": 7,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:47:20.593Z"
    },
    "s:the-lord-of-the-rings-the-return-of-the-king-2003": {
     "id": "s:the-lord-of-the-rings-the-return-of-the-king-2003",
@@ -4174,6 +4183,14 @@
     "year": 2001,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:05.902Z",
+    "seed": true
+   },
+   "s:pan-s-labyrinth-2006": {
+    "id": "s:pan-s-labyrinth-2006",
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:47:20.596Z",
     "seed": true
    }
   },
