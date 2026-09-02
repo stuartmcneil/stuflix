@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:47:50.052Z",
+ "updatedAt": "2026-09-02T15:48:04.538Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -471,7 +471,7 @@
     "id": "s:forrest-gump-1994",
     "title": "Forrest Gump",
     "year": 1994,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 13,
     "type": "movie",
@@ -505,7 +505,16 @@
     },
     "rated": "PG-13",
     "awards": "Won 6 Oscars. 51 wins & 74 nominations total",
-    "scoresAt": "2026-09-02T15:29:50.925Z"
+    "scoresAt": "2026-09-02T15:29:50.925Z",
+    "grade": {
+     "acting": 5,
+     "cinematography": 7,
+     "story": 10,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:48:04.538Z"
    },
    "s:inception-2010": {
     "id": "s:inception-2010",
@@ -4225,6 +4234,14 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:50.054Z",
+    "seed": true
+   },
+   "s:arrival-2016": {
+    "id": "s:arrival-2016",
+    "title": "Arrival",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:48:04.541Z",
     "seed": true
    }
   },
