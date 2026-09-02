@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:46:49.105Z",
+ "updatedAt": "2026-09-02T15:47:05.899Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -238,7 +238,7 @@
     "id": "s:schindler-s-list-1993",
     "title": "Schindler's List",
     "year": 1993,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 424,
     "type": "movie",
@@ -272,7 +272,16 @@
     },
     "rated": "R",
     "awards": "Won 7 Oscars. 91 wins & 49 nominations total",
-    "scoresAt": "2026-09-02T15:29:49.159Z"
+    "scoresAt": "2026-09-02T15:29:49.159Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 9,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:47:05.899Z"
    },
    "s:pulp-fiction-1994": {
     "id": "s:pulp-fiction-1994",
@@ -4157,6 +4166,14 @@
     "year": 1960,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:46:49.107Z",
+    "seed": true
+   },
+   "s:am-lie-2001": {
+    "id": "s:am-lie-2001",
+    "title": "Amélie",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:47:05.902Z",
     "seed": true
    }
   },
