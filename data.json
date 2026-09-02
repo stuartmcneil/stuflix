@@ -1,6 +1,1614 @@
 {
  "version": 1,
  "updatedAt": "2026-09-02T12:00:00.000Z",
- "films": { "items": {}, "tmdbPage": 1 },
- "tv": { "items": {}, "tmdbPage": 1 }
+ "films": {
+  "items": {
+   "s:the-shawshank-redemption-1994": {
+    "id": "s:the-shawshank-redemption-1994",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-godfather-1972": {
+    "id": "s:the-godfather-1972",
+    "title": "The Godfather",
+    "year": 1972,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-godfather-part-ii-1974": {
+    "id": "s:the-godfather-part-ii-1974",
+    "title": "The Godfather Part II",
+    "year": 1974,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-dark-knight-2008": {
+    "id": "s:the-dark-knight-2008",
+    "title": "The Dark Knight",
+    "year": 2008,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:12-angry-men-1957": {
+    "id": "s:12-angry-men-1957",
+    "title": "12 Angry Men",
+    "year": 1957,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:schindler-s-list-1993": {
+    "id": "s:schindler-s-list-1993",
+    "title": "Schindler's List",
+    "year": 1993,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:pulp-fiction-1994": {
+    "id": "s:pulp-fiction-1994",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-lord-of-the-rings-the-return-of-the-king-2003": {
+    "id": "s:the-lord-of-the-rings-the-return-of-the-king-2003",
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-good-the-bad-and-the-ugly-1966": {
+    "id": "s:the-good-the-bad-and-the-ugly-1966",
+    "title": "The Good, the Bad and the Ugly",
+    "year": 1966,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:fight-club-1999": {
+    "id": "s:fight-club-1999",
+    "title": "Fight Club",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:forrest-gump-1994": {
+    "id": "s:forrest-gump-1994",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:inception-2010": {
+    "id": "s:inception-2010",
+    "title": "Inception",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-lord-of-the-rings-the-fellowship-of-the-ring-2001": {
+    "id": "s:the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-empire-strikes-back-1980": {
+    "id": "s:the-empire-strikes-back-1980",
+    "title": "The Empire Strikes Back",
+    "year": 1980,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-matrix-1999": {
+    "id": "s:the-matrix-1999",
+    "title": "The Matrix",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:goodfellas-1990": {
+    "id": "s:goodfellas-1990",
+    "title": "Goodfellas",
+    "year": 1990,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:one-flew-over-the-cuckoo-s-nest-1975": {
+    "id": "s:one-flew-over-the-cuckoo-s-nest-1975",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1975,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:seven-samurai-1954": {
+    "id": "s:seven-samurai-1954",
+    "title": "Seven Samurai",
+    "year": 1954,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:se7en-1995": {
+    "id": "s:se7en-1995",
+    "title": "Se7en",
+    "year": 1995,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-silence-of-the-lambs-1991": {
+    "id": "s:the-silence-of-the-lambs-1991",
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:city-of-god-2002": {
+    "id": "s:city-of-god-2002",
+    "title": "City of God",
+    "year": 2002,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:it-s-a-wonderful-life-1946": {
+    "id": "s:it-s-a-wonderful-life-1946",
+    "title": "It's a Wonderful Life",
+    "year": 1946,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:life-is-beautiful-1997": {
+    "id": "s:life-is-beautiful-1997",
+    "title": "Life Is Beautiful",
+    "year": 1997,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:saving-private-ryan-1998": {
+    "id": "s:saving-private-ryan-1998",
+    "title": "Saving Private Ryan",
+    "year": 1998,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:interstellar-2014": {
+    "id": "s:interstellar-2014",
+    "title": "Interstellar",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:spirited-away-2001": {
+    "id": "s:spirited-away-2001",
+    "title": "Spirited Away",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-green-mile-1999": {
+    "id": "s:the-green-mile-1999",
+    "title": "The Green Mile",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:parasite-2019": {
+    "id": "s:parasite-2019",
+    "title": "Parasite",
+    "year": 2019,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:l-on-the-professional-1994": {
+    "id": "s:l-on-the-professional-1994",
+    "title": "Léon: The Professional",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-usual-suspects-1995": {
+    "id": "s:the-usual-suspects-1995",
+    "title": "The Usual Suspects",
+    "year": 1995,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-pianist-2002": {
+    "id": "s:the-pianist-2002",
+    "title": "The Pianist",
+    "year": 2002,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:back-to-the-future-1985": {
+    "id": "s:back-to-the-future-1985",
+    "title": "Back to the Future",
+    "year": 1985,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:terminator-2-judgment-day-1991": {
+    "id": "s:terminator-2-judgment-day-1991",
+    "title": "Terminator 2: Judgment Day",
+    "year": 1991,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:modern-times-1936": {
+    "id": "s:modern-times-1936",
+    "title": "Modern Times",
+    "year": 1936,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:psycho-1960": {
+    "id": "s:psycho-1960",
+    "title": "Psycho",
+    "year": 1960,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-lion-king-1994": {
+    "id": "s:the-lion-king-1994",
+    "title": "The Lion King",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:gladiator-2000": {
+    "id": "s:gladiator-2000",
+    "title": "Gladiator",
+    "year": 2000,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:american-history-x-1998": {
+    "id": "s:american-history-x-1998",
+    "title": "American History X",
+    "year": 1998,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-departed-2006": {
+    "id": "s:the-departed-2006",
+    "title": "The Departed",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:whiplash-2014": {
+    "id": "s:whiplash-2014",
+    "title": "Whiplash",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-prestige-2006": {
+    "id": "s:the-prestige-2006",
+    "title": "The Prestige",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:grave-of-the-fireflies-1988": {
+    "id": "s:grave-of-the-fireflies-1988",
+    "title": "Grave of the Fireflies",
+    "year": 1988,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:casablanca-1942": {
+    "id": "s:casablanca-1942",
+    "title": "Casablanca",
+    "year": 1942,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:apocalypse-now-1979": {
+    "id": "s:apocalypse-now-1979",
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:alien-1979": {
+    "id": "s:alien-1979",
+    "title": "Alien",
+    "year": 1979,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:memento-2000": {
+    "id": "s:memento-2000",
+    "title": "Memento",
+    "year": 2000,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:raiders-of-the-lost-ark-1981": {
+    "id": "s:raiders-of-the-lost-ark-1981",
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-great-dictator-1940": {
+    "id": "s:the-great-dictator-1940",
+    "title": "The Great Dictator",
+    "year": 1940,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:django-unchained-2012": {
+    "id": "s:django-unchained-2012",
+    "title": "Django Unchained",
+    "year": 2012,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:cinema-paradiso-1988": {
+    "id": "s:cinema-paradiso-1988",
+    "title": "Cinema Paradiso",
+    "year": 1988,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-lives-of-others-2006": {
+    "id": "s:the-lives-of-others-2006",
+    "title": "The Lives of Others",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:wall-e-2008": {
+    "id": "s:wall-e-2008",
+    "title": "WALL·E",
+    "year": 2008,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:paths-of-glory-1957": {
+    "id": "s:paths-of-glory-1957",
+    "title": "Paths of Glory",
+    "year": 1957,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-shining-1980": {
+    "id": "s:the-shining-1980",
+    "title": "The Shining",
+    "year": 1980,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:sunset-boulevard-1950": {
+    "id": "s:sunset-boulevard-1950",
+    "title": "Sunset Boulevard",
+    "year": 1950,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:spider-man-into-the-spider-verse-2018": {
+    "id": "s:spider-man-into-the-spider-verse-2018",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:oldboy-2003": {
+    "id": "s:oldboy-2003",
+    "title": "Oldboy",
+    "year": 2003,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:dr-strangelove-1964": {
+    "id": "s:dr-strangelove-1964",
+    "title": "Dr. Strangelove",
+    "year": 1964,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:aliens-1986": {
+    "id": "s:aliens-1986",
+    "title": "Aliens",
+    "year": 1986,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:coco-2017": {
+    "id": "s:coco-2017",
+    "title": "Coco",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:once-upon-a-time-in-america-1984": {
+    "id": "s:once-upon-a-time-in-america-1984",
+    "title": "Once Upon a Time in America",
+    "year": 1984,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:das-boot-1981": {
+    "id": "s:das-boot-1981",
+    "title": "Das Boot",
+    "year": 1981,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:toy-story-1995": {
+    "id": "s:toy-story-1995",
+    "title": "Toy Story",
+    "year": 1995,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:amadeus-1984": {
+    "id": "s:amadeus-1984",
+    "title": "Amadeus",
+    "year": 1984,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:inglourious-basterds-2009": {
+    "id": "s:inglourious-basterds-2009",
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:princess-mononoke-1997": {
+    "id": "s:princess-mononoke-1997",
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:good-will-hunting-1997": {
+    "id": "s:good-will-hunting-1997",
+    "title": "Good Will Hunting",
+    "year": 1997,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:reservoir-dogs-1992": {
+    "id": "s:reservoir-dogs-1992",
+    "title": "Reservoir Dogs",
+    "year": 1992,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:star-wars-1977": {
+    "id": "s:star-wars-1977",
+    "title": "Star Wars",
+    "year": 1977,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:2001-a-space-odyssey-1968": {
+    "id": "s:2001-a-space-odyssey-1968",
+    "title": "2001: A Space Odyssey",
+    "year": 1968,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:vertigo-1958": {
+    "id": "s:vertigo-1958",
+    "title": "Vertigo",
+    "year": 1958,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:singin-in-the-rain-1952": {
+    "id": "s:singin-in-the-rain-1952",
+    "title": "Singin' in the Rain",
+    "year": 1952,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:eternal-sunshine-of-the-spotless-mind-2004": {
+    "id": "s:eternal-sunshine-of-the-spotless-mind-2004",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:citizen-kane-1941": {
+    "id": "s:citizen-kane-1941",
+    "title": "Citizen Kane",
+    "year": 1941,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:lawrence-of-arabia-1962": {
+    "id": "s:lawrence-of-arabia-1962",
+    "title": "Lawrence of Arabia",
+    "year": 1962,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:full-metal-jacket-1987": {
+    "id": "s:full-metal-jacket-1987",
+    "title": "Full Metal Jacket",
+    "year": 1987,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:a-clockwork-orange-1971": {
+    "id": "s:a-clockwork-orange-1971",
+    "title": "A Clockwork Orange",
+    "year": 1971,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:heat-1995": {
+    "id": "s:heat-1995",
+    "title": "Heat",
+    "year": 1995,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-truman-show-1998": {
+    "id": "s:the-truman-show-1998",
+    "title": "The Truman Show",
+    "year": 1998,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:up-2009": {
+    "id": "s:up-2009",
+    "title": "Up",
+    "year": 2009,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:taxi-driver-1976": {
+    "id": "s:taxi-driver-1976",
+    "title": "Taxi Driver",
+    "year": 1976,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:die-hard-1988": {
+    "id": "s:die-hard-1988",
+    "title": "Die Hard",
+    "year": 1988,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:jurassic-park-1993": {
+    "id": "s:jurassic-park-1993",
+    "title": "Jurassic Park",
+    "year": 1993,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:no-country-for-old-men-2007": {
+    "id": "s:no-country-for-old-men-2007",
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-big-lebowski-1998": {
+    "id": "s:the-big-lebowski-1998",
+    "title": "The Big Lebowski",
+    "year": 1998,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:blade-runner-1982": {
+    "id": "s:blade-runner-1982",
+    "title": "Blade Runner",
+    "year": 1982,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:trainspotting-1996": {
+    "id": "s:trainspotting-1996",
+    "title": "Trainspotting",
+    "year": 1996,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:withnail-i-1987": {
+    "id": "s:withnail-i-1987",
+    "title": "Withnail & I",
+    "year": 1987,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.313Z",
+    "seed": true
+   },
+   "s:the-third-man-1949": {
+    "id": "s:the-third-man-1949",
+    "title": "The Third Man",
+    "year": 1949,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:oppenheimer-2023": {
+    "id": "s:oppenheimer-2023",
+    "title": "Oppenheimer",
+    "year": 2023,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:dune-part-two-2024": {
+    "id": "s:dune-part-two-2024",
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:everything-everywhere-all-at-once-2022": {
+    "id": "s:everything-everywhere-all-at-once-2022",
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:get-out-2017": {
+    "id": "s:get-out-2017",
+    "title": "Get Out",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:mad-max-fury-road-2015": {
+    "id": "s:mad-max-fury-road-2015",
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:fargo-1996": {
+    "id": "s:fargo-1996",
+    "title": "Fargo",
+    "year": 1996,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:hot-fuzz-2007": {
+    "id": "s:hot-fuzz-2007",
+    "title": "Hot Fuzz",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:shaun-of-the-dead-2004": {
+    "id": "s:shaun-of-the-dead-2004",
+    "title": "Shaun of the Dead",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:kind-hearts-and-coronets-1949": {
+    "id": "s:kind-hearts-and-coronets-1949",
+    "title": "Kind Hearts and Coronets",
+    "year": 1949,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:brief-encounter-1945": {
+    "id": "s:brief-encounter-1945",
+    "title": "Brief Encounter",
+    "year": 1945,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:local-hero-1983": {
+    "id": "s:local-hero-1983",
+    "title": "Local Hero",
+    "year": 1983,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   }
+  },
+  "tmdbPage": 1
+ },
+ "tv": {
+  "items": {
+   "s:breaking-bad-2008": {
+    "id": "s:breaking-bad-2008",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-wire-2002": {
+    "id": "s:the-wire-2002",
+    "title": "The Wire",
+    "year": 2002,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-sopranos-1999": {
+    "id": "s:the-sopranos-1999",
+    "title": "The Sopranos",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:chernobyl-2019": {
+    "id": "s:chernobyl-2019",
+    "title": "Chernobyl",
+    "year": 2019,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:band-of-brothers-2001": {
+    "id": "s:band-of-brothers-2001",
+    "title": "Band of Brothers",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:planet-earth-ii-2016": {
+    "id": "s:planet-earth-ii-2016",
+    "title": "Planet Earth II",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:game-of-thrones-2011": {
+    "id": "s:game-of-thrones-2011",
+    "title": "Game of Thrones",
+    "year": 2011,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:better-call-saul-2015": {
+    "id": "s:better-call-saul-2015",
+    "title": "Better Call Saul",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-office-2001": {
+    "id": "s:the-office-2001",
+    "title": "The Office",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:fawlty-towers-1975": {
+    "id": "s:fawlty-towers-1975",
+    "title": "Fawlty Towers",
+    "year": 1975,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:sherlock-2010": {
+    "id": "s:sherlock-2010",
+    "title": "Sherlock",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:fleabag-2016": {
+    "id": "s:fleabag-2016",
+    "title": "Fleabag",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:succession-2018": {
+    "id": "s:succession-2018",
+    "title": "Succession",
+    "year": 2018,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:mad-men-2007": {
+    "id": "s:mad-men-2007",
+    "title": "Mad Men",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-crown-2016": {
+    "id": "s:the-crown-2016",
+    "title": "The Crown",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:peaky-blinders-2013": {
+    "id": "s:peaky-blinders-2013",
+    "title": "Peaky Blinders",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:line-of-duty-2012": {
+    "id": "s:line-of-duty-2012",
+    "title": "Line of Duty",
+    "year": 2012,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:happy-valley-2014": {
+    "id": "s:happy-valley-2014",
+    "title": "Happy Valley",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:black-mirror-2011": {
+    "id": "s:black-mirror-2011",
+    "title": "Black Mirror",
+    "year": 2011,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:twin-peaks-1990": {
+    "id": "s:twin-peaks-1990",
+    "title": "Twin Peaks",
+    "year": 1990,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-twilight-zone-1959": {
+    "id": "s:the-twilight-zone-1959",
+    "title": "The Twilight Zone",
+    "year": 1959,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:seinfeld-1989": {
+    "id": "s:seinfeld-1989",
+    "title": "Seinfeld",
+    "year": 1989,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:friends-1994": {
+    "id": "s:friends-1994",
+    "title": "Friends",
+    "year": 1994,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-simpsons-1989": {
+    "id": "s:the-simpsons-1989",
+    "title": "The Simpsons",
+    "year": 1989,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:arrested-development-2003": {
+    "id": "s:arrested-development-2003",
+    "title": "Arrested Development",
+    "year": 2003,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:curb-your-enthusiasm-2000": {
+    "id": "s:curb-your-enthusiasm-2000",
+    "title": "Curb Your Enthusiasm",
+    "year": 2000,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:blackadder-1983": {
+    "id": "s:blackadder-1983",
+    "title": "Blackadder",
+    "year": 1983,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:only-fools-and-horses-1981": {
+    "id": "s:only-fools-and-horses-1981",
+    "title": "Only Fools and Horses",
+    "year": 1981,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-thick-of-it-2005": {
+    "id": "s:the-thick-of-it-2005",
+    "title": "The Thick of It",
+    "year": 2005,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:yes-minister-1980": {
+    "id": "s:yes-minister-1980",
+    "title": "Yes Minister",
+    "year": 1980,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:i-m-alan-partridge-1997": {
+    "id": "s:i-m-alan-partridge-1997",
+    "title": "I'm Alan Partridge",
+    "year": 1997,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:peep-show-2003": {
+    "id": "s:peep-show-2003",
+    "title": "Peep Show",
+    "year": 2003,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-it-crowd-2006": {
+    "id": "s:the-it-crowd-2006",
+    "title": "The IT Crowd",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:gavin-stacey-2007": {
+    "id": "s:gavin-stacey-2007",
+    "title": "Gavin & Stacey",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:detectorists-2014": {
+    "id": "s:detectorists-2014",
+    "title": "Detectorists",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:this-is-england-86-2010": {
+    "id": "s:this-is-england-86-2010",
+    "title": "This Is England '86",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:life-on-mars-2006": {
+    "id": "s:life-on-mars-2006",
+    "title": "Life on Mars",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:doctor-who-2005": {
+    "id": "s:doctor-who-2005",
+    "title": "Doctor Who",
+    "year": 2005,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:broadchurch-2013": {
+    "id": "s:broadchurch-2013",
+    "title": "Broadchurch",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:luther-2010": {
+    "id": "s:luther-2010",
+    "title": "Luther",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:slow-horses-2022": {
+    "id": "s:slow-horses-2022",
+    "title": "Slow Horses",
+    "year": 2022,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-bear-2022": {
+    "id": "s:the-bear-2022",
+    "title": "The Bear",
+    "year": 2022,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:severance-2022": {
+    "id": "s:severance-2022",
+    "title": "Severance",
+    "year": 2022,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:ted-lasso-2020": {
+    "id": "s:ted-lasso-2020",
+    "title": "Ted Lasso",
+    "year": 2020,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-last-of-us-2023": {
+    "id": "s:the-last-of-us-2023",
+    "title": "The Last of Us",
+    "year": 2023,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:sh-gun-2024": {
+    "id": "s:sh-gun-2024",
+    "title": "Shōgun",
+    "year": 2024,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:andor-2022": {
+    "id": "s:andor-2022",
+    "title": "Andor",
+    "year": 2022,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-mandalorian-2019": {
+    "id": "s:the-mandalorian-2019",
+    "title": "The Mandalorian",
+    "year": 2019,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:stranger-things-2016": {
+    "id": "s:stranger-things-2016",
+    "title": "Stranger Things",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:true-detective-2014": {
+    "id": "s:true-detective-2014",
+    "title": "True Detective",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:fargo-2014": {
+    "id": "s:fargo-2014",
+    "title": "Fargo",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:mr-robot-2015": {
+    "id": "s:mr-robot-2015",
+    "title": "Mr. Robot",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:westworld-2016": {
+    "id": "s:westworld-2016",
+    "title": "Westworld",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:lost-2004": {
+    "id": "s:lost-2004",
+    "title": "Lost",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-x-files-1993": {
+    "id": "s:the-x-files-1993",
+    "title": "The X-Files",
+    "year": 1993,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:battlestar-galactica-2004": {
+    "id": "s:battlestar-galactica-2004",
+    "title": "Battlestar Galactica",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:firefly-2002": {
+    "id": "s:firefly-2002",
+    "title": "Firefly",
+    "year": 2002,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:star-trek-the-next-generation-1987": {
+    "id": "s:star-trek-the-next-generation-1987",
+    "title": "Star Trek: The Next Generation",
+    "year": 1987,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:deadwood-2004": {
+    "id": "s:deadwood-2004",
+    "title": "Deadwood",
+    "year": 2004,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:boardwalk-empire-2010": {
+    "id": "s:boardwalk-empire-2010",
+    "title": "Boardwalk Empire",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:the-shield-2002": {
+    "id": "s:the-shield-2002",
+    "title": "The Shield",
+    "year": 2002,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:six-feet-under-2001": {
+    "id": "s:six-feet-under-2001",
+    "title": "Six Feet Under",
+    "year": 2001,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:freaks-and-geeks-1999": {
+    "id": "s:freaks-and-geeks-1999",
+    "title": "Freaks and Geeks",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:parks-and-recreation-2009": {
+    "id": "s:parks-and-recreation-2009",
+    "title": "Parks and Recreation",
+    "year": 2009,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:30-rock-2006": {
+    "id": "s:30-rock-2006",
+    "title": "30 Rock",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:community-2009": {
+    "id": "s:community-2009",
+    "title": "Community",
+    "year": 2009,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:it-s-always-sunny-in-philadelphia-2005": {
+    "id": "s:it-s-always-sunny-in-philadelphia-2005",
+    "title": "It's Always Sunny in Philadelphia",
+    "year": 2005,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:veep-2012": {
+    "id": "s:veep-2012",
+    "title": "Veep",
+    "year": 2012,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:silicon-valley-2014": {
+    "id": "s:silicon-valley-2014",
+    "title": "Silicon Valley",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:atlanta-2016": {
+    "id": "s:atlanta-2016",
+    "title": "Atlanta",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:barry-2018": {
+    "id": "s:barry-2018",
+    "title": "Barry",
+    "year": 2018,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:bojack-horseman-2014": {
+    "id": "s:bojack-horseman-2014",
+    "title": "BoJack Horseman",
+    "year": 2014,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:rick-and-morty-2013": {
+    "id": "s:rick-and-morty-2013",
+    "title": "Rick and Morty",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:avatar-the-last-airbender-2005": {
+    "id": "s:avatar-the-last-airbender-2005",
+    "title": "Avatar: The Last Airbender",
+    "year": 2005,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.314Z",
+    "seed": true
+   },
+   "s:cowboy-bebop-1998": {
+    "id": "s:cowboy-bebop-1998",
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:dark-2017": {
+    "id": "s:dark-2017",
+    "title": "Dark",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:money-heist-2017": {
+    "id": "s:money-heist-2017",
+    "title": "Money Heist",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:squid-game-2021": {
+    "id": "s:squid-game-2021",
+    "title": "Squid Game",
+    "year": 2021,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:narcos-2015": {
+    "id": "s:narcos-2015",
+    "title": "Narcos",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:ozark-2017": {
+    "id": "s:ozark-2017",
+    "title": "Ozark",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:house-of-cards-2013": {
+    "id": "s:house-of-cards-2013",
+    "title": "House of Cards",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:homeland-2011": {
+    "id": "s:homeland-2011",
+    "title": "Homeland",
+    "year": 2011,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:the-americans-2013": {
+    "id": "s:the-americans-2013",
+    "title": "The Americans",
+    "year": 2013,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:justified-2010": {
+    "id": "s:justified-2010",
+    "title": "Justified",
+    "year": 2010,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:dexter-2006": {
+    "id": "s:dexter-2006",
+    "title": "Dexter",
+    "year": 2006,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:the-handmaid-s-tale-2017": {
+    "id": "s:the-handmaid-s-tale-2017",
+    "title": "The Handmaid's Tale",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:big-little-lies-2017": {
+    "id": "s:big-little-lies-2017",
+    "title": "Big Little Lies",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:mare-of-easttown-2021": {
+    "id": "s:mare-of-easttown-2021",
+    "title": "Mare of Easttown",
+    "year": 2021,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:the-queen-s-gambit-2020": {
+    "id": "s:the-queen-s-gambit-2020",
+    "title": "The Queen's Gambit",
+    "year": 2020,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:the-night-of-2016": {
+    "id": "s:the-night-of-2016",
+    "title": "The Night Of",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:top-boy-2011": {
+    "id": "s:top-boy-2011",
+    "title": "Top Boy",
+    "year": 2011,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:baby-reindeer-2024": {
+    "id": "s:baby-reindeer-2024",
+    "title": "Baby Reindeer",
+    "year": 2024,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:adolescence-2025": {
+    "id": "s:adolescence-2025",
+    "title": "Adolescence",
+    "year": 2025,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:blue-planet-ii-2017": {
+    "id": "s:blue-planet-ii-2017",
+    "title": "Blue Planet II",
+    "year": 2017,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:our-planet-2019": {
+    "id": "s:our-planet-2019",
+    "title": "Our Planet",
+    "year": 2019,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:taskmaster-2015": {
+    "id": "s:taskmaster-2015",
+    "title": "Taskmaster",
+    "year": 2015,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:would-i-lie-to-you-2007": {
+    "id": "s:would-i-lie-to-you-2007",
+    "title": "Would I Lie to You?",
+    "year": 2007,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:have-i-got-news-for-you-1990": {
+    "id": "s:have-i-got-news-for-you-1990",
+    "title": "Have I Got News for You",
+    "year": 1990,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:qi-2003": {
+    "id": "s:qi-2003",
+    "title": "QI",
+    "year": 2003,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   },
+   "s:spaced-1999": {
+    "id": "s:spaced-1999",
+    "title": "Spaced",
+    "year": 1999,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:20:06.315Z",
+    "seed": true
+   }
+  },
+  "tmdbPage": 1
+ }
 }
