@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:49:25.217Z",
+ "updatedAt": "2026-09-02T16:52:54.326Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -8221,7 +8221,36 @@
     "year": 1988,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:41:33.093Z",
-    "seed": true
+    "tmdb": 326,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/cU9RFlyvJXbzyCzCGRqRmZrTDZU.jpg",
+    "overview": "The adventures of the last human alive and his friends, stranded three million years into deep space on the mining ship Red Dwarf.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Comedy",
+     "Sci-Fi & Fantasy"
+    ],
+    "runtime": 30,
+    "imdb": "tt0094535",
+    "cast": [
+     "Craig Charles",
+     "Chris Barrie",
+     "Danny John-Jules",
+     "Robert Llewellyn"
+    ],
+    "director": "Doug Naylor, Rob Grant",
+    "tagline": "Smeg Head!",
+    "seasons": 12,
+    "detailAt": "2026-09-02T16:52:54.191Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "38,946"
+    },
+    "rated": "TV-14",
+    "awards": "6 wins & 6 nominations total",
+    "scoresAt": "2026-09-02T16:52:54.324Z"
    },
    "s:father-ted-1995": {
     "id": "s:father-ted-1995",
@@ -8229,7 +8258,35 @@
     "year": 1995,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:41:46.043Z",
-    "seed": true
+    "tmdb": 1813,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/hGgqGTVwZrifBX8T3f6ylqGFSXS.jpg",
+    "overview": "A crazy comedy about three rather strange parish priests exiled to Craggy Island, a remote island off the Irish west coast.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 24,
+    "imdb": "tt0111958",
+    "cast": [
+     "Dermot Morgan",
+     "Ardal O'Hanlon",
+     "Pauline McLynn",
+     "Frank Kelly"
+    ],
+    "director": "Arthur Mathews, Graham Linehan",
+    "tagline": "A real charmer.",
+    "seasons": 3,
+    "detailAt": "2026-09-02T16:52:53.832Z",
+    "scores": {
+     "imdb": "8.6",
+     "rt": null,
+     "metacritic": null,
+     "votes": "47,586"
+    },
+    "rated": "TV-14",
+    "awards": "Won 3 BAFTA 15 wins & 4 nominations total",
+    "scoresAt": "2026-09-02T16:52:53.962Z"
    },
    "s:inside-no-9-2014": {
     "id": "s:inside-no-9-2014",
@@ -8237,7 +8294,37 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:42:00.516Z",
-    "seed": true
+    "tmdb": 61746,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/lbHTsN5x7h6aCt7DqPQN4kYHfky.jpg",
+    "overview": "An anthology of darkly comic twisted tales, each one taking place behind a door marked 'number 9'.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Comedy",
+     "Mystery",
+     "Crime",
+     "Sci-Fi & Fantasy",
+     "Drama"
+    ],
+    "runtime": 29,
+    "imdb": "tt2674806",
+    "cast": [
+     "Reece Shearsmith",
+     "Steve Pemberton"
+    ],
+    "director": "Reece Shearsmith, Steve Pemberton",
+    "tagline": "",
+    "seasons": 9,
+    "detailAt": "2026-09-02T16:52:53.481Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "23,323"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 3 BAFTA 14 wins & 22 nominations total",
+    "scoresAt": "2026-09-02T16:52:53.608Z"
    },
    "s:the-inbetweeners-2008": {
     "id": "s:the-inbetweeners-2008",
@@ -8245,7 +8332,35 @@
     "year": 2008,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:42:15.937Z",
-    "seed": true
+    "tmdb": 7317,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/qNmcaXDndOkY6v9QiJjnxQD09GJ.jpg",
+    "overview": "Suburban teenage friends Will, Simon, Jay and Neil, students at Rudge Park Comprehensive, attempt to navigate the social scene, attract members of the gentler sex, and saunter amongst the cool crowd. However, despite their best efforts, the four hapless lads usually end up on the side of the nerds.",
+    "tmdbRating": 7.7,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 25,
+    "imdb": "tt1220617",
+    "cast": [
+     "Simon Bird",
+     "James Buckley",
+     "Blake Harrison",
+     "Joe Thomas"
+    ],
+    "director": "Damon Beesley, Iain Morris",
+    "tagline": "American Pie mixed with Peep Show",
+    "seasons": 3,
+    "detailAt": "2026-09-02T16:52:53.039Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "98,603"
+    },
+    "rated": "TV-14",
+    "awards": "Won 1 BAFTA Award13 wins & 14 nominations total",
+    "scoresAt": "2026-09-02T16:52:53.215Z"
    }
   },
   "tmdbPage": 1
