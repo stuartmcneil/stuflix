@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:48:20.932Z",
+ "updatedAt": "2026-09-02T15:48:40.833Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -609,7 +609,7 @@
     "id": "s:the-empire-strikes-back-1980",
     "title": "The Empire Strikes Back",
     "year": 1980,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 1891,
     "type": "movie",
@@ -643,7 +643,16 @@
     },
     "rated": "PG",
     "awards": "Won 1 Oscar. 27 wins & 21 nominations total",
-    "scoresAt": "2026-09-02T15:29:51.999Z"
+    "scoresAt": "2026-09-02T15:29:51.999Z",
+    "grade": {
+     "acting": 5,
+     "cinematography": 6,
+     "story": 4,
+     "overall": 5,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:48:40.833Z"
    },
    "s:the-matrix-1999": {
     "id": "s:the-matrix-1999",
@@ -4259,6 +4268,14 @@
     "year": 2013,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:20.935Z",
+    "seed": true
+   },
+   "s:moonlight-2016": {
+    "id": "s:moonlight-2016",
+    "title": "Moonlight",
+    "year": 2016,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:48:40.835Z",
     "seed": true
    }
   },
