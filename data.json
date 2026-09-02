@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:21:06.498Z",
+ "updatedAt": "2026-09-02T15:21:27.385Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -720,9 +720,18 @@
     "id": "s:oppenheimer-2023",
     "title": "Oppenheimer",
     "year": 2023,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
-    "seed": true
+    "seed": true,
+    "grade": {
+     "acting": 5,
+     "cinematography": 7,
+     "story": 6,
+     "overall": 5,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:21:27.385Z"
    },
    "s:dune-part-two-2024": {
     "id": "s:dune-part-two-2024",
@@ -827,6 +836,14 @@
     "year": 2023,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:21:06.500Z",
+    "seed": true
+   },
+   "s:the-zone-of-interest-2023": {
+    "id": "s:the-zone-of-interest-2023",
+    "title": "The Zone of Interest",
+    "year": 2023,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:21:27.387Z",
     "seed": true
    }
   },
