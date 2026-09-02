@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T15:45:55.551Z",
+ "updatedAt": "2026-09-02T15:46:36.372Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -55,7 +55,7 @@
     "id": "s:the-godfather-1972",
     "title": "The Godfather",
     "year": 1972,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 238,
     "type": "movie",
@@ -88,7 +88,16 @@
     },
     "rated": "R",
     "awards": "Won 3 Oscars. 31 wins & 31 nominations total",
-    "scoresAt": "2026-09-02T15:29:47.724Z"
+    "scoresAt": "2026-09-02T15:29:47.724Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 8,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-09-02"
+    },
+    "movedAt": "2026-09-02T15:46:36.372Z"
    },
    "s:the-godfather-part-ii-1974": {
     "id": "s:the-godfather-part-ii-1974",
@@ -4123,6 +4132,14 @@
     "year": 1974,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:45:55.553Z",
+    "seed": true
+   },
+   "s:rear-window-1954": {
+    "id": "s:rear-window-1954",
+    "title": "Rear Window",
+    "year": 1954,
+    "status": "catalogue",
+    "addedAt": "2026-09-02T15:46:36.374Z",
     "seed": true
    }
   },
