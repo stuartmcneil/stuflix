@@ -39,7 +39,9 @@ nav.tabs button.on{color:var(--ink);background:var(--panel);border-color:var(--l
 nav.tabs button .n{display:inline-block;margin-left:6px;background:var(--line);color:var(--muted);font-size:11px;padding:1px 6px;border-radius:999px}
 .sync{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;white-space:nowrap}
 .sync .dot{width:8px;height:8px;border-radius:50%;background:#666}
+.homebtn{text-decoration:none;white-space:nowrap;padding:8px 12px;font-size:13px}
 @media (max-width:640px){
+  .homebtn{padding:6px 9px;font-size:12px}
   .brand{flex-wrap:wrap;gap:8px 10px}
   .brand>div:first-child{flex:1 1 100%}
   .brand .grow{display:none}
@@ -151,6 +153,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:20px}
     </div>
     <div class="grow"></div>
     <div class="sync local" id="sync"><span class="dot"></span><span id="synctext">Local only</span></div>
+    <a class="btn homebtn" href="https://stuartmcneil.github.io/window/" title="Back to Stuart McNeil's site">🪟 Stuart McNeil</a>
     <div class="modeswitch">
       <button id="mode-films" class="on">🎞 Films</button>
       <button id="mode-tv">📺 TV</button>
@@ -420,7 +423,7 @@ function card(it, opts={}){
 const CK={
   want:`<label><input type="checkbox" data-act="want"> Want to watch</label>`,
   remove:`<label class="danger"><input type="checkbox" data-act="removed"> Remove from catalogue</label>`,
-  watched:`<label><input type="checkbox" data-act="grade"> Watched it — grade it</label>`,
+  watched:`<label><input type="checkbox" data-act="grade"> 👁 Watched it — grade it</label>`,
   restore:`<label><input type="checkbox" data-act="catalogue"> Put back in catalogue</label>`,
   unwatch:`<label class="danger"><input type="checkbox" data-act="want"> Back to Want-to-watch</label>`
 };
@@ -437,7 +440,7 @@ function renderCatalogue(m){
   m.innerHTML=`<h2>Viewing Catalogue <span class="pill gold">${items('catalogue').length} / ${CATALOGUE_SIZE}</span></h2>
   <p class="lede">A hundred ${mode==='films'?'films':'shows'} awaiting judgement. Tick one to move it to the want-to-watch pile, or throw it out — the catalogue tops itself back up${cfg.tmdb?' from TMDB':' from the built-in list (add a TMDB key in Settings for endless supply)'}.</p>
   ${toolbar({add:true})}
-  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:CK.want+CK.remove})).join('')}</div>`:'<div class="empty">Nothing matches.</div>'}`;
+  ${list.length?`<div class="grid">${list.map(it=>card(it,{checks:CK.want+CK.watched+CK.remove})).join('')}</div>`:'<div class="empty">Nothing matches.</div>'}`;
   enrichVisible(list.slice(0,24));
 }
 function renderWatchlist(m){
@@ -483,7 +486,7 @@ async function renderLatest(m){
   }
   const el=$('#latest'); if(!el) return;
   el.innerHTML=`<div class="grid">${list.map(x=>{ const ex=S().items[x.id]; const it=ex||x;
-    const checks = ex ? `<div class="m">Already in: ${esc({catalogue:'Catalogue',want:'Want to watch',watched:'Watched',removed:'Removed'}[ex.status])}</div>` : `<label><input type="checkbox" data-act="latest-want"> Want to watch</label><label><input type="checkbox" data-act="latest-cat"> Add to catalogue</label>`;
+    const checks = ex ? `<div class="m">Already in: ${esc({catalogue:'Catalogue',want:'Want to watch',watched:'Watched',removed:'Removed'}[ex.status])}</div>` : `<label><input type="checkbox" data-act="latest-want"> Want to watch</label><label><input type="checkbox" data-act="latest-seen"> 👁 Watched it — grade it</label><label><input type="checkbox" data-act="latest-cat"> Add to catalogue</label>`;
     return card(it,{checks}); }).join('')}</div>`;
   el.querySelectorAll('.card').forEach(c=>{ c._latest=list.find(x=>x.id===c.dataset.id); });
 }
@@ -634,6 +637,7 @@ document.addEventListener('change', e=>{
   if(t.matches('input[type=checkbox][data-act]')){
     const card=t.closest('.card'); const id=card.dataset.id; const act=t.dataset.act;
     if(act==='latest-want'||act==='latest-cat'){ addLatest(card._latest, act==='latest-want'?'want':'catalogue'); return; }
+    if(act==='latest-seen'){ t.checked=false; addLatest(card._latest,'preview',true); return; }
     if(act==='grade'){ t.checked=false; openDetails(id,true); return; }
     const it=S().items[id]; if(!it) return;
     const msg={want:'Added to want-to-watch',removed:'Removed from catalogue',catalogue:'Back in the catalogue'}[act];
@@ -645,9 +649,9 @@ document.addEventListener('change', e=>{
 });
 document.addEventListener('input', e=>{ if(e.target.id==='q'){ ui.q=e.target.value; const pos=e.target.selectionStart; render(); const q=$('#q'); if(q){ q.focus(); q.setSelectionRange(pos,pos); } } });
 document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeModal(); });
-function addLatest(x, to){
+function addLatest(x, to, grading){
   if(!x) return;
-  if(to==='preview'){ S().items[x.id]=Object.assign({},x,{status:'catalogue',addedAt:new Date().toISOString(),fromLatest:true}); markDirty(); openDetails(x.id); return; }
+  if(to==='preview'){ S().items[x.id]=Object.assign({},x,{status:'catalogue',addedAt:new Date().toISOString(),fromLatest:true}); markDirty(); openDetails(x.id, grading); return; }
   S().items[x.id]=Object.assign({},x,{status:to,addedAt:new Date().toISOString()}); markDirty(); render(); toast(`${x.title} — added to ${to==='want'?'want-to-watch':'catalogue'}`);
 }
 async function enrichAll(){
