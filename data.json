@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-02T16:59:59.454Z",
+ "updatedAt": "2026-09-15T11:19:15.335Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -8476,7 +8476,37 @@
     "year": 1993,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:53:23.945Z",
-    "seed": true
+    "tmdb": 35,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/SjgpJrNXSmus9dXWO1ZCSase0k.jpg",
+    "overview": "The wise-cracking Edward 'Fitz' Fitzgerald is a brilliant but flawed criminal psychologist with a remarkable insight into the criminal mind.",
+    "tmdbRating": 6.6,
+    "genres": [
+     "Crime",
+     "Drama"
+    ],
+    "runtime": 60,
+    "imdb": "tt0105977",
+    "cast": [
+     "Robbie Coltrane",
+     "Geraldine Somerville",
+     "Barbara Flynn",
+     "Ricky Tomlinson",
+     "Robert Cavanah"
+    ],
+    "director": "Jimmy McGovern",
+    "tagline": "I drink too much, I smoke too much, I gamble too much. I *am* too much.",
+    "seasons": 3,
+    "detailAt": "2026-09-15T11:19:15.203Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "8,715"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 7 BAFTA 20 wins & 14 nominations total",
+    "scoresAt": "2026-09-15T11:19:15.334Z"
    },
    "s:prime-suspect-1991": {
     "id": "s:prime-suspect-1991",
@@ -8484,7 +8514,39 @@
     "year": 1991,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:53:47.601Z",
-    "seed": true
+    "tmdb": 2583,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/vhlbnMgz9hBouXWmxBS2RjFC03S.jpg",
+    "overview": "Highly skilled Detective Inspector Jane Tennison battles to prove herself in a male dominated world.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 1,
+    "imdb": "tt0098898",
+    "cast": [
+     "Helen Mirren",
+     "Tom Bell",
+     "Stephen Tompkinson",
+     "Gary Lewis",
+     "Frank Finlay",
+     "Laura Greenwood"
+    ],
+    "director": "",
+    "tagline": "",
+    "seasons": 7,
+    "detailAt": "2026-09-15T11:19:14.847Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "10,376"
+    },
+    "rated": "TV-14",
+    "awards": "Won 4 BAFTA 12 wins & 6 nominations total",
+    "scoresAt": "2026-09-15T11:19:14.976Z"
    },
    "s:house-2004": {
     "id": "s:house-2004",
@@ -8492,7 +8554,37 @@
     "year": 2004,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:54:00.291Z",
-    "seed": true
+    "tmdb": 1408,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
+    "overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
+    "tmdbRating": 8.6,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 44,
+    "imdb": "tt0412142",
+    "cast": [
+     "Hugh Laurie",
+     "Robert Sean Leonard",
+     "Omar Epps",
+     "Jesse Spencer",
+     "Odette Annable",
+     "Peter Jacobson"
+    ],
+    "director": "David Shore",
+    "tagline": "Everybody lies.",
+    "seasons": 8,
+    "detailAt": "2026-09-15T11:19:14.496Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "586,804"
+    },
+    "rated": "TV-14",
+    "awards": "Won 5 Primetime Emmys. 58 wins & 140 nominations total",
+    "scoresAt": "2026-09-15T11:19:14.634Z"
    },
    "s:er-1994": {
     "id": "s:er-1994",
@@ -8500,7 +8592,37 @@
     "year": 1994,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:54:12.348Z",
-    "seed": true
+    "tmdb": 4588,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/fuS63AoFTkprf8PFeL1f8z68zJr.jpg",
+    "overview": "ER explores the inner workings of an urban teaching hospital and the critical issues faced by the dedicated physicians and staff of its overburdened emergency room.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 45,
+    "imdb": "tt0108757",
+    "cast": [
+     "Maura Tierney",
+     "Parminder Nagra",
+     "Linda Cardellini",
+     "Scott Grimes",
+     "David Lyons",
+     "Angela Bassett"
+    ],
+    "director": "Michael Crichton",
+    "tagline": "Life. Death. Chaos. It's all in a day's work.",
+    "seasons": 15,
+    "detailAt": "2026-09-15T11:19:14.088Z",
+    "scores": {
+     "imdb": "7.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "77,552"
+    },
+    "rated": "TV-14",
+    "awards": "Won 23 Primetime Emmys. 158 wins & 370 nominations total",
+    "scoresAt": "2026-09-15T11:19:14.229Z"
    },
    "s:the-west-wing-1999": {
     "id": "s:the-west-wing-1999",
@@ -8508,7 +8630,37 @@
     "year": 1999,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:07.584Z",
-    "seed": true
+    "tmdb": 688,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/yqDWr5NAE7m1IWrygYwLyEB6pN0.jpg",
+    "overview": "The West Wing provides a glimpse into presidential politics in the nation's capital as it tells the stories of the members of a fictional presidential administration. These interesting characters have humor and dedication that touches the heart while the politics that they discuss touch on everyday life.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 1,
+    "imdb": "tt0200276",
+    "cast": [
+     "Martin Sheen",
+     "Allison Janney",
+     "John Spencer",
+     "Bradley Whitford",
+     "Joshua Malina",
+     "Alan Alda"
+    ],
+    "director": "Aaron Sorkin",
+    "tagline": "Right place. Right time. Right man.",
+    "seasons": 7,
+    "detailAt": "2026-09-15T11:19:13.742Z",
+    "scores": {
+     "imdb": "8.9",
+     "rt": null,
+     "metacritic": null,
+     "votes": "97,576"
+    },
+    "rated": "TV-14",
+    "awards": "Won 26 Primetime Emmys. 123 wins & 264 nominations total",
+    "scoresAt": "2026-09-15T11:19:13.876Z"
    },
    "s:frasier-1993": {
     "id": "s:frasier-1993",
@@ -8516,7 +8668,38 @@
     "year": 1993,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:23.990Z",
-    "seed": true
+    "tmdb": 3452,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/gYAb6GCVEFsU9hzMCG5rxaxoIv3.jpg",
+    "overview": "After many years spent at the “Cheers” bar, Frasier moves back home to Seattle to work as a radio psychiatrist after his policeman father gets shot in the hip on duty.",
+    "tmdbRating": 7.7,
+    "genres": [
+     "Comedy",
+     "Family"
+    ],
+    "runtime": 24,
+    "imdb": "tt0106004",
+    "cast": [
+     "Kelsey Grammer",
+     "Jane Leeves",
+     "David Hyde Pierce",
+     "Peri Gilpin",
+     "John Mahoney",
+     "Moose"
+    ],
+    "director": "David Angell, Peter Casey, David Clark Lee",
+    "tagline": "I'm listening.",
+    "seasons": 11,
+    "detailAt": "2026-09-15T11:19:13.301Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "102,437"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 37 Primetime Emmys. 130 wins & 277 nominations total",
+    "scoresAt": "2026-09-15T11:19:13.493Z"
    },
    "s:cheers-1982": {
     "id": "s:cheers-1982",
@@ -8524,7 +8707,37 @@
     "year": 1982,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:37.405Z",
-    "seed": true
+    "tmdb": 141,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg",
+    "overview": "The story about a blue-collar Boston bar run by former sports star Sam Malone and the quirky and wonderful people who worked and drank there.",
+    "tmdbRating": 7.6,
+    "genres": [
+     "Comedy"
+    ],
+    "runtime": 22,
+    "imdb": "tt0083399",
+    "cast": [
+     "Ted Danson",
+     "Kirstie Alley",
+     "Rhea Perlman",
+     "George Wendt",
+     "John Ratzenberger",
+     "Woody Harrelson"
+    ],
+    "director": "Les Charles, James Burrows, Glen Charles",
+    "tagline": "Where everybody knows your name.",
+    "seasons": 11,
+    "detailAt": "2026-09-15T11:19:12.947Z",
+    "scores": {
+     "imdb": "8.0",
+     "rt": null,
+     "metacritic": null,
+     "votes": "67,512"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 28 Primetime Emmys. 78 wins & 182 nominations total",
+    "scoresAt": "2026-09-15T11:19:13.079Z"
    },
    "s:m-a-s-h-1972": {
     "id": "s:m-a-s-h-1972",
@@ -8532,7 +8745,39 @@
     "year": 1972,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:58:49.219Z",
-    "seed": true
+    "tmdb": 918,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/6rhuM3oMoEWKxAdrm7IyM8oq8cC.jpg",
+    "overview": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "War & Politics",
+     "Drama",
+     "Comedy"
+    ],
+    "runtime": 16,
+    "imdb": "tt0068098",
+    "cast": [
+     "Alan Alda",
+     "Mike Farrell",
+     "Harry Morgan",
+     "Loretta Swit",
+     "David Ogden Stiers",
+     "Jamie Farr"
+    ],
+    "director": "Larry Gelbart",
+    "tagline": "Goodbye, Farewell, and Amen.",
+    "seasons": 11,
+    "detailAt": "2026-09-15T11:19:12.585Z",
+    "scores": {
+     "imdb": "8.5",
+     "rt": null,
+     "metacritic": null,
+     "votes": "68,642"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 14 Primetime Emmys. 65 wins & 153 nominations total",
+    "scoresAt": "2026-09-15T11:19:12.719Z"
    },
    "s:columbo-1971": {
     "id": "s:columbo-1971",
@@ -8540,7 +8785,34 @@
     "year": 1971,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:02.010Z",
-    "seed": true
+    "tmdb": 873,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
+    "overview": "Columbo is a friendly, verbose, disheveled-looking police detective who is consistently underestimated by his suspects. Despite his unprepossessing appearance and apparent absentmindedness, he shrewdly solves all of his cases and secures all evidence needed for indictment. His formidable eye for detail and meticulously dedicated approach often become clear to the killer only late in the storyline.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Mystery"
+    ],
+    "runtime": 50,
+    "imdb": "tt1466074",
+    "cast": [
+     "Peter Falk"
+    ],
+    "director": "William Link, Richard Levinson",
+    "tagline": "Oh, just one more thing...",
+    "seasons": 10,
+    "detailAt": "2026-09-15T11:19:12.224Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": null,
+     "metacritic": null,
+     "votes": "46,484"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 13 Primetime Emmys. 24 wins & 50 nominations total",
+    "scoresAt": "2026-09-15T11:19:12.356Z"
    },
    "s:downton-abbey-2010": {
     "id": "s:downton-abbey-2010",
@@ -8548,7 +8820,37 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:19.104Z",
-    "seed": true
+    "tmdb": 33907,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/cf9vkwFmwvdzBlcpAYEVQfsKoTp.jpg",
+    "overview": "A chronicle of the lives of the aristocratic Crawley family and their servants in the post-Edwardian era—with great events in history having an effect on their lives and on the British social hierarchy.\n\n",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 66,
+    "imdb": "tt1606375",
+    "cast": [
+     "Maggie Smith",
+     "Michelle Dockery",
+     "Laura Carmichael",
+     "Joanne Froggatt",
+     "Hugh Bonneville",
+     "Phyllis Logan"
+    ],
+    "director": "Julian Fellowes",
+    "tagline": "",
+    "seasons": 6,
+    "detailAt": "2026-09-15T11:19:11.830Z",
+    "scores": {
+     "imdb": "8.7",
+     "rt": null,
+     "metacritic": null,
+     "votes": "244,512"
+    },
+    "rated": "TV-PG",
+    "awards": "Won 15 Primetime Emmys. 61 wins & 231 nominations total",
+    "scoresAt": "2026-09-15T11:19:11.968Z"
    },
    "s:wolf-hall-2015": {
     "id": "s:wolf-hall-2015",
@@ -8556,7 +8858,37 @@
     "year": 2015,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:46.402Z",
-    "seed": true
+    "tmdb": 61697,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/dGuiMtUQBGxM3ZWosphO2MdYw8o.jpg",
+    "overview": "England in the 1520s is a heartbeat from disaster. If the King dies without a male heir, the country could be destroyed by civil war. Henry VIII wants to annul his marriage of twenty years and marry Anne Boleyn. The Pope and most of Europe oppose him. Into this impasse steps Thomas Cromwell: a wholly original man, a charmer, and a bully, both idealist and opportunist, astute in reading people, and implacable in his ambition. But Henry is volatile: one day tender, one day murderous. Cromwell helps him break the opposition, but what will be the price of his triumph?",
+    "tmdbRating": 7.5,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 360,
+    "imdb": "tt3556920",
+    "cast": [
+     "Mark Rylance",
+     "Damian Lewis",
+     "Thomas Brodie-Sangster",
+     "Joss Porter",
+     "Charlie Rowe",
+     "Harry Melling"
+    ],
+    "director": "Peter Straughan, Peter Kosminsky, Hilary Mantel",
+    "tagline": "",
+    "seasons": 2,
+    "detailAt": "2026-09-15T11:19:11.486Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": null,
+     "metacritic": null,
+     "votes": "17,852"
+    },
+    "rated": "TV-14",
+    "awards": "Nominated for 9 Primetime Emmys. 15 wins & 61 nominations total",
+    "scoresAt": "2026-09-15T11:19:11.615Z"
    },
    "s:bodyguard-2018": {
     "id": "s:bodyguard-2018",
@@ -8564,7 +8896,40 @@
     "year": 2018,
     "status": "catalogue",
     "addedAt": "2026-09-02T16:59:59.457Z",
-    "seed": true
+    "tmdb": 80307,
+    "type": "tv",
+    "poster": "https://image.tmdb.org/t/p/w342/5DUJTrHTRLHLCKWriPhdusQogAv.jpg",
+    "overview": "A troubled war veteran is assigned to protect a controversial politician who may be the target of a terror plot.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Crime",
+     "Drama",
+     "War & Politics",
+     "Mystery"
+    ],
+    "runtime": 60,
+    "imdb": "tt7493974",
+    "cast": [
+     "Richard Madden",
+     "Keeley Hawes",
+     "Sophie Rundle",
+     "Gina McKee",
+     "Pippa Haywood",
+     "Stuart Bowman"
+    ],
+    "director": "Jed Mercurio",
+    "tagline": "In the fight for power, who will you trust?",
+    "seasons": 1,
+    "detailAt": "2026-09-15T11:19:11.074Z",
+    "scores": {
+     "imdb": "8.0",
+     "rt": null,
+     "metacritic": null,
+     "votes": "163,511"
+    },
+    "rated": "TV-MA",
+    "awards": "Nominated for 2 Primetime Emmys. 17 wins & 30 nominations total",
+    "scoresAt": "2026-09-15T11:19:11.266Z"
    }
   },
   "tmdbPage": 1
