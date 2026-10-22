@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:22:38.994Z",
+ "updatedAt": "2026-10-22T16:23:27.931Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4223,7 +4223,38 @@
     "year": 2023,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:45:39.200Z",
-    "seed": true
+    "tmdb": 666277,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg",
+    "overview": "After decades apart, childhood friends Nora and Hae Sung are reunited in New York for one fateful weekend as they confront notions of destiny, love, and the choices that make a life.",
+    "tmdbRating": 7.7,
+    "genres": [
+     "Drama",
+     "Romance"
+    ],
+    "runtime": 106,
+    "imdb": "tt13238346",
+    "cast": [
+     "Greta Lee",
+     "Teo Yoo",
+     "John Magaro",
+     "Moon Seung-ah",
+     "Leem Seung-min",
+     "Yoon Ji-hye"
+    ],
+    "director": "Celine Song",
+    "tagline": "A heartrending modern romance that confronts notions of destiny, love, and the choices that make a life.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:27.793Z",
+    "scores": {
+     "imdb": "7.8",
+     "rt": "95%",
+     "metacritic": "94",
+     "votes": "178,799"
+    },
+    "rated": "PG-13",
+    "awards": "Nominated for 2 Oscars. 83 wins & 240 nominations total",
+    "scoresAt": "2026-10-22T16:23:27.930Z"
    },
    "s:chinatown-1974": {
     "id": "s:chinatown-1974",
@@ -4231,7 +4262,39 @@
     "year": 1974,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:45:55.553Z",
-    "seed": true
+    "tmdb": 829,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/kZRSP3FmOcq0xnBulqpUQngJUXY.jpg",
+    "overview": "Private eye Jake Gittes lives off of the murky moral climate of sunbaked, pre-World War II Southern California. Hired by a beautiful socialite to investigate her husband's extra-marital affair, Gittes is swept into a maelstrom of double dealings and deadly deceits, uncovering a web of personal and political scandals that come crashing together.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Crime",
+     "Mystery",
+     "Thriller"
+    ],
+    "runtime": 130,
+    "imdb": "tt0071315",
+    "cast": [
+     "Jack Nicholson",
+     "Faye Dunaway",
+     "John Huston",
+     "Perry Lopez",
+     "Burt Young",
+     "John Hillerman"
+    ],
+    "director": "Roman Polanski",
+    "tagline": "You get tough. You get tender. You get close to each other. Maybe you even get close to the truth.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:27.414Z",
+    "scores": {
+     "imdb": "8.1",
+     "rt": "98%",
+     "metacritic": "92",
+     "votes": "380,879"
+    },
+    "rated": "R",
+    "awards": "Won 1 Oscar. 21 wins & 24 nominations total",
+    "scoresAt": "2026-10-22T16:23:27.585Z"
    },
    "s:rear-window-1954": {
     "id": "s:rear-window-1954",
@@ -4239,7 +4302,39 @@
     "year": 1954,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:46:36.374Z",
-    "seed": true
+    "tmdb": 567,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+    "overview": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Thriller",
+     "Mystery",
+     "Drama"
+    ],
+    "runtime": 113,
+    "imdb": "tt0047396",
+    "cast": [
+     "James Stewart",
+     "Grace Kelly",
+     "Wendell Corey",
+     "Thelma Ritter",
+     "Raymond Burr",
+     "Judith Evelyn"
+    ],
+    "director": "Alfred Hitchcock",
+    "tagline": "It only takes one witness to spoil the perfect crime.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:27.056Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": "99%",
+     "metacritic": "100",
+     "votes": "575,088"
+    },
+    "rated": "PG",
+    "awards": "Nominated for 4 Oscars. 7 wins & 14 nominations total",
+    "scoresAt": "2026-10-22T16:23:27.194Z"
    },
    "s:the-apartment-1960": {
     "id": "s:the-apartment-1960",
@@ -4247,7 +4342,39 @@
     "year": 1960,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:46:49.107Z",
-    "seed": true
+    "tmdb": 284,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/hhSRt1KKfRT0yEhEtRW3qp31JFU.jpg",
+    "overview": "Bud Baxter is a minor clerk in a huge New York insurance company, until he discovers a quick way to climb the corporate ladder. He lends out his apartment to the executives as a place to take their mistresses. Although he often has to deal with the aftermath of their visits, one night he's left with a major problem to solve.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Romance"
+    ],
+    "runtime": 126,
+    "imdb": "tt0053604",
+    "cast": [
+     "Jack Lemmon",
+     "Shirley MacLaine",
+     "Fred MacMurray",
+     "Ray Walston",
+     "Jack Kruschen",
+     "David Lewis"
+    ],
+    "director": "Billy Wilder",
+    "tagline": "Movie-wise, there has never been anything like it - laugh-wise, love-wise, or otherwise-wise!",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:26.705Z",
+    "scores": {
+     "imdb": "8.3",
+     "rt": "94%",
+     "metacritic": "94",
+     "votes": "223,561"
+    },
+    "rated": "Approved",
+    "awards": "Won 5 Oscars. 26 wins & 8 nominations total",
+    "scoresAt": "2026-10-22T16:23:26.843Z"
    },
    "s:am-lie-2001": {
     "id": "s:am-lie-2001",
@@ -4255,7 +4382,38 @@
     "year": 2001,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:05.902Z",
-    "seed": true
+    "tmdb": 194,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/nSxDa3M9aMvGVLoItzWTepQ5h5d.jpg",
+    "overview": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy",
+     "Romance"
+    ],
+    "runtime": 122,
+    "imdb": "tt0211915",
+    "cast": [
+     "Audrey Tautou",
+     "Mathieu Kassovitz",
+     "Rufus",
+     "Serge Merlin",
+     "Jamel Debbouze",
+     "Clotilde Mollet"
+    ],
+    "director": "Jean-Pierre Jeunet",
+    "tagline": "She’ll change your life.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:26.363Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": "90%",
+     "metacritic": "70",
+     "votes": "848,391"
+    },
+    "rated": "R",
+    "awards": "Nominated for 5 Oscars. 60 wins & 74 nominations total",
+    "scoresAt": "2026-10-22T16:23:26.497Z"
    },
    "s:pan-s-labyrinth-2006": {
     "id": "s:pan-s-labyrinth-2006",
@@ -4263,7 +4421,39 @@
     "year": 2006,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:20.596Z",
-    "seed": true
+    "tmdb": 1417,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/khBQ6nN5FLfg9XgPXIZDkABJjqo.jpg",
+    "overview": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Fantasy",
+     "Drama",
+     "War"
+    ],
+    "runtime": 118,
+    "imdb": "tt0457430",
+    "cast": [
+     "Ivana Baquero",
+     "Sergi López",
+     "Maribel Verdú",
+     "Doug Jones",
+     "Ariadna Gil",
+     "Álex Angulo"
+    ],
+    "director": "Guillermo del Toro",
+    "tagline": "Innocence has a power evil cannot imagine.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:26.009Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": "95%",
+     "metacritic": "98",
+     "votes": "754,343"
+    },
+    "rated": "R",
+    "awards": "Won 3 Oscars. 109 wins & 115 nominations total",
+    "scoresAt": "2026-10-22T16:23:26.146Z"
    },
    "s:there-will-be-blood-2007": {
     "id": "s:there-will-be-blood-2007",
@@ -4271,7 +4461,37 @@
     "year": 2007,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:31.493Z",
-    "seed": true
+    "tmdb": 7345,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+    "overview": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 158,
+    "imdb": "tt0469494",
+    "cast": [
+     "Daniel Day-Lewis",
+     "Paul Dano",
+     "Kevin J. O'Connor",
+     "Ciarán Hinds",
+     "Dillon Freasier",
+     "Hope Elizabeth Reeves"
+    ],
+    "director": "Paul Thomas Anderson",
+    "tagline": "There will be greed. There will be vengeance.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:25.651Z",
+    "scores": {
+     "imdb": "8.2",
+     "rt": "91%",
+     "metacritic": "93",
+     "votes": "720,929"
+    },
+    "rated": "R",
+    "awards": "Won 2 Oscars. 114 wins & 138 nominations total",
+    "scoresAt": "2026-10-22T16:23:25.796Z"
    },
    "s:the-social-network-2010": {
     "id": "s:the-social-network-2010",
@@ -4279,7 +4499,37 @@
     "year": 2010,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:47:50.054Z",
-    "seed": true
+    "tmdb": 37799,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg",
+    "overview": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
+    "tmdbRating": 7.4,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 121,
+    "imdb": "tt1285016",
+    "cast": [
+     "Jesse Eisenberg",
+     "Andrew Garfield",
+     "Armie Hammer",
+     "Justin Timberlake",
+     "Rooney Mara",
+     "Max Minghella"
+    ],
+    "director": "David Fincher",
+    "tagline": "You don't get to 500 million friends without making a few enemies.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:25.308Z",
+    "scores": {
+     "imdb": "7.8",
+     "rt": "96%",
+     "metacritic": "95",
+     "votes": "831,142"
+    },
+    "rated": "PG-13",
+    "awards": "Won 3 Oscars. 174 wins & 188 nominations total",
+    "scoresAt": "2026-10-22T16:23:25.443Z"
    },
    "s:arrival-2016": {
     "id": "s:arrival-2016",
@@ -4287,7 +4537,39 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:04.541Z",
-    "seed": true
+    "tmdb": 329865,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
+    "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "tmdbRating": 7.6,
+    "genres": [
+     "Drama",
+     "Science Fiction",
+     "Mystery"
+    ],
+    "runtime": 116,
+    "imdb": "tt2543164",
+    "cast": [
+     "Amy Adams",
+     "Jeremy Renner",
+     "Forest Whitaker",
+     "Michael Stuhlbarg",
+     "Mark O'Brien",
+     "Tzi Ma"
+    ],
+    "director": "Denis Villeneuve",
+    "tagline": "Why are they here?",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:24.952Z",
+    "scores": {
+     "imdb": "7.9",
+     "rt": "94%",
+     "metacritic": "81",
+     "votes": "882,127"
+    },
+    "rated": "PG-13",
+    "awards": "Won 1 Oscar. 73 wins & 276 nominations total",
+    "scoresAt": "2026-10-22T16:23:25.097Z"
    },
    "s:her-2013": {
     "id": "s:her-2013",
@@ -4295,7 +4577,39 @@
     "year": 2013,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:20.935Z",
-    "seed": true
+    "tmdb": 152601,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/eCOtqtfvn7mxGl6nfmq4b1exJRc.jpg",
+    "overview": "In the not so distant future, Theodore, a lonely writer, purchases a newly developed operating system designed to meet the user's every need. To Theodore's surprise, a romantic relationship develops between him and his operating system. This unconventional love story blends science fiction and romance in a sweet tale that explores the nature of love and the ways that technology isolates and connects us all.",
+    "tmdbRating": 7.8,
+    "genres": [
+     "Romance",
+     "Science Fiction",
+     "Drama"
+    ],
+    "runtime": 126,
+    "imdb": "tt1798709",
+    "cast": [
+     "Joaquin Phoenix",
+     "Scarlett Johansson",
+     "Lynn Adrianna",
+     "Lisa Renee Pitts",
+     "Gabe Gomez",
+     "Chris Pratt"
+    ],
+    "director": "Spike Jonze",
+    "tagline": "A Spike Jonze love story.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:24.617Z",
+    "scores": {
+     "imdb": "7.9",
+     "rt": "95%",
+     "metacritic": "91",
+     "votes": "735,364"
+    },
+    "rated": "R",
+    "awards": "Won 1 Oscar. 83 wins & 188 nominations total",
+    "scoresAt": "2026-10-22T16:23:24.751Z"
    },
    "s:moonlight-2016": {
     "id": "s:moonlight-2016",
@@ -4303,7 +4617,37 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:40.835Z",
-    "seed": true
+    "tmdb": 376867,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/qLnfEmPrDjJfPyyddLJPkXmshkp.jpg",
+    "overview": "The tender, heartbreaking story of a young man’s struggle to find himself, told across three defining chapters in his life as he experiences the ecstasy, pain, and beauty of falling in love, while grappling with his own sexuality.",
+    "tmdbRating": 7.4,
+    "genres": [
+     "Drama"
+    ],
+    "runtime": 112,
+    "imdb": "tt4975722",
+    "cast": [
+     "Trevante Rhodes",
+     "André Holland",
+     "Janelle Monáe",
+     "Ashton Sanders",
+     "Jharrel Jerome",
+     "Alex R. Hibbert"
+    ],
+    "director": "Barry Jenkins",
+    "tagline": "This is the story of a lifetime",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:24.269Z",
+    "scores": {
+     "imdb": "7.4",
+     "rt": "98%",
+     "metacritic": "99",
+     "votes": "356,522"
+    },
+    "rated": "R",
+    "awards": "Won 3 Oscars. 237 wins & 315 nominations total",
+    "scoresAt": "2026-10-22T16:23:24.407Z"
    },
    "s:la-la-land-2016": {
     "id": "s:la-la-land-2016",
@@ -4311,7 +4655,39 @@
     "year": 2016,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:48:55.326Z",
-    "seed": true
+    "tmdb": 313369,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg",
+    "overview": "Mia, an aspiring actress, serves lattes to movie stars in between auditions and Sebastian, a jazz musician, scrapes by playing cocktail party gigs in dingy bars, but as success mounts they are faced with decisions that begin to fray the fragile fabric of their love affair, and the dreams they worked so hard to maintain in each other threaten to rip them apart.",
+    "tmdbRating": 7.9,
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Romance"
+    ],
+    "runtime": 129,
+    "imdb": "tt3783958",
+    "cast": [
+     "Ryan Gosling",
+     "Emma Stone",
+     "John Legend",
+     "Rosemarie DeWitt",
+     "Finn Wittrock",
+     "Callie Hernandez"
+    ],
+    "director": "Damien Chazelle",
+    "tagline": "Here's to the fools who dream.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:23.907Z",
+    "scores": {
+     "imdb": "8.0",
+     "rt": "91%",
+     "metacritic": "94",
+     "votes": "780,882"
+    },
+    "rated": "PG-13",
+    "awards": "Won 6 Oscars. 247 wins & 316 nominations total",
+    "scoresAt": "2026-10-22T16:23:24.048Z"
    },
    "s:the-grand-budapest-hotel-2014": {
     "id": "s:the-grand-budapest-hotel-2014",
@@ -4319,7 +4695,38 @@
     "year": 2014,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:49:11.063Z",
-    "seed": true
+    "tmdb": 120467,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "tmdbRating": 8,
+    "genres": [
+     "Comedy",
+     "Drama"
+    ],
+    "runtime": 100,
+    "imdb": "tt2278388",
+    "cast": [
+     "Ralph Fiennes",
+     "F. Murray Abraham",
+     "Tony Revolori",
+     "Adrien Brody",
+     "Willem Dafoe",
+     "Mathieu Amalric"
+    ],
+    "director": "Wes Anderson",
+    "tagline": "A murder case of Madam D. with enormous wealth and the most outrageous events surrounding her sudden death!",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:23.559Z",
+    "scores": {
+     "imdb": "8.1",
+     "rt": "92%",
+     "metacritic": "88",
+     "votes": "988,783"
+    },
+    "rated": "R",
+    "awards": "Won 4 Oscars. 137 wins & 227 nominations total",
+    "scoresAt": "2026-10-22T16:23:23.701Z"
    },
    "s:skyfall-2012": {
     "id": "s:skyfall-2012",
@@ -4327,7 +4734,39 @@
     "year": 2012,
     "status": "catalogue",
     "addedAt": "2026-09-02T15:49:25.221Z",
-    "seed": true
+    "tmdb": 37724,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/d0IVecFQvsGdSbnMAHqiYsNYaJT.jpg",
+    "overview": "When Bond's latest assignment goes gravely wrong, agents around the world are exposed and MI6 headquarters is attacked. While M faces challenges to her authority and position from Gareth Mallory, the new Chairman of the Intelligence and Security Committee, it's up to Bond, aided only by field agent Eve, to locate the mastermind behind the attack.",
+    "tmdbRating": 7.3,
+    "genres": [
+     "Action",
+     "Adventure",
+     "Thriller"
+    ],
+    "runtime": 143,
+    "imdb": "tt1074638",
+    "cast": [
+     "Daniel Craig",
+     "Judi Dench",
+     "Javier Bardem",
+     "Ralph Fiennes",
+     "Naomie Harris",
+     "Bérénice Marlohe"
+    ],
+    "director": "Sam Mendes",
+    "tagline": "Think on your sins.",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:23.204Z",
+    "scores": {
+     "imdb": "7.8",
+     "rt": "92%",
+     "metacritic": "81",
+     "votes": "781,549"
+    },
+    "rated": "PG-13",
+    "awards": "Won 2 Oscars. 82 wins & 125 nominations total",
+    "scoresAt": "2026-10-22T16:23:23.346Z"
    }
   },
   "tmdbPage": 1
