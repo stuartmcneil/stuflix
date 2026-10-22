@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-09-15T11:19:15.335Z",
+ "updatedAt": "2026-10-22T16:22:20.481Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -8930,6 +8930,47 @@
     "rated": "TV-MA",
     "awards": "Nominated for 2 Primetime Emmys. 17 wins & 30 nominations total",
     "scoresAt": "2026-09-15T11:19:11.266Z"
+   },
+   "t:95480": {
+    "id": "t:95480",
+    "tmdb": 95480,
+    "type": "tv",
+    "title": "Slow Horses",
+    "year": "2022",
+    "poster": "https://image.tmdb.org/t/p/w342/AdYr4DjOgXvDUMwu6vEhZy1Rnxk.jpg",
+    "overview": "Follow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+    "tmdbRating": 8.1,
+    "genres": [
+     "Crime",
+     "Drama",
+     "Mystery"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:22:20.164Z",
+    "fromLatest": true,
+    "runtime": 31,
+    "imdb": "tt5875444",
+    "cast": [
+     "Gary Oldman",
+     "Jack Lowden",
+     "Kristin Scott Thomas",
+     "Hugo Weaving",
+     "Saskia Reeves",
+     "Christopher Chung"
+    ],
+    "director": "",
+    "tagline": "MI5's most unruly spies are back and under attack.",
+    "seasons": 6,
+    "detailAt": "2026-10-22T16:22:20.274Z",
+    "scores": {
+     "imdb": "8.4",
+     "rt": null,
+     "metacritic": null,
+     "votes": "162,097"
+    },
+    "rated": "TV-MA",
+    "awards": "Won 3 Primetime Emmys. 20 wins & 125 nominations total",
+    "scoresAt": "2026-10-22T16:22:20.481Z"
    }
   },
   "tmdbPage": 1
