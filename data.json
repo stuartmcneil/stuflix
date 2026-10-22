@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:26:10.398Z",
+ "updatedAt": "2026-10-22T16:26:25.608Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4407,7 +4407,7 @@
     "id": "s:am-lie-2001",
     "title": "Amélie",
     "year": 2001,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:47:05.902Z",
     "tmdb": 194,
     "type": "movie",
@@ -4440,7 +4440,16 @@
     },
     "rated": "R",
     "awards": "Nominated for 5 Oscars. 60 wins & 74 nominations total",
-    "scoresAt": "2026-10-22T16:23:26.497Z"
+    "scoresAt": "2026-10-22T16:23:26.497Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 7,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": ""
+    },
+    "movedAt": "2026-10-22T16:26:25.503Z"
    },
    "s:pan-s-labyrinth-2006": {
     "id": "s:pan-s-labyrinth-2006",
@@ -4964,9 +4973,27 @@
     ],
     "status": "catalogue",
     "addedAt": "2026-10-22T16:26:10.398Z"
+   },
+   "m:620249": {
+    "id": "m:620249",
+    "tmdb": 620249,
+    "type": "movie",
+    "title": "The Legend of Hei",
+    "year": "2019",
+    "poster": "https://image.tmdb.org/t/p/w342/nWdES36hGwADWWBGzvgT1Z3Xn86.jpg",
+    "overview": "When cat spirit Luo Xiaohei's home is deforested by humans, he must find a new one. He runs into a group of other spirit creatures who take him under their wing with dreams of reconquering the land they say is rightfully theirs. However, they run into a human known as Wuxian who separates Luo Xiaohei from the other spirits and the two go on a journey, with the cat spirit learning to control his abilities as well as forming his own thoughts on whether or not he should ally with the spirits or the humans.",
+    "tmdbRating": 8.4,
+    "genres": [
+     "Animation",
+     "Fantasy",
+     "Action",
+     "Adventure"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:26:25.608Z"
    }
   },
-  "tmdbPage": 3
+  "tmdbPage": 4
  },
  "tv": {
   "items": {
