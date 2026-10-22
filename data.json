@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:22:20.481Z",
+ "updatedAt": "2026-10-22T16:22:38.994Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -8945,7 +8945,7 @@
      "Drama",
      "Mystery"
     ],
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-10-22T16:22:20.164Z",
     "fromLatest": true,
     "runtime": 31,
@@ -8970,7 +8970,16 @@
     },
     "rated": "TV-MA",
     "awards": "Won 3 Primetime Emmys. 20 wins & 125 nominations total",
-    "scoresAt": "2026-10-22T16:22:20.481Z"
+    "scoresAt": "2026-10-22T16:22:20.481Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 7,
+     "story": 7,
+     "overall": 9,
+     "notes": "",
+     "watchedOn": "2026-10-22"
+    },
+    "movedAt": "2026-10-22T16:22:38.994Z"
    }
   },
   "tmdbPage": 1
