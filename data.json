@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:23:27.931Z",
+ "updatedAt": "2026-10-22T16:23:57.911Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4732,7 +4732,7 @@
     "id": "s:skyfall-2012",
     "title": "Skyfall",
     "year": 2012,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:49:25.221Z",
     "tmdb": 37724,
     "type": "movie",
@@ -4766,7 +4766,54 @@
     },
     "rated": "PG-13",
     "awards": "Won 2 Oscars. 82 wins & 125 nominations total",
-    "scoresAt": "2026-10-22T16:23:23.346Z"
+    "scoresAt": "2026-10-22T16:23:23.346Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 8,
+     "story": 5,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-10-22"
+    },
+    "movedAt": "2026-10-22T16:23:57.506Z"
+   },
+   "s:the-wicker-man-1973": {
+    "id": "s:the-wicker-man-1973",
+    "title": "The Wicker Man",
+    "year": 1973,
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:23:57.509Z",
+    "tmdb": 16307,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/wwtrXRL8SiOWxhwLEvw7iBgYh0g.jpg",
+    "overview": "Police sergeant Neil Howie is called to an island village in search of a missing girl whom the locals claim never existed. The investigation is further complicated as Howie’s religious views clash with those of the island’s residents.",
+    "tmdbRating": 7.3,
+    "genres": [
+     "Horror"
+    ],
+    "runtime": 93,
+    "imdb": "tt0070917",
+    "cast": [
+     "Edward Woodward",
+     "Christopher Lee",
+     "Britt Ekland",
+     "Diane Cilento",
+     "Ingrid Pitt",
+     "Roy Boyd"
+    ],
+    "director": "Robin Hardy",
+    "tagline": "Flesh to touch...Flesh to burn! Don't keep the Wicker Man waiting!",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:23:57.769Z",
+    "scores": {
+     "imdb": "7.5",
+     "rt": "92%",
+     "metacritic": "87",
+     "votes": "107,073"
+    },
+    "rated": "R",
+    "awards": "3 wins & 6 nominations total",
+    "scoresAt": "2026-10-22T16:23:57.910Z"
    }
   },
   "tmdbPage": 1
