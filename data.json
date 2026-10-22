@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:27:18.709Z",
+ "updatedAt": "2026-10-22T16:27:22.998Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -5049,11 +5049,29 @@
     "genres": [
      "Drama"
     ],
+    "status": "removed",
+    "addedAt": "2026-10-22T16:27:18.709Z",
+    "movedAt": "2026-10-22T16:27:22.897Z"
+   },
+   "m:1280738": {
+    "id": "m:1280738",
+    "tmdb": 1280738,
+    "type": "movie",
+    "title": "The Furious",
+    "year": "2026",
+    "poster": "https://image.tmdb.org/t/p/w342/ivQ1Z3lI1xWvAeGDHBw3CCYZDGJ.jpg",
+    "overview": "After a criminal network kidnaps Wang Wei's daughter and the corrupt police refuse to assist him, Wei sets out on his own to locate her. Navin, a tenacious journalist whose wife has mysteriously vanished, is his only ally. In this explosive martial arts showdown, the unlikely duo fights the kidnappers ruthlessly driven by a furious vengeance.",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Action",
+     "Crime",
+     "Thriller"
+    ],
     "status": "catalogue",
-    "addedAt": "2026-10-22T16:27:18.709Z"
+    "addedAt": "2026-10-22T16:27:22.998Z"
    }
   },
-  "tmdbPage": 7
+  "tmdbPage": 8
  },
  "tv": {
   "items": {
