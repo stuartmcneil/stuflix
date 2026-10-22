@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:24:17.648Z",
+ "updatedAt": "2026-10-22T16:25:27.843Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -3776,7 +3776,7 @@
     "id": "s:get-out-2017",
     "title": "Get Out",
     "year": 2017,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 419430,
     "type": "movie",
@@ -3810,7 +3810,16 @@
     },
     "rated": "R",
     "awards": "Won 1 Oscar. 154 wins & 214 nominations total",
-    "scoresAt": "2026-09-02T15:30:20.521Z"
+    "scoresAt": "2026-09-02T15:30:20.521Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 7,
+     "story": 9,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": ""
+    },
+    "movedAt": "2026-10-22T16:25:27.448Z"
    },
    "s:mad-max-fury-road-2015": {
     "id": "s:mad-max-fury-road-2015",
@@ -4863,6 +4872,45 @@
     "rated": "R",
     "awards": "Won 1 BAFTA Award. 3 wins & 9 nominations total",
     "scoresAt": "2026-10-22T16:24:17.647Z"
+   },
+   "s:get-carter-1971": {
+    "id": "s:get-carter-1971",
+    "title": "Get Carter",
+    "year": 1971,
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:25:27.451Z",
+    "tmdb": 1485,
+    "type": "movie",
+    "poster": "https://image.tmdb.org/t/p/w342/3AytAYzJuPmS4Wo8X3jcsaN4oM3.jpg",
+    "overview": "Jack Carter is a small-time hood working in London. When word reaches him of his brother's death, he travels to Newcastle to attend the funeral. Refusing to accept the police report of suicide, Carter seeks out his brother’s friends and acquaintances to learn who murdered his sibling and why.",
+    "tmdbRating": 6.9,
+    "genres": [
+     "Crime",
+     "Thriller"
+    ],
+    "runtime": 112,
+    "imdb": "tt0067128",
+    "cast": [
+     "Michael Caine",
+     "Ian Hendry",
+     "Britt Ekland",
+     "John Osborne",
+     "Tony Beckley",
+     "George Sewell"
+    ],
+    "director": "Mike Hodges",
+    "tagline": "What happens when a professional killer violates the code? Get Carter!",
+    "seasons": null,
+    "detailAt": "2026-10-22T16:25:27.707Z",
+    "scores": {
+     "imdb": "7.3",
+     "rt": "85%",
+     "metacritic": "80",
+     "votes": "39,270"
+    },
+    "rated": "R",
+    "awards": "Nominated for 1 BAFTA Award. 1 nomination total",
+    "scoresAt": "2026-10-22T16:25:27.841Z"
    }
   },
   "tmdbPage": 1
