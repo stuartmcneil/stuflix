@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:27:26.325Z",
+ "updatedAt": "2026-10-22T16:27:52.207Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -871,7 +871,7 @@
     "id": "s:the-silence-of-the-lambs-1991",
     "title": "The Silence of the Lambs",
     "year": 1991,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.313Z",
     "tmdb": 274,
     "type": "movie",
@@ -905,7 +905,16 @@
     },
     "rated": "R",
     "awards": "Won 5 Oscars. 71 wins & 50 nominations total",
-    "scoresAt": "2026-09-02T15:29:54.143Z"
+    "scoresAt": "2026-09-02T15:29:54.143Z",
+    "grade": {
+     "acting": 9,
+     "cinematography": 7,
+     "story": 8,
+     "overall": 9,
+     "notes": "",
+     "watchedOn": ""
+    },
+    "movedAt": "2026-10-22T16:27:52.096Z"
    },
    "s:city-of-god-2002": {
     "id": "s:city-of-god-2002",
@@ -5086,9 +5095,25 @@
     ],
     "status": "catalogue",
     "addedAt": "2026-10-22T16:27:26.325Z"
+   },
+   "m:185": {
+    "id": "m:185",
+    "tmdb": 185,
+    "type": "movie",
+    "title": "A Clockwork Orange",
+    "year": "1972",
+    "poster": "https://image.tmdb.org/t/p/w342/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+    "overview": "In a near-future Britain, young Alexander DeLarge and his pals get their kicks beating and raping anyone they please. When not destroying the lives of others, Alex swoons to the music of Beethoven. The state, eager to crack down on juvenile crime, gives an incarcerated Alex the option to undergo an invasive procedure that'll rob him of all personal agency. In a time when conscience is a commodity, can Alex change his tune?",
+    "tmdbRating": 8.2,
+    "genres": [
+     "Sci-Fi",
+     "Crime"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:27:52.207Z"
    }
   },
-  "tmdbPage": 9
+  "tmdbPage": 10
  },
  "tv": {
   "items": {
