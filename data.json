@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:25:27.843Z",
+ "updatedAt": "2026-10-22T16:25:42.690Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -3736,7 +3736,7 @@
     "id": "s:everything-everywhere-all-at-once-2022",
     "title": "Everything Everywhere All at Once",
     "year": 2022,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:20:06.314Z",
     "tmdb": 545611,
     "type": "movie",
@@ -3770,7 +3770,16 @@
     },
     "rated": "R",
     "awards": "Won 7 Oscars. 408 wins & 382 nominations total",
-    "scoresAt": "2026-09-02T15:30:20.174Z"
+    "scoresAt": "2026-09-02T15:30:20.174Z",
+    "grade": {
+     "acting": 8,
+     "cinematography": 8,
+     "story": 8,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": "2026-10-22"
+    },
+    "movedAt": "2026-10-22T16:25:42.585Z"
    },
    "s:get-out-2017": {
     "id": "s:get-out-2017",
@@ -4911,9 +4920,27 @@
     "rated": "R",
     "awards": "Nominated for 1 BAFTA Award. 1 nomination total",
     "scoresAt": "2026-10-22T16:25:27.841Z"
+   },
+   "m:1560520": {
+    "id": "m:1560520",
+    "tmdb": 1560520,
+    "type": "movie",
+    "title": "Batman: Knightfall Part 1: Knightfall",
+    "year": "2026",
+    "poster": "https://image.tmdb.org/t/p/w342/360qdtu2hLnqMu8SVHMywn420w1.jpg",
+    "overview": "Arkham Asylum has been destroyed, and all its inmates have been unleashed upon Gotham City. As Batman races to round up some of his greatest enemies, he is pushed to his physical and mental limits and into a final confrontation with a new threat: the man called Bane!",
+    "tmdbRating": 9.1,
+    "genres": [
+     "Animation",
+     "Action",
+     "Adventure",
+     "Drama"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:25:42.690Z"
    }
   },
-  "tmdbPage": 1
+  "tmdbPage": 2
  },
  "tv": {
   "items": {
