@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:26:43.071Z",
+ "updatedAt": "2026-10-22T16:27:11.513Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4998,8 +4998,9 @@
      "Action",
      "Adventure"
     ],
-    "status": "catalogue",
-    "addedAt": "2026-10-22T16:26:25.608Z"
+    "status": "removed",
+    "addedAt": "2026-10-22T16:26:25.608Z",
+    "movedAt": "2026-10-22T16:27:11.407Z"
    },
    "m:1419406": {
     "id": "m:1419406",
@@ -5018,9 +5019,25 @@
     ],
     "status": "catalogue",
     "addedAt": "2026-10-22T16:26:43.071Z"
+   },
+   "m:644479": {
+    "id": "m:644479",
+    "tmdb": 644479,
+    "type": "movie",
+    "title": "Dedicated to my ex",
+    "year": "2019",
+    "poster": "https://image.tmdb.org/t/p/w342/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
+    "overview": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their relationship and reunite with his ex-girlfriend, which breaks due to the trip she must make to Finland for an internship. Ariel with her friend Ortega, decides to make a casting to find the other members of the band, although they do not know nothing about music, thus forming a band with members that have diverse and opposite personalities.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Drama",
+     "Comedy"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:27:11.513Z"
    }
   },
-  "tmdbPage": 5
+  "tmdbPage": 6
  },
  "tv": {
   "items": {
