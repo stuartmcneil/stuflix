@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:26:25.608Z",
+ "updatedAt": "2026-10-22T16:26:43.071Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4698,7 +4698,7 @@
     "id": "s:la-la-land-2016",
     "title": "La La Land",
     "year": 2016,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:48:55.326Z",
     "tmdb": 313369,
     "type": "movie",
@@ -4732,7 +4732,16 @@
     },
     "rated": "PG-13",
     "awards": "Won 6 Oscars. 247 wins & 316 nominations total",
-    "scoresAt": "2026-10-22T16:23:24.048Z"
+    "scoresAt": "2026-10-22T16:23:24.048Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 9,
+     "story": 7,
+     "overall": 7,
+     "notes": "",
+     "watchedOn": ""
+    },
+    "movedAt": "2026-10-22T16:26:42.902Z"
    },
    "s:the-grand-budapest-hotel-2014": {
     "id": "s:the-grand-budapest-hotel-2014",
@@ -4991,9 +5000,27 @@
     ],
     "status": "catalogue",
     "addedAt": "2026-10-22T16:26:25.608Z"
+   },
+   "m:1419406": {
+    "id": "m:1419406",
+    "tmdb": 1419406,
+    "type": "movie",
+    "title": "The Shadow's Edge",
+    "year": "2025",
+    "poster": "https://image.tmdb.org/t/p/w342/cHKo3m8N1fwvEy2ZEr0xGmmMODV.jpg",
+    "overview": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
+    "tmdbRating": 8.3,
+    "genres": [
+     "Action",
+     "Crime",
+     "Drama",
+     "Thriller"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:26:43.071Z"
    }
   },
-  "tmdbPage": 4
+  "tmdbPage": 5
  },
  "tv": {
   "items": {
