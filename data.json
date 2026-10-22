@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-22T16:25:42.690Z",
+ "updatedAt": "2026-10-22T16:26:10.398Z",
  "films": {
   "items": {
    "s:the-shawshank-redemption-1994": {
@@ -4318,7 +4318,7 @@
     "id": "s:rear-window-1954",
     "title": "Rear Window",
     "year": 1954,
-    "status": "catalogue",
+    "status": "watched",
     "addedAt": "2026-09-02T15:46:36.374Z",
     "tmdb": 567,
     "type": "movie",
@@ -4352,7 +4352,16 @@
     },
     "rated": "PG",
     "awards": "Nominated for 4 Oscars. 7 wins & 14 nominations total",
-    "scoresAt": "2026-10-22T16:23:27.194Z"
+    "scoresAt": "2026-10-22T16:23:27.194Z",
+    "grade": {
+     "acting": 7,
+     "cinematography": 9,
+     "story": 7,
+     "overall": 8,
+     "notes": "",
+     "watchedOn": ""
+    },
+    "movedAt": "2026-10-22T16:26:10.293Z"
    },
    "s:the-apartment-1960": {
     "id": "s:the-apartment-1960",
@@ -4938,9 +4947,26 @@
     ],
     "status": "catalogue",
     "addedAt": "2026-10-22T16:25:42.690Z"
+   },
+   "m:19404": {
+    "id": "m:19404",
+    "tmdb": 19404,
+    "type": "movie",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": "1995",
+    "poster": "https://image.tmdb.org/t/p/w342/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+    "overview": "Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fiancé. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",
+    "tmdbRating": 8.5,
+    "genres": [
+     "Comedy",
+     "Drama",
+     "Romance"
+    ],
+    "status": "catalogue",
+    "addedAt": "2026-10-22T16:26:10.398Z"
    }
   },
-  "tmdbPage": 2
+  "tmdbPage": 3
  },
  "tv": {
   "items": {
